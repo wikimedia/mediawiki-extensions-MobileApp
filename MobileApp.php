@@ -21,8 +21,11 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'MobileApp',
 	'author' => array( 'Yuvi Panda' ),
-	'url' => 'https://www.mediawiki.org/wiki/Extension:MobileApp'
+	'url' => 'https://www.mediawiki.org/wiki/Extension:MobileApp',
+	'descriptionmsg' => 'mobileapp-desc',
 );
+
+$GLOBALS['wgMessagesDirs']['MobileApp'] = __DIR__ . "/i18n";
 
 // List of less files included for both iOS and Android
 $commonStyles = array(
