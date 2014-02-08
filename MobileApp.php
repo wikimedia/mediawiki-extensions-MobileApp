@@ -25,7 +25,7 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'mobileapp-desc',
 );
 
-$GLOBALS['wgMessagesDirs']['MobileApp'] = __DIR__ . "/i18n";
+$wgMessagesDirs['MobileApp'] = __DIR__ . "/i18n";
 
 // List of less files included for both iOS and Android
 $commonStyles = array(
