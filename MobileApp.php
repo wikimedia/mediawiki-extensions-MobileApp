@@ -13,7 +13,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( -1 );
 }
 
-$localBasePath = dirname( __DIR__ );
+$localBasePath = __DIR__;
 $remoteExtPath = 'MobileApp';
 
 // Extension credits that will show up on Special:Version
@@ -27,15 +27,10 @@ $wgExtensionCredits['other'][] = array(
 
 $wgMessagesDirs['MobileApp'] = __DIR__ . "/i18n";
 
-// List of less files included for both iOS and Android
-$commonStyles = array(
-	'MobileApp/less/common.less'
+$wgResourceModules['mobile.app'] = array(
+	'styles' => array(
+		'less/common.less'
+	),
+	'localBasePath' => $localBasePath,
+	'remoteExtPath' => $remoteExtPath
 );
-
-$wgResourceModules = array_merge( $wgResourceModules, array(
-	'mobile.app' => array(
-		'styles' => $commonStyles,
-		'localBasePath' => $localBasePath,
-		'remoteExtPath' => $remoteExtPath
-	)
-) );
