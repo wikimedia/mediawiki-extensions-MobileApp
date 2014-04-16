@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Lokal Profil"
-        ]
-    },
-    "mobileapp-desc": "Levererar stilar och skript för användning i Wikimedia-mobilappar"
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"mobileapp-desc": "Levererar stilar och skript för användning i Wikimedia-mobilappar"
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Danmichaelo"
-        ]
-    },
-    "mobileapp-desc": "Leverer stilsett og skript for bruk i Wikimedia-mobilapper"
+	"@metadata": {
+		"authors": [
+			"Danmichaelo"
+		]
+	},
+	"mobileapp-desc": "Leverer stilsett og skript for bruk i Wikimedia-mobilapper"
 }

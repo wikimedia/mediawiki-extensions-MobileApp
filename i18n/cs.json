@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mormegil"
-        ]
-    },
-    "mobileapp-desc": "Poskytuje styly a skripty pro použití v mobilních aplikacích Wikimedia"
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"mobileapp-desc": "Poskytuje styly a skripty pro použití v mobilních aplikacích Wikimedia"
 }

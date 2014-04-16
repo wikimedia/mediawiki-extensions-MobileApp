@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fitoschido"
-        ]
-    },
-    "mobileapp-desc": "Proporciona los estilos y ''scripts'' que utilizan las aplicaciones para móviles de Wikimedia"
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"mobileapp-desc": "Proporciona los estilos y ''scripts'' que utilizan las aplicaciones para móviles de Wikimedia"
 }

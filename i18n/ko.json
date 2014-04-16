@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Priviet",
-            "아라"
-        ]
-    },
-    "mobileapp-desc": "위키미디어 모바일 애플리케이션에서 사용할 스크립트와 스타일을 제공합니다"
+	"@metadata": {
+		"authors": [
+			"Priviet",
+			"아라"
+		]
+	},
+	"mobileapp-desc": "위키미디어 모바일 애플리케이션에서 사용할 스크립트와 스타일을 제공합니다"
 }
