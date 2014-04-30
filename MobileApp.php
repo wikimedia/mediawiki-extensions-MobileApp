@@ -48,9 +48,3 @@ $wgResourceModules['mobile.app.preview'] = array(
 		'less/preview.less',
 	) + $wgCommonMobileAppLESSFiles
 ) + $wgCommonMobileAppModuleDef;
-
-$wgResourceModules['mobile.app.abusefilter'] = array(
-	'styles' => array(
-		'less/abusefilter.less',
-	) + $wgCommonMobileAppLESSFiles
-) + $wgCommonMobileAppModuleDef;
