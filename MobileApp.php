@@ -27,10 +27,30 @@ $wgExtensionCredits['other'][] = array(
 
 $wgMessagesDirs['MobileApp'] = __DIR__ . "/i18n";
 
-$wgResourceModules['mobile.app'] = array(
-	'styles' => array(
-		'less/common.less'
-	),
+$wgCommonMobileAppModuleDef = array(
 	'localBasePath' => $localBasePath,
 	'remoteExtPath' => $remoteExtPath
 );
+
+$wgCommonMobileAppLESSFiles = array(
+	'less/pagestyles.less',
+	'less/wikihacks.less'
+);
+
+$wgResourceModules['mobile.app.pagestyle'] = array(
+	'styles' => array(
+		'less/ui.less',
+	) + $wgCommonMobileAppLESSFiles
+) + $wgCommonMobileAppModuleDef;
+
+$wgResourceModules['mobile.app.preview'] = array(
+	'styles' => array(
+		'less/preview.less',
+	) + $wgCommonMobileAppLESSFiles
+) + $wgCommonMobileAppModuleDef;
+
+$wgResourceModules['mobile.app.abusefilter'] = array(
+	'styles' => array(
+		'less/abusefilter.less',
+	) + $wgCommonMobileAppLESSFiles
+) + $wgCommonMobileAppModuleDef;
