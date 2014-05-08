@@ -27,6 +27,9 @@ $wgExtensionCredits['other'][] = array(
 
 $wgMessagesDirs['MobileApp'] = __DIR__ . "/i18n";
 
+$wgAutoloadClasses['MobileAppResourceLoaderModule'] = __DIR__ . '/MobileAppResourceLoaderModule.php';
+$wgResourceModules['mobile.app.site'] = array( 'class' => 'MobileAppResourceLoaderModule' );
+
 $wgCommonMobileAppModuleDef = array(
 	'localBasePath' => $localBasePath,
 	'remoteExtPath' => $remoteExtPath
