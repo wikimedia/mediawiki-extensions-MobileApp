@@ -52,25 +52,76 @@ h5, h6 {
     font-size: 16px;
 }
 
-/* Basic Thumbnails */
+
+/* Thumbnail styles from MobileFrontend */
 .thumb {
-    /* Don't stick thumbnails to the text above and below it */
-    margin: 8px 0px;
-    /* Align everything inside a thumbnail to be centered */
-    text-align: center;
-
     .thumbinner {
-        /* Make sure that thumb takes up full width */
-        width: 100% !important;
+        margin: 5px auto;
+        max-width: 100%;
+
+        > div {
+            float: none !important;
+            width: auto !important;
+            clear: both !important;
+        }
     }
 
-    .magnify {
-        display: none; /* Our parser is STUPID */
+    .thumbcaption {
+        margin: 5px 10px 0;
+        text-align: center;
+        width: auto !important;
     }
 
+    /* bug 20030 */
     .noresize {
-        overflow-x: auto; /* Scrollbars for images that shouldn't be squished */
+        width: 100%;
+        overflow-x: auto;
+
+        img {
+            max-width: none !important;
+        }
     }
+}
+
+ul {
+    list-style: square inside;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+table {
+    margin: 1em 0;
+
+    /* following 4 rules are needed for scrolling */
+    overflow: auto; /* for browsers that don't support overflow-y */
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: block;
+    width: 100% !important;
+
+    td,
+    th {
+        padding: 3px;
+        border: 1px #ccc solid;
+    }
+
+    th {
+        font-weight: bold;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+
+    caption {
+        display: block;
+        text-align: left;
+    }
+}
+
+// Hide the image magnification icon normally displayed in image captions
+div.magnify {
+    display: none;
 }
 
 /* Makes sure that we don't have horizontal scrollbars for the entire page because
@@ -79,14 +130,3 @@ img {
     max-width: 100% !important;
     height: auto !important;
 }
-
-/* Basic tables */
-table {
-    width: 100% !important;
-    overflow-x: auto;
-    display: block;
-    border: 1px solid #ccc;
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-
