@@ -50,3 +50,16 @@ ul.hlist {
     margin-right: 8px;
   }
 }
+
+table {
+    // A lot of templates introduce floating, border-spacing and horizontal margins inline styles [citation needed]
+    border-spacing: 0 !important;
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    &.infobox {
+        background: #f9f9f9;
+        text-align: center !important;
+    }
+}
