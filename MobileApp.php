@@ -36,8 +36,10 @@ $wgCommonMobileAppModuleDef = array(
 );
 
 $wgCommonMobileAppLESSFiles = array(
-	'less/pagestyles.less',
-	'less/wikihacks.less'
+	'../MobileFrontend/less/common/reset.less',
+	'../MobileFrontend/less/content/main.less',
+	'../MobileFrontend/less/content/hacks.less',
+	'less/overrides.less'
 );
 
 $wgResourceModules['mobile.app.pagestyle'] = array(
