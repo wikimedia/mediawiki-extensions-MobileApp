@@ -9,9 +9,16 @@ a.edit_section_button {
 }
 
 .no-editing {
-    .edit_section_button {
+    a.edit_section_button {
         display: none;
     }
+}
+
+.page-protected {
+	a.edit_section_button {
+		/* @embed */
+		background-image: url("../images/edit-locked.png");
+	}
 }
 
 .content-rtl a.edit_section_button {
