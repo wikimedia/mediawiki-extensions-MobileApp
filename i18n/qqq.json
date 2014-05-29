@@ -4,5 +4,7 @@
 			"Yuvi Panda"
 		]
 	},
-	"mobileapp-desc": "{{desc|name=Mobile App|url=https://www.mediawiki.org/wiki/Extension:MobileApp}}"
+	"mobileapp-desc": "{{desc|name=Mobile App|url=https://www.mediawiki.org/wiki/Extension:MobileApp}}",
+	"tag-mobile_app_edit": "Short edit tag name for edits that have been made from the mobile apps",
+	"tag-mobile_app_edit-description": "Edit tag description for edits that have been made from the mobile apps"
 }

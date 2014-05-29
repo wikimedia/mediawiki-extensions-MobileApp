@@ -5,5 +5,7 @@
 	],
 	"message-documentation": "qqq"
 },
-"mobileapp-desc": "Serves styles and scripts for use in the Wikimedia Mobile applications"
+	"mobileapp-desc": "Serves styles and scripts for use in the Wikimedia Mobile applications",
+	"tag-mobile_app_edit": "mobile app edit",
+	"tag-mobile_app_edit-description": "Edits made from mobile apps"
 }

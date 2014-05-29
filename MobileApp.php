@@ -28,6 +28,11 @@ $wgExtensionCredits['other'][] = array(
 $wgMessagesDirs['MobileApp'] = __DIR__ . "/i18n";
 
 $wgAutoloadClasses['MobileAppResourceLoaderModule'] = __DIR__ . '/MobileAppResourceLoaderModule.php';
+$wgAutoloadClasses['MobileAppHooks'] = __DIR__ . '/MobileApp.hooks.php';
+
+$wgHooks['ListDefinedTags'][] = 'MobileAppHooks::onListDefinedTags';
+$wgHooks['RecentChange_save'][] = 'MobileAppHooks::onRecentChange_save';
+
 $wgResourceModules['mobile.app.site'] = array( 'class' => 'MobileAppResourceLoaderModule' );
 
 $wgCommonMobileAppModuleDef = array(
