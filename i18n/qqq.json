@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yuvi Panda"
+			"Yuvi Panda",
+			"Shirayuki"
 		]
 	},
 	"mobileapp-desc": "{{desc|name=Mobile App|url=https://www.mediawiki.org/wiki/Extension:MobileApp}}",
-	"tag-mobile_app_edit": "Short edit tag name for edits that have been made from the mobile apps",
-	"tag-mobile_app_edit-description": "Edit tag description for edits that have been made from the mobile apps"
+	"tag-mobile_app_edit": "Short edit tag name for edits that have been made from the mobile apps.\n\nSee also:\n* {{msg-mw|Tag-mobile app edit-description}}",
+	"tag-mobile_app_edit-description": "Edit tag description for edits that have been made from the mobile apps.\n\nSee also:\n* {{msg-mw|Tag-mobile app edit}}"
 }
