@@ -4,5 +4,7 @@
 			"Lokal Profil"
 		]
 	},
-	"mobileapp-desc": "Levererar stilar och skript för användning i Wikimedia-mobilappar"
+	"mobileapp-desc": "Levererar stilar och skript för användning i Wikimedia-mobilappar",
+	"tag-mobile_app_edit": "redigering via mobilapp",
+	"tag-mobile_app_edit-description": "Redigeringar gjorda av mobilappar"
 }
