@@ -48,10 +48,14 @@ $wgCommonMobileAppLESSFiles = array(
 	'less/links.less'
 );
 
-$wgResourceModules['mobile.app.pagestyle'] = array(
-	'styles' => array_merge( array(
-		'less/ui.less',
-	), $wgCommonMobileAppLESSFiles )
+$wgResourceModules['mobile.app.pagestyles.android'] = array(
+		'styles' => array_merge( array(
+			'less/android.less',
+		), $wgCommonMobileAppLESSFiles )
+	) + $wgCommonMobileAppModuleDef;
+
+$wgResourceModules['mobile.app.pagestyles.ios'] = array(
+	'styles' => $wgCommonMobileAppLESSFiles
 ) + $wgCommonMobileAppModuleDef;
 
 $wgResourceModules['mobile.app.preview'] = array(
