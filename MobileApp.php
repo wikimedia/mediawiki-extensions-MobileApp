@@ -51,6 +51,7 @@ $wgResourceModules['mobile.app.pagestyles.android'] = array(
 		'styles' => array_merge( $wgCommonMobileAppLESSFiles,
 			array(
 				'less/android.less',
+				'less/enwiki.less'
 			) )
 	) + $wgCommonMobileAppModuleDef;
 
@@ -62,5 +63,6 @@ $wgResourceModules['mobile.app.preview'] = array(
 	'styles' => array_merge( $wgCommonMobileAppLESSFiles,
 		array(
 			'less/preview.less',
+			'less/enwiki.less'
 		) )
 ) + $wgCommonMobileAppModuleDef;
