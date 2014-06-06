@@ -25,10 +25,14 @@ class MobileAppHooks {
 		$userAgent = $wgRequest->getHeader( "User-agent" );
 		if ( strpos( $userAgent, "WikipediaApp/" ) === 0 ) {
 			// This is from the app!
-			$rcId = $rc->getAttribute( 'rc_id' );
-			$revId = $rc->getAttribute( 'rc_this_oldid' );
-			$logId = $rc->getAttribute( 'rc_logid' );
-			ChangeTags::addTags( 'mobile app edit', $rcId, $revId, $logId );
+			$logType = $rc->getAttribute( 'rc_log_type' );
+			// Only apply tag for edits, nothing else
+			if ( is_null( $logType ) ) {
+				$rcId = $rc->getAttribute( 'rc_id' );
+				$revId = $rc->getAttribute( 'rc_this_oldid' );
+				$logId = $rc->getAttribute( 'rc_logid' );
+				ChangeTags::addTags( 'mobile app edit', $rcId, $revId, $logId );
+			}
 		}
 		return true;
 	}
