@@ -4,5 +4,7 @@
 			"Fitoschido"
 		]
 	},
-	"mobileapp-desc": "Proporciona los estilos y ''scripts'' que utilizan las aplicaciones para móviles de Wikimedia"
+	"mobileapp-desc": "Proporciona los estilos y ''scripts'' que utilizan las aplicaciones para móviles de Wikimedia",
+	"tag-mobile_app_edit": "edic. desde aplic. móvil",
+	"tag-mobile_app_edit-description": "Ediciones hechas desde aplicaciones para móviles"
 }
