@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
-	"mobileapp-desc": "Voegt stijlen en scripts toe voor het gebruik in mobiele toepassingen van Wikimedia."
+	"mobileapp-desc": "Voegt stijlen en scripts toe voor het gebruik in mobiele toepassingen van Wikimedia.",
+	"tag-mobile_app_edit": "bewerking via mobiele app"
 }
