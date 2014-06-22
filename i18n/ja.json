@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Whym"
 		]
 	},
-	"mobileapp-desc": "ウィキメディアの携帯機器版アプリケーションで使用するスタイルとスクリプトを提供する"
+	"mobileapp-desc": "ウィキメディアの携帯機器版アプリケーションで使用するスタイルとスクリプトを提供する",
+	"tag-mobile_app_edit": "モバイルアプリ編集",
+	"tag-mobile_app_edit-description": "携帯機器アプリから行われた編集"
 }
