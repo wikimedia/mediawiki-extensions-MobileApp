@@ -7,3 +7,29 @@ a.edit_section_button {
 	float: right;
 	display: inline-float;
 }
+
+.no-editing {
+    a.edit_section_button {
+        display: none;
+    }
+}
+
+.page-protected {
+	a.edit_section_button {
+		/* @embed */
+		background-image: url("../images/edit-locked.png");
+	}
+}
+
+#mainpage {
+	a.edit_section_button {
+		display: none;
+	}
+}
+
+.content-rtl a.edit_section_button {
+    float: left;
+    /* Flip it! */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
