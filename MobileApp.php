@@ -52,9 +52,15 @@ $wgResourceModules['mobile.app.pagestyles.android'] = array(
 			array(
 				'less/android.less',
 				'less/editlinks.less',
-				'less/enwiki.less'
+				'less/enwiki.less',
 			) )
-	) + $wgCommonMobileAppModuleDef;
+) + $wgCommonMobileAppModuleDef;
+
+$wgResourceModules['mobile.app.pagestyles.android.night'] = array(
+		'styles' => array(
+				'less/night.less',
+			)
+) + $wgCommonMobileAppModuleDef;
 
 $wgResourceModules['mobile.app.pagestyles.ios'] = array(
 		'styles' => array_merge( $wgCommonMobileAppLESSFiles,
