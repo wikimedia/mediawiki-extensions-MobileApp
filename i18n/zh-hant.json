@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"LNDDYL"
 		]
 	},
-	"mobileapp-desc": "存儲樣式和用於維基媒體移動應用程式的腳本"
+	"mobileapp-desc": "存儲樣式和用於維基媒體行動應用程式的腳本",
+	"tag-mobile_app_edit": "行動應用程式編輯",
+	"tag-mobile_app_edit-description": "由行動應用程式編輯"
 }
