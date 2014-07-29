@@ -1,0 +1,9 @@
+# IDE files
+*.iml
+.idea
+out
+*.tmproj
+
+# OS specific files
+*~
+.DS_Store
