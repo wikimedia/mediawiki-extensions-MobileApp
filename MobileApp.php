@@ -53,6 +53,7 @@ $wgResourceModules['mobile.app.pagestyles.android'] = array(
 				'less/android.less',
 				'less/editlinks.less',
 				'less/issues.less',
+				'less/disambig.less',
 				'less/enwiki.less'
 			) )
 ) + $wgCommonMobileAppModuleDef;
