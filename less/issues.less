@@ -1,19 +1,24 @@
 div.issues_container {
-    margin: 0px;
+    margin-top: -0.9em; /* a bit hacky that it assumes it's right below an h1 heading */
+    margin-bottom: 3.5em;
     padding: 0px;
     width: 100%;
-    display: inline-block;
+    display: block;
+    font-size: .95em;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+span.issues_separator {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    float: left;
 }
 
 a.issues_button {
-    height: 32px;
-    width: 36px;
-    background-size: 24px 24px;
-    /* @embed */
-    background: url("../images/flag-light.png") no-repeat center;
-    border: 1px solid #347BFF;
-    border-radius: 4px;
-    display: inline-block;
+    text-decoration: none;
+    color: #555555;
+    float: left;
 }
 
 .content-rtl a.issues_button {
@@ -23,5 +28,5 @@ a.issues_button {
 }
 
 a.issues_button:active {
-    border: 4px solid #347BFF;
+    color: #b0b0b0;
 }
