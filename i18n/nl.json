@@ -6,5 +6,6 @@
 		]
 	},
 	"mobileapp-desc": "Voegt stijlen en scripts toe voor het gebruik in mobiele toepassingen van Wikimedia.",
-	"tag-mobile_app_edit": "bewerking via mobiele app"
+	"tag-mobile_app_edit": "bewerking via mobiele app",
+	"tag-mobile_app_edit-description": "Bewerkingen gemaakt via mobiele apps"
 }

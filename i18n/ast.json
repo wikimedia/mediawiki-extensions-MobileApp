@@ -4,5 +4,7 @@
 			"Xuacu"
 		]
 	},
-	"mobileapp-desc": "Sirve estilos y scripts pa usar nes Aplicaciones pa móvil de Wikimedia"
+	"mobileapp-desc": "Sirve estilos y scripts pa usar nes Aplicaciones pa móvil de Wikimedia",
+	"tag-mobile_app_edit": "Edición de app móvil",
+	"tag-mobile_app_edit-description": "Ediciones feches dende apps pa móvil"
 }
