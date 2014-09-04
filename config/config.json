@@ -1,3 +1,4 @@
 {
-    "disableAnonEditing": false
+    "disableAnonEditing": false,
+    "eventLogSampleRate": 10
 }
