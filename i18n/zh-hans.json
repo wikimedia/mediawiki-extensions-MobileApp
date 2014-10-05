@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Duolaimi"
 		]
 	},
 	"mobileapp-desc": "为维基媒体移动应用提供样式和脚本",
-	"tag-mobile_app_edit": "手机应用程序编辑",
-	"tag-mobile_app_edit-description": "来自手机应用程序的编辑"
+	"tag-mobile_app_edit": "移动应用程序编辑",
+	"tag-mobile_app_edit-description": "来自移动应用程序的编辑"
 }
