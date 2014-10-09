@@ -40,8 +40,9 @@ $wgCommonMobileAppModuleDef = array(
 	'remoteExtPath' => $remoteExtPath
 );
 
+// FIXME: This is crazy. Don't do this. Use $wgResourceLoaderLESSImportPaths.
 $wgCommonMobileAppLESSFiles = array(
-	'../MobileFrontend/less/common/reset.less',
+	'../MobileFrontend/less/reset.less',
 	'../MobileFrontend/less/content/main.less',
 	'../MobileFrontend/less/content/hacks.less',
 	'less/links.less'
