@@ -44,8 +44,16 @@ $wgCommonMobileAppModuleDef = array(
 $wgCommonMobileAppLESSFiles = array(
 	'../MobileFrontend/less/reset.less',
 	'../MobileFrontend/less/content/main.less',
+	'../MobileFrontend/less/content/thumbnails.less',
+	'../MobileFrontend/less/content/images.less',
+	'../MobileFrontend/less/content/galleries.less',
+	'../MobileFrontend/less/content/headings.less',
+	'../MobileFrontend/less/content/blockquotes.less',
+	'../MobileFrontend/less/content/lists.less',
+	'../MobileFrontend/less/content/links.less',
+	'../MobileFrontend/less/content/text.less',
+	'../MobileFrontend/less/content/tables.less',
 	'../MobileFrontend/less/content/hacks.less',
-	'less/links.less'
 );
 
 $wgResourceModules['mobile.app.pagestyles.android'] = array(
