@@ -4,5 +4,7 @@
 			"Danmichaelo"
 		]
 	},
-	"mobileapp-desc": "Leverer stilsett og skript for bruk i Wikimedia-mobilapper"
+	"mobileapp-desc": "Leverer stilsett og skript for bruk i Wikimedia-mobilapper",
+	"tag-mobile_app_edit": "Redigering fra mobilapp",
+	"tag-mobile_app_edit-description": "Redigeringer gjort fra mobilapper"
 }
