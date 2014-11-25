@@ -1,5 +1,6 @@
 {
     "disableAnonEditing": false,
     "eventLogSampleRate": 0,
-    "disableFullTextSearch": false
+    "disableFullTextSearch": false,
+    "searchLogSampleRate": 100
 }
