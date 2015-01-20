@@ -2,5 +2,6 @@
     "disableAnonEditing": false,
     "eventLogSampleRate": 0,
     "disableFullTextSearch": false,
-    "searchLogSampleRate": 100
+    "searchLogSampleRate": 100,
+    "tocLogSampleRate": 100
 }
