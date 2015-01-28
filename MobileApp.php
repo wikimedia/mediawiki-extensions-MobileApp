@@ -23,6 +23,7 @@ $wgExtensionCredits['other'][] = array(
 	'author' => array( 'Yuvi Panda' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:MobileApp',
 	'descriptionmsg' => 'mobileapp-desc',
+	'license-name' => 'GPL-2.0+',
 );
 
 $wgMessagesDirs['MobileApp'] = __DIR__ . "/i18n";
