@@ -2,10 +2,11 @@
 
 class MobileAppHooks {
 	/**
-	 * ListDefinedTags hook handler
+	 * ListDefinedTags and ChangeTagsListActive hook handler
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ListDefinedTags
-	 * @param array &$tags
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ChangeTagsListActive
 	 *
+	 * @param array &$tags
 	 * @return bool
 	 */
 	public static function onListDefinedTags( array &$tags ) {

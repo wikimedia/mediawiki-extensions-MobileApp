@@ -32,6 +32,7 @@ $wgAutoloadClasses['MobileAppResourceLoaderModule'] = __DIR__ . '/MobileAppResou
 $wgAutoloadClasses['MobileAppHooks'] = __DIR__ . '/MobileApp.hooks.php';
 
 $wgHooks['ListDefinedTags'][] = 'MobileAppHooks::onListDefinedTags';
+$wgHooks['ChangeTagsListActive'][] = 'MobileAppHooks::onListDefinedTags';
 $wgHooks['RecentChange_save'][] = 'MobileAppHooks::onRecentChange_save';
 
 $wgResourceModules['mobile.app.site'] = array( 'class' => 'MobileAppResourceLoaderModule' );
