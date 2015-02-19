@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pxos"
+			"Pxos",
+			"Stryn"
 		]
 	},
-	"tag-mobile_app_edit": "mobiilisovellus-muokkaus",
+	"tag-mobile_app_edit": "Mobiilisovellus-muokkaus",
 	"tag-mobile_app_edit-description": "Muokkaus, joka on tehty mobiilisovelluksesta"
 }
