@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Fisterraeomar"
 		]
 	},
-	"mobileapp-desc": "Achega estilos e escrituras para usar nas aplicacións móbiles da Wikimedia"
+	"mobileapp-desc": "Achega estilos e escrituras para usar nas aplicacións móbiles da Wikimedia",
+	"tag-mobile_app_edit": "Edición feita a través da aplicación móbil"
 }
