@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"SNN95"
 		]
 	},
-	"mobileapp-desc": "Menyediakan gaya-gaya dan skrip-skrip yang untuk kegunaan aplikasi-aplikasi Wikimedia Mobile"
+	"mobileapp-desc": "Menyediakan gaya-gaya dan skrip-skrip yang untuk kegunaan aplikasi-aplikasi Wikimedia Mobile",
+	"tag-mobile_app_edit": "Suntingan web mudah alih"
 }

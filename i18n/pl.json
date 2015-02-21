@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"WTM"
+			"WTM",
+			"VerMa"
 		]
 	},
-	"tag-mobile_app_edit": "przez aplikację mobilną",
+	"tag-mobile_app_edit": "edycja za pośrednictwem aplikacji mobilnej",
 	"tag-mobile_app_edit-description": "Edycja dokonana za pomocą aplikacji mobilnej"
 }
