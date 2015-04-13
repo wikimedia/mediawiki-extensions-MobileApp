@@ -81,7 +81,9 @@ $wgResourceModules['mobile.app.pagestyles.ios'] = array(
 		'styles' => array_merge( $wgCommonMobileAppLESSFiles,
 			array(
 				'styles/editlinks.less',
-				'styles/enwiki.less'
+				'styles/enwiki.less',
+				'styles/issues.less',
+				'styles/disambig.less'
 			) )
 ) + $wgCommonMobileAppModuleDef;
 
