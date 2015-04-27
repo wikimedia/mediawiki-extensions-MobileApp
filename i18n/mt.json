@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"CharlieTheCabbie"
+			"CharlieTheCabbie",
+			"Leli Forte"
 		]
 	},
-	"tag-mobile_app_edit": "Editja app mobbli",
+	"tag-mobile_app_edit": "Modifika minn app fuq il-mowbajl",
 	"tag-mobile_app_edit-description": "Editjar magħmula minn mill-applikazzjonijiet mobbli"
 }
