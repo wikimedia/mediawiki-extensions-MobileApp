@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"WTM",
-			"VerMa"
+			"VerMa",
+			"Peter Bowman"
 		]
 	},
-	"tag-mobile_app_edit": "edycja za pośrednictwem aplikacji mobilnej",
+	"tag-mobile_app_edit": "Edycja za pośrednictwem aplikacji mobilnej",
 	"tag-mobile_app_edit-description": "Edycja dokonana za pomocą aplikacji mobilnej"
 }
