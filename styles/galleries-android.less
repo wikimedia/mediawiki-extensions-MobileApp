@@ -1,0 +1,38 @@
+ul.gallery {
+	max-width: 100% !important;
+
+	.gallerybox {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100%;
+
+		.thumb {
+			img {
+				display: inline;
+				height: auto;
+			}
+		}
+
+		> div {
+			width: auto !important;
+
+			> .thumb {
+				width: auto !important;
+				margin: 0 auto;
+
+				> div {
+					width: auto !important;
+					margin: 0 !important;
+				}
+			}
+		}
+
+		.gallerytext {
+			padding: 0 4px;
+
+			p {
+				margin: .6em 0 1.5em 0;
+			}
+		}
+	}
+}
