@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fasouzafreitas"
+			"Fasouzafreitas",
+			"Araceletorres"
 		]
 	},
-	"tag-mobile_app_edit": "Edição feita através de aplicativo móvel"
+	"tag-mobile_app_edit": "Edição feita através de aplicativo móvel",
+	"tag-mobile_app_edit-description": "Edições feitas pelos aplicativos móveis"
 }
