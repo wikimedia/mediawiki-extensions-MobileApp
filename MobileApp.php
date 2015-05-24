@@ -42,25 +42,8 @@ $wgCommonMobileAppModuleDef = array(
 	'remoteExtPath' => $remoteExtPath
 );
 
-// FIXME: This is crazy. Don't do this. Use $wgResourceLoaderLESSImportPaths.
-$wgCommonMobileAppLESSFiles = array(
-	'../MobileFrontend/less/reset.less',
-	'../MobileFrontend/less/content/main.less',
-	'../MobileFrontend/less/content/thumbnails.less',
-	'../MobileFrontend/less/content/images.less',
-	'../MobileFrontend/less/content/galleries.less',
-	'../MobileFrontend/less/content/headings.less',
-	'../MobileFrontend/less/content/blockquotes.less',
-	'../MobileFrontend/less/content/lists.less',
-	'../MobileFrontend/less/content/links.less',
-	'../MobileFrontend/less/content/text.less',
-	'../MobileFrontend/less/content/tables.less',
-	'../MobileFrontend/less/content/hacks.less',
-);
-
 $wgResourceModules['mobile.app.pagestyles.android'] = array(
-		'styles' => array_merge( $wgCommonMobileAppLESSFiles,
-			array(
+		'styles' => array(
 				'styles/android.less',
 				'styles/editlinks.less',
 				'styles/issues.less',
@@ -70,7 +53,7 @@ $wgResourceModules['mobile.app.pagestyles.android'] = array(
 				'styles/enwiki.less',
 				'styles/thumbnails-android.less',
 				'styles/galleries-android.less',
-			) )
+			)
 ) + $wgCommonMobileAppModuleDef;
 
 $wgResourceModules['mobile.app.pagestyles.android.night'] = array(
@@ -80,19 +63,17 @@ $wgResourceModules['mobile.app.pagestyles.android.night'] = array(
 ) + $wgCommonMobileAppModuleDef;
 
 $wgResourceModules['mobile.app.pagestyles.ios'] = array(
-		'styles' => array_merge( $wgCommonMobileAppLESSFiles,
-			array(
+		'styles' => array(
 				'styles/editlinks.less',
 				'styles/enwiki.less',
 				'styles/issues.less',
 				'styles/disambig.less'
-			) )
+			)
 ) + $wgCommonMobileAppModuleDef;
 
 $wgResourceModules['mobile.app.preview'] = array(
-	'styles' => array_merge( $wgCommonMobileAppLESSFiles,
-		array(
+	'styles' => array(
 			'styles/preview.less',
 			'styles/enwiki.less'
-		) )
+		)
 ) + $wgCommonMobileAppModuleDef;
