@@ -1,13 +1,17 @@
 a.edit_section_button {
-    height: 32px;
-    width: 32px;
-    margin-left: 8px;
-    margin-bottom: 8px;
+    height: 48px;
+    width: 48px;
+    border: 8px solid transparent;
     /* @embed */
     background-image: url("../images/edit.png");
+    background-repeat: no-repeat;
     background-size: 32px 32px;
     float: right;
     display: inline-float;
+}
+
+a.edit_section_button:active {
+    background-color: rgba(128,128,128,.1);
 }
 
 .no-editing {
