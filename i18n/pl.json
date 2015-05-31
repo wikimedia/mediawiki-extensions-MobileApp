@@ -3,9 +3,10 @@
 		"authors": [
 			"WTM",
 			"VerMa",
-			"Peter Bowman"
+			"Peter Bowman",
+			"Tar Lócesilion"
 		]
 	},
-	"tag-mobile_app_edit": "Edycja za pośrednictwem aplikacji mobilnej",
+	"tag-mobile_app_edit": "Aplikacja mobilna",
 	"tag-mobile_app_edit-description": "Edycja dokonana za pomocą aplikacji mobilnej"
 }
