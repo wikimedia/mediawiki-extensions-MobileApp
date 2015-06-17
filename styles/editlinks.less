@@ -1,17 +1,37 @@
 a.edit_section_button {
-    height: 32px;
-    width: 32px;
-    border: 8px solid transparent;
+    height: 48px;
+    width: 48px;
     /* @embed */
     background-image: url("../images/edit.png");
     background-repeat: no-repeat;
     background-size: 32px 32px;
+    background-position: center;
     float: right;
     display: inline-float;
+    position: relative;
 }
 
-a.edit_section_button:active {
-    background-color: rgba(128,128,128,.1);
+a.edit_section_button:before {
+    /* inactive background transform */
+    content: "";
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: transform 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: transform 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); /* ease out quad */
+}
+
+a.edit_section_button:active:before {
+    /* active background transform */
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background-color: #eee;
+    -webkit-transform: scale(.6);
+    transform: scale(.6);
 }
 
 .no-editing {
