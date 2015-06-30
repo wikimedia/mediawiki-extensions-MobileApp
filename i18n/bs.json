@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Edinwiki"
+			"Edinwiki",
+			"Srdjan m"
 		]
 	},
-	"tag-mobile_app_edit": "Izmjena mobilnom aplikacijom"
+	"tag-mobile_app_edit": "Izmjena mobilnom aplikacijom",
+	"tag-mobile_app_edit-description": "Izmjene napravljene s mobilnih aplikacija"
 }
