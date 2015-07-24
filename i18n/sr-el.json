@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Srdjan m"
 		]
 	},
+	"tag-mobile_app_edit": "Mobilno uređivanje preko aplikacije",
 	"tag-mobile_app_edit-description": "Izmene načinjene mobilnim aplikacijama"
 }
