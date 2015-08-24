@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"John Reid"
+			"John Reid",
+			"AmaryllisGardener"
 		]
 	},
-	"mobileapp-desc": "Serves styles n screepts fer uiss in the Wikimedia Mobile Appleecations"
+	"mobileapp-desc": "Serves styles n screepts fer uiss in the Wikimedia Mobile Appleecations",
+	"tag-mobile_app_edit": "Mobile app eedit"
 }
