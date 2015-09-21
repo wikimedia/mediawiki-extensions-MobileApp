@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Fúlvio"
 		]
 	},
+	"mobileapp-desc": "Fornece estilos e scripts para utilização nas aplicações móveis da Wikimedia",
 	"tag-mobile_app_edit": "Edição feita através de aplicação móvel",
 	"tag-mobile_app_edit-description": "Edições feitas através de aplicações móveis"
 }
