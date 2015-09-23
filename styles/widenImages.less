@@ -13,12 +13,19 @@
         height:auto !important;
     }
 
-    /* Tablet override */
     @media (min-device-width: 768px) {
         .wideImageOverride {
             width:60% !important;
             max-width:60% !important;
             height:auto !important;
+        }
+
+        @media (-webkit-min-device-pixel-ratio: 3) {
+            .wideImageOverride {
+                width:100% !important;
+                max-width:100% !important;
+                height:auto !important;
+            }
         }
     }
 }
