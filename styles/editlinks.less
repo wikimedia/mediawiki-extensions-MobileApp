@@ -14,6 +14,7 @@ a.edit_section_button.android {
     height: 48px;
     width: 48px;
     border: none;
+    background-image: url("file:///android_asset/images/edit.png");
     background-position: center;
     position: relative;
 }
@@ -56,16 +57,19 @@ a.edit_section_button.android:active:before {
 }
 
 .page-protected {
-	a.edit_section_button {
-		/* @embed */
-		background-image: url("../images/edit-locked.png");
-	}
+    a.edit_section_button {
+        /* @embed */
+        background-image: url("../images/edit-locked.png");
+    }
+    a.edit_section_button.android {
+        background-image: url("file:///android_asset/images/edit-locked.png");
+    }
 }
 
 #mainpage {
-	a.edit_section_button {
-		display: none;
-	}
+    a.edit_section_button {
+        display: none;
+    }
 }
 
 .content-rtl a.edit_section_button {
