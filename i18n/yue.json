@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yueman"
+			"Yueman",
+			"Ktchankt"
 		]
 	},
-	"tag-mobile_app_edit": "流動程式修改"
+	"mobileapp-desc": "儲存樣式同用響維基媒體流動應用程式嘅程式碼",
+	"tag-mobile_app_edit": "流動程式修改",
+	"tag-mobile_app_edit-description": "用流動應用程式嘅編輯"
 }
