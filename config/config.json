@@ -3,5 +3,6 @@
     "eventLogSampleRate": 0,
     "disableFullTextSearch": false,
     "searchLogSampleRate": 100,
-    "tocLogSampleRate": 100
+    "tocLogSampleRate": 100,
+    "restbaseBetaPercent": 10
 }
