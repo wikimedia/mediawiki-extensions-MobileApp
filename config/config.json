@@ -4,5 +4,5 @@
     "disableFullTextSearch": false,
     "searchLogSampleRate": 100,
     "tocLogSampleRate": 100,
-    "restbaseBetaPercent": 30
+    "restbaseBetaPercent": 55
 }
