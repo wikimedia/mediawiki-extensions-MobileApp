@@ -3,9 +3,11 @@
 		"authors": [
 			"Armin1392",
 			"Reza1615",
-			"Mjbmr"
+			"Mjbmr",
+			"Ladsgroup"
 		]
 	},
 	"mobileapp-desc": "انواع سبک‌ها و متون برای استفاده در برنامه‌های موبایل ویکی‌مدیا",
-	"tag-mobile_app_edit": "ویرایش با نرم‌افزار تلفن همراه"
+	"tag-mobile_app_edit": "ویرایش با نرم‌افزار تلفن همراه",
+	"tag-mobile_app_edit-description": "ویرایش‌های انجام شده از طریق برنامه موبایل"
 }
