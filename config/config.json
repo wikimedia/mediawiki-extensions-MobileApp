@@ -5,5 +5,5 @@
     "searchLogSampleRate": 100,
     "tocLogSampleRate": 100,
     "restbaseBetaPercent": 100,
-    "restbaseProdPercent": 50
+    "restbaseProdPercent": 100
 }
