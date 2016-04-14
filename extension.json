@@ -22,15 +22,15 @@
 		},
 		"mobile.app.pagestyles.android": {
 			"styles": [
-				"styles/android.less",
-				"styles/editlinks.less",
-				"styles/issues.less",
 				"styles/disambig.less",
-				"styles/tables.less",
-				"styles/ipa.less",
+				"styles/editlinks.less",
 				"styles/enwiki.less",
-				"styles/parsoid.less",
-				"styles/widenImages.less"
+				"styles/issues.less",
+				"styles/android/loading.less",
+				"styles/android/ipa.less",
+				"styles/android/parsoid.less",
+				"styles/android/tables.less",
+				"styles/android/widenImages.less"
 			]
 		},
 		"mobile.app.pagestyles.android.night": {
@@ -40,10 +40,10 @@
 		},
 		"mobile.app.pagestyles.ios": {
 			"styles": [
+				"styles/disambig.less",
 				"styles/editlinks.less",
 				"styles/enwiki.less",
-				"styles/issues.less",
-				"styles/disambig.less"
+				"styles/issues.less"
 			]
 		},
 		"mobile.app.preview": {
