@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Iwan Novirion"
+			"Iwan Novirion",
+			"Kenrick95"
 		]
 	},
-	"tag-mobile_app_edit": "Suntingan seluler"
+	"mobileapp-desc": "Menyediakan gaya-gaya dan skrip-skrip untuk penggunaan di aplikasi-aplikasi Wikimedia Mobile",
+	"tag-mobile_app_edit": "Suntingan seluler",
+	"tag-mobile_app_edit-description": "Suntingan yang dibuat dari aplikasi mobile"
 }
