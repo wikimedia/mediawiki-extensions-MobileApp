@@ -51,6 +51,14 @@
 				"styles/preview.less",
 				"styles/enwiki.less"
 			]
+		},
+		"mobile.app.preview.android": {
+			"styles": [
+				"styles/android/ipa.less",
+				"styles/android/parsoid.less",
+				"styles/android/tables.less",
+				"styles/android/widenImages.less"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
