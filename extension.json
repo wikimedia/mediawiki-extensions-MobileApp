@@ -35,7 +35,7 @@
 		},
 		"mobile.app.pagestyles.android.night": {
 			"styles": [
-				"styles/night.less"
+				"styles/android/night.less"
 			]
 		},
 		"mobile.app.pagestyles.ios": {
