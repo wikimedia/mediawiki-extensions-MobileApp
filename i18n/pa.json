@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Babanwalia"
+			"Babanwalia",
+			"Tow"
 		]
 	},
-	"tag-mobile_app_edit": "ਮੋਬਾਈਲ ਐਪ ਦੀ ਸੋਧ"
+	"tag-mobile_app_edit": "ਮੋਬਾਈਲ ਐਪ ਦੀ ਸੋਧ",
+	"tag-mobile_app_edit-description": "ਮੋਬਾਈਲ ਐਪਾੰ ਤੋੰ ਕੀਤੀਆੰ ਸੋਧਾੰ"
 }
