@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"عثمان خان شاہ"
+			"عثمان خان شاہ",
+			"Muhammad Shuaib"
 		]
 	},
-	"tag-mobile_app_edit": "موبائیل ایپ ترمیم"
+	"tag-mobile_app_edit": "موبائیل ایپ ترمیم",
+	"tag-mobile_app_edit-description": "موبائل اطلاقیوں کے ذریعہ کی جانے والی ترامیم"
 }
