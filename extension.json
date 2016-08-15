@@ -25,6 +25,7 @@
 				"styles/disambig.less",
 				"styles/editlinks.less",
 				"styles/enwiki.less",
+				"styles/headers.less",
 				"styles/issues.less",
 				"styles/android/loading.less",
 				"styles/android/ipa.less",
@@ -43,13 +44,15 @@
 				"styles/disambig.less",
 				"styles/editlinks.less",
 				"styles/enwiki.less",
+				"styles/headers.less",
 				"styles/issues.less"
 			]
 		},
 		"mobile.app.preview": {
 			"styles": [
 				"styles/preview.less",
-				"styles/enwiki.less"
+				"styles/enwiki.less",
+				"styles/headers.less"
 			]
 		},
 		"mobile.app.preview.android": {
