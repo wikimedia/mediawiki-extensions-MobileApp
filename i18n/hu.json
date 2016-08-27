@@ -4,5 +4,7 @@
 			"Tacsipacsi"
 		]
 	},
-	"tag-mobile_app_edit": "Mobilalkalmazás-szerkesztés"
+	"mobileapp-desc": "Stílusokat és parancsfájlokat szolgáltat a Wikimédia mobilalkalmazásaiban való használatra",
+	"tag-mobile_app_edit": "Mobilalkalmazás-szerkesztés",
+	"tag-mobile_app_edit-description": "Mobilalkalmazással készült szerkesztések"
 }
