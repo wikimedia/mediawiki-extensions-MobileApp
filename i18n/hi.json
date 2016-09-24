@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"संजीव कुमार",
-			"NehalDaveND"
+			"NehalDaveND",
+			"Sfic"
 		]
 	},
-	"tag-mobile_app_edit": "दूरभाष एप्प सम्पादन",
-	"tag-mobile_app_edit-description": "यह सम्पादन दूरभाष एप्प से किया गया"
+	"tag-mobile_app_edit": "मोबाइल एप सम्पादन",
+	"tag-mobile_app_edit-description": "यह सम्पादन मोबाइल एप्प से किया गया"
 }
