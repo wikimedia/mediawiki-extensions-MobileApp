@@ -34,10 +34,7 @@ class MobileAppHooks {
 			( $isWikipediaApp && is_null( $logType ) )
 			|| ( $isCommonsApp && ( is_null( $logType ) || $logType == 'upload' ) )
 		) {
-			$rcId = $rc->getAttribute( 'rc_id' );
-			$revId = $rc->getAttribute( 'rc_this_oldid' );
-			$logId = $rc->getAttribute( 'rc_logid' );
-			ChangeTags::addTags( 'mobile app edit', $rcId, $revId, $logId );
+			$rc->addTags( 'mobile app edit' );
 		}
 		return true;
 	}
