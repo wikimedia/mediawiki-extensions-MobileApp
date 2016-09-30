@@ -10,6 +10,7 @@ class MobileAppHooks {
 	 * @return bool
 	 */
 	public static function onListDefinedTags( array &$tags ) {
+		$tags[] = 'mobile edit';
 		$tags[] = 'mobile app edit';
 		return true;
 	}
@@ -34,7 +35,12 @@ class MobileAppHooks {
 			( $isWikipediaApp && is_null( $logType ) )
 			|| ( $isCommonsApp && ( is_null( $logType ) || $logType == 'upload' ) )
 		) {
-			$rc->addTags( 'mobile app edit' );
+			// Although MobileFrontend applies the "mobile edit" tag to any edit
+			// that is made through the mobile domain, the Android app actually
+			// makes its API requests through the desktop domain, meaning that we
+			// must apply the "mobile edit" tag explicitly ourselves, in addition
+			// to the "mobile app edit" tag.
+			$rc->addTags( [ 'mobile edit', 'mobile app edit' ] );
 		}
 		return true;
 	}
