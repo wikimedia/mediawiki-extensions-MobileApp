@@ -336,3 +336,14 @@ th .sortkey {
     max-width: 100%;
     overflow: auto;
 }
+
+/* Added from Common.css to fix T147239 */
+/* Hide (formatting) elements from screen, but not from screenreaders */
+.visualhide {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
