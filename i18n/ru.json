@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras"
+			"Okras",
+			"Ole Yves"
 		]
 	},
 	"mobileapp-desc": "Обслуживает стили и скрипты для использования в мобильных приложениях Викимедиа",
-	"tag-mobile_app_edit": "Правка через моб. приложение",
+	"tag-mobile_app_edit": "правка из мобильного приложения",
 	"tag-mobile_app_edit-description": "Правки, сделанные через мобильное приложение"
 }
