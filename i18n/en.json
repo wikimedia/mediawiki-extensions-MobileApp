@@ -1,10 +1,9 @@
 {
-"@metadata": {
-	"authors": [
-		"Yuvi Panda"
-	],
-	"message-documentation": "qqq"
-},
+	"@metadata": {
+		"authors": [
+			"Yuvi Panda"
+		]
+	},
 	"mobileapp-desc": "Serves styles and scripts for use in the Wikimedia Mobile applications",
 	"tag-mobile_app_edit": "Mobile app edit",
 	"tag-mobile_app_edit-description": "Edits made from mobile apps"
