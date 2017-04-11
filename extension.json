@@ -30,8 +30,7 @@
 				"styles/android/loading.less",
 				"styles/android/ipa.less",
 				"styles/android/parsoid.less",
-				"styles/android/tables.less",
-				"styles/android/widenImages.less"
+				"styles/android/tables.less"
 			]
 		},
 		"mobile.app.pagestyles.android.night": {
@@ -59,8 +58,7 @@
 			"styles": [
 				"styles/android/ipa.less",
 				"styles/android/parsoid.less",
-				"styles/android/tables.less",
-				"styles/android/widenImages.less"
+				"styles/android/tables.less"
 			]
 		}
 	},
