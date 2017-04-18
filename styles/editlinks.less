@@ -1,94 +1,94 @@
 a.edit_section_button {
-    height: 32px;
-    width: 32px;
-    border: 8px solid transparent;
-    /* @embed */
-    background-image: url("../images/edit.png");
-    background-repeat: no-repeat;
-    background-size: 32px 32px;
-    float: right;
-    display: inline-float;
+	height: 32px;
+	width: 32px;
+	border: 8px solid transparent;
+	/* @embed */
+	background-image: url( ../images/edit.png );
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+	float: right;
+	display: inline-float;
 }
 
 a.edit_section_button.android {
-    height: 28px;
-    width: 28px;
-    margin-right: 8px;
-    border: none;
-    background-image: url("file:///android_asset/images/edit.png");
-    background-size: 28px 28px;
-    background-position: center;
-    position: relative;
+	height: 28px;
+	width: 28px;
+	margin-right: 8px;
+	border: 0;
+	background-image: url( 'file:///android_asset/images/edit.png' );
+	background-size: 28px 28px;
+	background-position: center;
+	position: relative;
 }
 
 a.edit_section_button:active {
-    background-color: rgba(128,128,128,.1);
+	background-color: rgba( 128, 128, 128, 0.1 );
 }
 
 a.edit_section_button.android:active {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 a.edit_section_button.android:before {
-    /* inactive background transform */
-    content: "";
-    position: absolute;
-    z-index: -1;
-    border-radius: 50%;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: transform 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-    transition: transform 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); /* ease out quad */
+	/* inactive background transform */
+	content: '';
+	position: absolute;
+	z-index: -1;
+	border-radius: 50%;
+	-webkit-transform: scale( 0 );
+	transform: scale( 0 );
+	-webkit-transition: transform 300ms cubic-bezier( 0.25, 0.46, 0.45, 0.94 );
+	transition: transform 300ms cubic-bezier( 0.25, 0.46, 0.45, 0.94 ); /* ease out quad */
 }
 
 a.edit_section_button.android:active:before {
-    /* active background transform */
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    background-color: #eee;
-    -webkit-transform: scale(.6);
-    transform: scale(.6);
+	/* active background transform */
+	width: 200%;
+	height: 200%;
+	top: -50%;
+	left: -50%;
+	background-color: #eee;
+	-webkit-transform: scale( 0.6 );
+	transform: scale( 0.6 );
 }
 
 .no-editing {
-    a.edit_section_button {
-        display: none;
-    }
+	a.edit_section_button {
+		display: none;
+	}
 }
 
 .page-protected {
-    a.edit_section_button {
-        /* @embed */
-        background-image: url("../images/edit-locked.png");
-    }
-    a.edit_section_button.android {
-        background-image: url("file:///android_asset/images/edit-locked.png");
-    }
+	a.edit_section_button {
+		/* @embed */
+		background-image: url( ../images/edit-locked.png );
+	}
+	a.edit_section_button.android {
+		background-image: url( 'file:///android_asset/images/edit-locked.png' );
+	}
 }
 
 #mainpage {
-    a.edit_section_button {
-        display: none;
-    }
+	a.edit_section_button {
+		display: none;
+	}
 }
 
 .content-rtl a.edit_section_button {
-    float: left;
-    /* Flip it! */
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+	float: left;
+	/* Flip it! */
+	-webkit-transform: scaleX( -1 );
+	transform: scaleX( -1 );
 }
 
 .content-rtl a.edit_section_button.android {
-    -webkit-transform: none;
-    transform: none;
+	-webkit-transform: none;
+	transform: none;
 }
 
 .content-rtl .edit_section_button_wrapper.android {
-    float: left;
-    /* Flip it! */
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+	float: left;
+	/* Flip it! */
+	-webkit-transform: scaleX( -1 );
+	transform: scaleX( -1 );
 }
