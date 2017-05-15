@@ -29,8 +29,7 @@
 				"styles/issues.less",
 				"styles/android/loading.less",
 				"styles/android/ipa.less",
-				"styles/android/parsoid.less",
-				"styles/android/tables.less"
+				"styles/android/parsoid.less"
 			]
 		},
 		"mobile.app.pagestyles.android.night": {
@@ -57,8 +56,7 @@
 		"mobile.app.preview.android": {
 			"styles": [
 				"styles/android/ipa.less",
-				"styles/android/parsoid.less",
-				"styles/android/tables.less"
+				"styles/android/parsoid.less"
 			]
 		}
 	},
