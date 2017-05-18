@@ -8,9 +8,8 @@ class MobileAppResourceLoaderModule extends ResourceLoaderWikiModule {
 	 * @return array
 	 */
 	protected function getPages( ResourceLoaderContext $context ) {
-		return array(
-			'MediaWiki:Mobile.css'      => array( 'type' => 'style' ),
-		);
+		return [
+			'MediaWiki:Mobile.css' => [ 'type' => 'style' ],
+		];
 	}
 }
-
