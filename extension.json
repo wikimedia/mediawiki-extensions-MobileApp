@@ -24,6 +24,7 @@
 			"styles": [
 				"styles/disambig.less",
 				"styles/enwiki.less",
+				"styles/frwiki.less",
 				"styles/headers.less",
 				"styles/issues.less",
 				"styles/android/loading.less",
