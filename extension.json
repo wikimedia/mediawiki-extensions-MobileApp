@@ -32,11 +32,6 @@
 				"styles/android/parsoid.less"
 			]
 		},
-		"mobile.app.pagestyles.android.night": {
-			"styles": [
-				"styles/android/night.less"
-			]
-		},
 		"mobile.app.pagestyles.ios": {
 			"styles": [
 				"styles/disambig.less",
