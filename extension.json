@@ -23,7 +23,6 @@
 		"mobile.app.pagestyles.android": {
 			"styles": [
 				"styles/disambig.less",
-				"styles/editlinks.less",
 				"styles/enwiki.less",
 				"styles/headers.less",
 				"styles/issues.less",
@@ -35,7 +34,6 @@
 		"mobile.app.pagestyles.ios": {
 			"styles": [
 				"styles/disambig.less",
-				"styles/editlinks.less",
 				"styles/enwiki.less",
 				"styles/headers.less",
 				"styles/issues.less"
@@ -43,7 +41,6 @@
 		},
 		"mobile.app.preview": {
 			"styles": [
-				"styles/preview.less",
 				"styles/enwiki.less",
 				"styles/headers.less"
 			]
