@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Danmichaelo"
+			"Danmichaelo",
+			"Jon Harald Søby"
 		]
 	},
 	"mobileapp-desc": "Leverer stilsett og skript for bruk i Wikimedia-mobilapper",
