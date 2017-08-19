@@ -19,14 +19,15 @@ module.exports = function ( grunt ) {
 		jsonlint: {
 			all: [
 				'**/*.json',
-				'.stylelintrc',
-				'!node_modules/**'
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		},
 		stylelint: {
 			all: [
 				'**/*.less',
-				'!node_modules/**'
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		}
 	} );
