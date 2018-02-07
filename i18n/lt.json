@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hugo.arg"
+			"Hugo.arg",
+			"Manvydasz"
 		]
 	},
-	"tag-mobile_app_edit": "Keitimas įskiepiu mobiliesiems"
+	"tag-mobile_app_edit": "Keitimas įskiepiu mobiliesiems",
+	"tag-mobile_app_edit-description": "Keitimai atlikti per mobiliąją programėlę"
 }
