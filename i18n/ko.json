@@ -5,10 +5,11 @@
 			"아라",
 			"Kwj2772",
 			"IRTC1015",
-			"Nuevo Paso"
+			"Nuevo Paso",
+			"Garam"
 		]
 	},
 	"mobileapp-desc": "위키미디어 모바일 애플리케이션에서 사용할 스크립트와 스타일을 제공합니다",
 	"tag-mobile_app_edit": "모바일 앱 편집",
-	"tag-mobile_app_edit-description": "모바일 앱에서 행한 편집"
+	"tag-mobile_app_edit-description": "모바일 앱에서 한 편집"
 }
