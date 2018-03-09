@@ -27,7 +27,6 @@
 				"styles/frwiki.less",
 				"styles/headers.less",
 				"styles/issues.less",
-				"styles/android/loading.less",
 				"styles/android/ipa.less",
 				"styles/android/parsoid.less"
 			]
