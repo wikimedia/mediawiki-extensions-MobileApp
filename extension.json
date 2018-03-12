@@ -20,35 +20,27 @@
 		"mobile.app.site": {
 			"class": "MobileAppResourceLoaderModule"
 		},
-		"mobile.app.pagestyles.android": {
-			"styles": [
-				"styles/disambig.less",
-				"styles/enwiki.less",
-				"styles/frwiki.less",
-				"styles/headers.less",
-				"styles/issues.less",
-				"styles/android/ipa.less",
-				"styles/android/parsoid.less"
-			]
-		},
-		"mobile.app.pagestyles.ios": {
-			"styles": [
-				"styles/disambig.less",
-				"styles/enwiki.less",
-				"styles/headers.less",
-				"styles/issues.less"
-			]
-		},
-		"mobile.app.preview": {
+		"mobile.app": {
 			"styles": [
 				"styles/enwiki.less",
 				"styles/headers.less"
 			]
 		},
-		"mobile.app.preview.android": {
+		"mobile.app.pagestyles": {
+			"styles": [
+				"styles/disambig.less",
+				"styles/issues.less"
+			]
+		},
+		"mobile.app.android": {
 			"styles": [
 				"styles/android/ipa.less",
 				"styles/android/parsoid.less"
+			]
+		},
+		"mobile.app.pagestyles.android": {
+			"styles": [
+				"styles/android/frwiki.less"
 			]
 		}
 	},
