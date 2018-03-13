@@ -23,11 +23,7 @@
 		"mobile.app": {
 			"styles": [
 				"styles/enwiki.less",
-				"styles/headers.less"
-			]
-		},
-		"mobile.app.pagestyles": {
-			"styles": [
+				"styles/headers.less",
 				"styles/disambig.less",
 				"styles/issues.less"
 			]
