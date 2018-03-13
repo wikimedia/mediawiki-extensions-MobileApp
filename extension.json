@@ -37,11 +37,6 @@
 				"styles/android/ipa.less",
 				"styles/android/parsoid.less"
 			]
-		},
-		"mobile.app.pagestyles.android": {
-			"styles": [
-				"styles/android/frwiki.less"
-			]
 		}
 	},
 	"ResourceFileModulePaths": {
