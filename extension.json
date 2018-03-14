@@ -30,7 +30,6 @@
 		},
 		"mobile.app.android": {
 			"styles": [
-				"styles/android/ipa.less",
 				"styles/android/parsoid.less"
 			]
 		}
