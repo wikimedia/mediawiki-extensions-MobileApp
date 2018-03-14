@@ -29,9 +29,10 @@
 				"styles/ipa.less"
 			]
 		},
-		"mobile.app.android": {
+		"mobile.app.parsoid": {
 			"styles": [
-				"styles/android/parsoid.less"
+				"styles/parsoid/counter.less",
+				"styles/parsoid/figure.less"
 			]
 		}
 	},
