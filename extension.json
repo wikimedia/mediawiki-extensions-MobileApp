@@ -25,7 +25,8 @@
 				"styles/enwiki.less",
 				"styles/headers.less",
 				"styles/disambig.less",
-				"styles/issues.less"
+				"styles/issues.less",
+				"styles/ipa.less"
 			]
 		},
 		"mobile.app.android": {
