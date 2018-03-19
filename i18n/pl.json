@@ -4,9 +4,11 @@
 			"WTM",
 			"VerMa",
 			"Peter Bowman",
-			"Tar Lócesilion"
+			"Tar Lócesilion",
+			"Railfail536"
 		]
 	},
+	"mobileapp-desc": "Obsługuje style oraz skrypty wykorzystywane w aplikacjach mobilnych projektu Wikimedia",
 	"tag-mobile_app_edit": "Aplikacja mobilna",
 	"tag-mobile_app_edit-description": "Edycja dokonana za pomocą aplikacji mobilnej"
 }
