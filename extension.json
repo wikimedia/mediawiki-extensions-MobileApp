@@ -31,7 +31,6 @@
 		},
 		"mobile.app.parsoid": {
 			"styles": [
-				"styles/parsoid/counter.less",
 				"styles/parsoid/figure.less"
 			]
 		}
