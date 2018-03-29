@@ -6,7 +6,7 @@
  * @ingroup Extensions
  * @author Yuvi Panda
  * @copyright © 2014 Yuvi Panda
- * @licence GNU General Public Licence 2.0 or later
+ * @license GNU General Public Licence 2.0 or later
  */
 
 if ( function_exists( 'wfLoadExtension' ) ) {
