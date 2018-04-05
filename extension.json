@@ -22,7 +22,7 @@
 		},
 		"mobile.app": {
 			"styles": [
-				"styles/enwiki.less",
+				"styles/imageOverflow.less",
 				"styles/ipa.less"
 			]
 		},
