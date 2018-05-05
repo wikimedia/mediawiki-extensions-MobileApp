@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Чаховіч Уладзіслаў"
+			"Чаховіч Уладзіслаў",
+			"Artsiom91"
 		]
 	},
-	"tag-mobile_app_edit": "Праўка праз маб. дадатак"
+	"tag-mobile_app_edit": "Праўка праз маб. дадатак",
+	"tag-mobile_app_edit-description": "Праўкі, зроблены праз мабільны дадатак"
 }
