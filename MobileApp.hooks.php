@@ -12,6 +12,8 @@ class MobileAppHooks {
 	public static function onListDefinedTags( array &$tags ) {
 		$tags[] = 'mobile edit';
 		$tags[] = 'mobile app edit';
+		$tags[] = 'android app edit';
+		$tags[] = 'ios app edit';
 		return true;
 	}
 
@@ -26,6 +28,8 @@ class MobileAppHooks {
 		global $wgRequest;
 		$userAgent = $wgRequest->getHeader( "User-agent" );
 		$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
+		$isAndroid = strpos( $userAgent, "Android" ) > 0;
+		$isIOS = strpos( $userAgent, "iOS" ) > 0;
 		$isCommonsApp = strpos( $userAgent, "Commons/" ) === 0;
 		$logType = $rc->getAttribute( 'rc_log_type' );
 
@@ -41,6 +45,12 @@ class MobileAppHooks {
 			// must apply the "mobile edit" tag explicitly ourselves, in addition
 			// to the "mobile app edit" tag.
 			$rc->addTags( [ 'mobile edit', 'mobile app edit' ] );
+
+			if ( $isAndroid ) {
+				$rc->addTags( 'android app edit' );
+			} elseif ( $isIOS ) {
+				$rc->addTags( 'ios app edit' );
+			}
 		}
 		return true;
 	}
