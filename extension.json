@@ -13,13 +13,9 @@
 		]
 	},
 	"AutoloadClasses": {
-		"MobileAppResourceLoaderModule": "MobileAppResourceLoaderModule.php",
 		"MobileAppHooks": "MobileApp.hooks.php"
 	},
 	"ResourceModules": {
-		"mobile.app.site": {
-			"class": "MobileAppResourceLoaderModule"
-		},
 		"mobile.app": {
 			"styles": [
 				"styles/imageOverflow.less",
