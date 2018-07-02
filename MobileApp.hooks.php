@@ -44,13 +44,16 @@ class MobileAppHooks {
 			// makes its API requests through the desktop domain, meaning that we
 			// must apply the "mobile edit" tag explicitly ourselves, in addition
 			// to the "mobile app edit" tag.
-			$rc->addTags( [ 'mobile edit', 'mobile app edit' ] );
+			$tags = [ 'mobile edit', 'mobile app edit' ];
 
 			if ( $isAndroid ) {
-				$rc->addTags( 'android app edit' );
+				$tags[] = 'android app edit';
 			} elseif ( $isIOS ) {
-				$rc->addTags( 'ios app edit' );
+				$tags[] = 'ios app edit';
 			}
+		}
+		if ( isset( $tags ) ) {
+			$rc->addTags( $tags );
 		}
 		return true;
 	}
