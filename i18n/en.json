@@ -6,5 +6,6 @@
 	},
 	"mobileapp-desc": "Serves styles and scripts for use in the Wikimedia Mobile applications",
 	"tag-mobile_app_edit": "Mobile app edit",
-	"tag-mobile_app_edit-description": "Edits made from mobile apps"
+	"tag-mobile_app_edit-description": "Edits made from mobile apps",
+	"abusefilter-edit-builder-vars-user-app": "Whether the user is editing from mobile app"
 }
