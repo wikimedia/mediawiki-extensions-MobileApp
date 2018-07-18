@@ -7,5 +7,6 @@
 	},
 	"mobileapp-desc": "Stellt Stile und Skripte zur Verwendung in den Wikimedia-Mobile-Anwendungen zur Verfügung",
 	"tag-mobile_app_edit": "Bearbeitung von einer mobilen Anwendung",
-	"tag-mobile_app_edit-description": "Bearbeitungen von mobilen Anwendungen durchgeführt"
+	"tag-mobile_app_edit-description": "Bearbeitungen von mobilen Anwendungen durchgeführt",
+	"abusefilter-edit-builder-vars-user-app": "Ob der Benutzer von der mobilen App bearbeitet"
 }
