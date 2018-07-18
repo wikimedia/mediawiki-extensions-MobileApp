@@ -57,4 +57,37 @@ class MobileAppHooks {
 		}
 		return true;
 	}
+
+	/**
+	 * AbuseFilter-GenerateUserVars hook handler that adds the user_app variable.
+	 *
+	 * @see hooks.txt in AbuseFilter extension
+	 * @param AbuseFilterVariableHolder $vars object to add vars to
+	 * @param User $user
+	 * @return bool
+	 */
+	public static function onAbuseFilterGenerateUserVars( $vars, $user ) {
+		global $wgRequest;
+		$userAgent = $wgRequest->getHeader( "User-agent" );
+		$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
+
+		if ( $isWikipediaApp ) {
+			$vars->setVar( 'user_app', true );
+		} else {
+			$vars->setVar( 'user_app', false );
+		}
+		return true;
+	}
+
+	/**
+	 * AbuseFilter-builder hook handler that adds user_app variable to list
+	 *  of valid vars
+	 *
+	 * @param array &$builder Array in AbuseFilter::getBuilderValues to add to.
+	 * @return bool
+	 */
+	public static function onAbuseFilterBuilder( &$builder ) {
+		$builder['vars']['user_app'] = 'user-app';
+		return true;
+	}
 }

@@ -33,15 +33,11 @@
 		"remoteExtPath": "MobileApp"
 	},
 	"Hooks": {
-		"ListDefinedTags": [
-			"MobileAppHooks::onListDefinedTags"
-		],
-		"ChangeTagsListActive": [
-			"MobileAppHooks::onListDefinedTags"
-		],
-		"RecentChange_save": [
-			"MobileAppHooks::onRecentChange_save"
-		]
+		"ListDefinedTags": "MobileAppHooks::onListDefinedTags",
+		"ChangeTagsListActive": "MobileAppHooks::onListDefinedTags",
+		"RecentChange_save": "MobileAppHooks::onRecentChange_save",
+		"AbuseFilter-generateUserVars": "MobileAppHooks::onAbuseFilterGenerateUserVars",
+		"AbuseFilter-builder": "MobileAppHooks::onAbuseFilterBuilder"
 	},
 	"manifest_version": 1
 }
