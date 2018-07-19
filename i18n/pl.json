@@ -5,10 +5,12 @@
 			"VerMa",
 			"Peter Bowman",
 			"Tar Lócesilion",
-			"Railfail536"
+			"Railfail536",
+			"Chrumps"
 		]
 	},
 	"mobileapp-desc": "Obsługuje style oraz skrypty wykorzystywane w aplikacjach mobilnych projektu Wikimedia",
 	"tag-mobile_app_edit": "Z aplikacji mobilnej",
-	"tag-mobile_app_edit-description": "Edycja dokonana za pomocą aplikacji mobilnej"
+	"tag-mobile_app_edit-description": "Edycja dokonana za pomocą aplikacji mobilnej",
+	"abusefilter-edit-builder-vars-user-app": "Czy użytkownik edytuje z aplikacji mobilnej"
 }

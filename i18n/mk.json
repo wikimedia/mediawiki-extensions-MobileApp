@@ -6,5 +6,6 @@
 	},
 	"mobileapp-desc": "Опслужува стилови и скрипти за употреба во Викимедиините мобилни извршници",
 	"tag-mobile_app_edit": "Уредување од мобилен извршник",
-	"tag-mobile_app_edit-description": "Уредувања направени од мобилни извршници"
+	"tag-mobile_app_edit-description": "Уредувања направени од мобилни извршници",
+	"abusefilter-edit-builder-vars-user-app": "Дали корисникот уредува од мобилниот прилог"
 }

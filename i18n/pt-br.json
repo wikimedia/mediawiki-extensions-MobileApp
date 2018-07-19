@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Fasouzafreitas",
-			"Araceletorres"
+			"Araceletorres",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"mobileapp-desc": "Fornece estilos e scripts para uso em aplicativos móveis da Wikimedia",
 	"tag-mobile_app_edit": "Edição feita através de aplicativo móvel",
-	"tag-mobile_app_edit-description": "Edições feitas pelos aplicativos móveis"
+	"tag-mobile_app_edit-description": "Edições feitas pelos aplicativos móveis",
+	"abusefilter-edit-builder-vars-user-app": "Se o usuário está editando a partir do aplicativo para dispositivos móveis"
 }

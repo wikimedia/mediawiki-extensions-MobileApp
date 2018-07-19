@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"زكريا",
-			"Mido"
+			"Mido",
+			"ديفيد"
 		]
 	},
 	"mobileapp-desc": "يقدم الواجهات والإضافات المستخدمة في تطبيقات ويكيميديا للجوال",
 	"tag-mobile_app_edit": "تعديل بتطبيق جوال",
-	"tag-mobile_app_edit-description": "تعديل باستعمال تطبيق للهاتف المحمول"
+	"tag-mobile_app_edit-description": "تعديل باستعمال تطبيق للهاتف المحمول",
+	"abusefilter-edit-builder-vars-user-app": "ما إذا كان المستخدم يعدل من تطبيق الجوال"
 }

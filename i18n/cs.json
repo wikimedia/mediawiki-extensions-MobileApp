@@ -3,10 +3,12 @@
 		"authors": [
 			"Mormegil",
 			"Chmee2",
-			"Martin Urbanec"
+			"Martin Urbanec",
+			"Matěj Suchánek"
 		]
 	},
 	"mobileapp-desc": "Poskytuje styly a skripty pro použití v mobilních aplikacích Wikimedia",
 	"tag-mobile_app_edit": "editace z mobilní aplikace",
-	"tag-mobile_app_edit-description": "Editace provedené pomocí mobilní aplikace"
+	"tag-mobile_app_edit-description": "Editace provedené pomocí mobilní aplikace",
+	"abusefilter-edit-builder-vars-user-app": "Zda uživatel edituje z mobilní aplikace"
 }

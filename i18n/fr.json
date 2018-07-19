@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Verdy p",
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"mobileapp-desc": "Sert des styles et scripts utilisés dans les Applications mobiles de Wikimédia",
 	"tag-mobile_app_edit": "Modification par application mobile",
-	"tag-mobile_app_edit-description": "Modifications effectuées depuis des applications mobile"
+	"tag-mobile_app_edit-description": "Modifications effectuées depuis des applications mobile",
+	"abusefilter-edit-builder-vars-user-app": "Dans le cas où l'utilisateur modifie à partir d'une application mobile"
 }

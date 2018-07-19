@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
 	"mobileapp-desc": "存儲樣式和用於維基媒體手機應用程式的腳本",
 	"tag-mobile_app_edit": "手機應用程式編輯",
-	"tag-mobile_app_edit-description": "由手機應用程式編輯"
+	"tag-mobile_app_edit-description": "由手機應用程式編輯",
+	"abusefilter-edit-builder-vars-user-app": "使用者是否從手機應用程式編輯"
 }
