@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Brahim-essaidi"
+			"Brahim-essaidi",
+			"Mdb897"
 		]
 	},
-	"tag-mobile_app_edit": "ⴰⵙⵏⴼ ⵏ ⵜⵙⵏⵙⵉ ⵏ ⵓⵎⵓⴱⴰⵢⵍ"
+	"tag-mobile_app_edit": "ⴰⵙⵏⴼ ⵏ ⵜⵙⵏⵙⵉ ⵏ ⵓⵎⵓⴱⴰⵢⵍ",
+	"abusefilter-edit-builder-vars-user-app": "ⵉⵖ ⴰ ⵉⵙⵙⵏⴼⴰⵍ ⵓⵏⵙⵙⵎⵔⵙ ⵙⴳ ⵜⵉⵙⵏⵙⵉ ⵏ ⵓⵎⵓⴱⴰⵢⵍ"
 }
