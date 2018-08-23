@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sayginer"
+			"Sayginer",
+			"Hedda"
 		]
 	},
+	"mobileapp-desc": "Wikimedia Mobil uygulamalarında kullanılacak stilleri ve komut dosyalarını sunar",
 	"tag-mobile_app_edit": "Mobil uygulama değişikliği",
-	"tag-mobile_app_edit-description": "Mobil uygulamayla yapılmış değişiklikler"
+	"tag-mobile_app_edit-description": "Mobil uygulamayla yapılmış değişiklikler",
+	"abusefilter-edit-builder-vars-user-app": "Kullanıcının mobil uygulamadan düzenleme yapıp yapmayacağı"
 }
