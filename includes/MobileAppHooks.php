@@ -59,22 +59,30 @@ class MobileAppHooks {
 	}
 
 	/**
-	 * AbuseFilter-GenerateUserVars hook handler that adds the user_app variable.
+	 * AbuseFilter-generateUserVars hook handler that adds the user_app variable.
 	 *
 	 * @see hooks.txt in AbuseFilter extension
 	 * @param AbuseFilterVariableHolder $vars object to add vars to
 	 * @param User $user
+	 * @param RecentChange|null $rc If the variables should be generated for an RC entry, this
+	 *  is the entry. Null if it's for the current action being filtered.
 	 * @return bool
 	 */
-	public static function onAbuseFilterGenerateUserVars( $vars, $user ) {
+	public static function onAbuseFilterGenerateUserVars( $vars, $user, RecentChange $rc = null ) {
 		global $wgRequest;
-		$userAgent = $wgRequest->getHeader( "User-agent" );
-		$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
+		if ( !$rc ) {
+			$userAgent = $wgRequest->getHeader( "User-agent" );
+			$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
 
-		if ( $isWikipediaApp ) {
-			$vars->setVar( 'user_app', true );
+			if ( $isWikipediaApp ) {
+				$vars->setVar( 'user_app', true );
+			} else {
+				$vars->setVar( 'user_app', false );
+			}
 		} else {
-			$vars->setVar( 'user_app', false );
+			$dbr = wfGetDB( DB_REPLICA );
+			$tags = ChangeTags::getTags( $dbr, $rc->getAttribute( 'rc_id' ) );
+			$vars->setVar( 'user_app', in_array( 'mobile app edit', $tags, true ) );
 		}
 		return true;
 	}
