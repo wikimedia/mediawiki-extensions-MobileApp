@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Tweety"
 		]
 	},
 	"tag-mobile_app_edit": "موبائل ايپ ترميم",
-	"tag-mobile_app_edit-description": "موبائل ايپس مان ٿيل ترميمون"
+	"tag-mobile_app_edit-description": "موبائل ايپس مان ٿيل ترميمون",
+	"tag-android_app_edit": "اينڊروئيڊ ايپ ترميم"
 }

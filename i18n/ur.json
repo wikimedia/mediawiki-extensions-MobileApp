@@ -3,9 +3,12 @@
 		"authors": [
 			"عثمان خان شاہ",
 			"Muhammad Shuaib",
-			"Obaid Raza"
+			"Obaid Raza",
+			"BukhariSaeed"
 		]
 	},
 	"tag-mobile_app_edit": "موبائل ایپ ترمیم",
-	"tag-mobile_app_edit-description": "موبائل اطلاقیوں کے ذریعہ کی جانے والی ترامیم"
+	"tag-mobile_app_edit-description": "موبائل اطلاقیوں کے ذریعہ کی جانے والی ترامیم",
+	"tag-android_app_edit": "اینڈرائیڈ ایپ ترمیم",
+	"tag-ios_app_edit": "آئی او ایس ایپ ترمیم"
 }

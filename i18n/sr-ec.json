@@ -3,9 +3,11 @@
 		"authors": [
 			"Milicevic01",
 			"Srdjan m",
-			"BadDog"
+			"BadDog",
+			"Zoranzoki21"
 		]
 	},
 	"tag-mobile_app_edit": "мобилно уређивање преко апликације",
-	"tag-mobile_app_edit-description": "Измене начињене мобилним апликацијама"
+	"tag-mobile_app_edit-description": "Измене начињене мобилним апликацијама",
+	"tag-android_app_edit": "уређивање преко андроид апликације"
 }

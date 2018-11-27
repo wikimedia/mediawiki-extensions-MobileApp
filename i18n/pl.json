@@ -12,5 +12,7 @@
 	"mobileapp-desc": "Obsługuje style oraz skrypty wykorzystywane w aplikacjach mobilnych projektu Wikimedia",
 	"tag-mobile_app_edit": "Z aplikacji mobilnej",
 	"tag-mobile_app_edit-description": "Edycja dokonana za pomocą aplikacji mobilnej",
+	"tag-android_app_edit": "Z aplikacji Android",
+	"tag-ios_app_edit": "Z aplikacji iOS",
 	"abusefilter-edit-builder-vars-user-app": "Czy użytkownik edytuje z aplikacji mobilnej"
 }

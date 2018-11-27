@@ -6,5 +6,7 @@
 		]
 	},
 	"tag-mobile_app_edit": "Keitimas įskiepiu mobiliesiems",
-	"tag-mobile_app_edit-description": "Keitimai atlikti per mobiliąją programėlę"
+	"tag-mobile_app_edit-description": "Keitimai atlikti per mobiliąją programėlę",
+	"tag-android_app_edit": "Android programėlės keitimas",
+	"tag-ios_app_edit": "iOS programėlės keitimas"
 }
