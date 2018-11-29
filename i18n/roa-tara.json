@@ -7,5 +7,9 @@
 	"mobileapp-desc": "Dèje stile e script pe l'ause jndr'à le applicaziune Uicchimedia Mobbile",
 	"tag-mobile_app_edit": "cangiamende de l'app Mobbile",
 	"tag-mobile_app_edit-description": "Le cangiaminde fatte da le app mobbile",
+	"tag-android_app_edit": "Cangiamende de l'app Android",
+	"tag-android_app_edit-description": "Le cangiaminde fatte da 'n'app mobbile pe Android",
+	"tag-ios_app_edit": "Cangiamende de l'app iOS",
+	"tag-ios_app_edit-description": "Le cangiaminde fatte da 'n'app mobbile pe iOS",
 	"abusefilter-edit-builder-vars-user-app": "Ce l'utende ste cange ausanne l'applicazzione mobbile"
 }

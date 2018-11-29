@@ -6,5 +6,10 @@
 	},
 	"mobileapp-desc": "Stílusokat és parancsfájlokat szolgáltat a Wikimédia mobilalkalmazásaiban való használatra",
 	"tag-mobile_app_edit": "Mobilalkalmazás-szerkesztés",
-	"tag-mobile_app_edit-description": "Mobilalkalmazással készült szerkesztések"
+	"tag-mobile_app_edit-description": "Mobilalkalmazással készült szerkesztések",
+	"tag-android_app_edit": "Android-alkalmazás-szerkesztés",
+	"tag-android_app_edit-description": "Az androidos mobilalkalmazásból készített szerkesztések",
+	"tag-ios_app_edit": "iOS-alkalmazás-szerkesztés",
+	"tag-ios_app_edit-description": "Az iOS-es mobilalkalmazásból készített szerkesztések",
+	"abusefilter-edit-builder-vars-user-app": "A felhasználó mobilalkalmazásból szerkesztett-e"
 }

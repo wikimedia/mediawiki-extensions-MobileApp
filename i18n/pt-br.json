@@ -9,5 +9,9 @@
 	"mobileapp-desc": "Fornece estilos e scripts para uso em aplicativos móveis da Wikimedia",
 	"tag-mobile_app_edit": "Edição feita através de aplicativo móvel",
 	"tag-mobile_app_edit-description": "Edições feitas pelos aplicativos móveis",
+	"tag-android_app_edit": "Edição via aplic. Android",
+	"tag-android_app_edit-description": "Edições feitas do aplicativo móvel para Android",
+	"tag-ios_app_edit": "Edição via aplic. iOS",
+	"tag-ios_app_edit-description": "Edições feitas do aplicativo móvel para iOS",
 	"abusefilter-edit-builder-vars-user-app": "Se o usuário está editando a partir do aplicativo para dispositivos móveis"
 }

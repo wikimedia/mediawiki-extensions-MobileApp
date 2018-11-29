@@ -7,5 +7,9 @@
 	"mobileapp-desc": "Опслужува стилови и скрипти за употреба во Викимедиините мобилни извршници",
 	"tag-mobile_app_edit": "Уредување од мобилен извршник",
 	"tag-mobile_app_edit-description": "Уредувања направени од мобилни извршници",
+	"tag-android_app_edit": "Уредување од прилогот за Андроид",
+	"tag-android_app_edit-description": "Уредувања направени од мобилниот прилог за Андроид",
+	"tag-ios_app_edit": "Уредување од прилогот за iOS",
+	"tag-ios_app_edit-description": "Уредувања направени од мобилниот прилог за iOS",
 	"abusefilter-edit-builder-vars-user-app": "Дали корисникот уредува од мобилниот прилог"
 }

@@ -8,5 +8,7 @@
 	"mobileapp-desc": "Propone stili e script per l'uso nelle applicazioni mobile di Wikimedia",
 	"tag-mobile_app_edit": "Modifica da applicazione mobile",
 	"tag-mobile_app_edit-description": "Modifica apportata dall'applicazione per dispositivi mobili",
+	"tag-android_app_edit": "Modifica da app Android",
+	"tag-android_app_edit-description": "Modifiche fatte dall'applicazione per dispositivi mobili per Android",
 	"abusefilter-edit-builder-vars-user-app": "Se l'utente sta modificando attraverso l'applicazione mobile"
 }

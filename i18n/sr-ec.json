@@ -9,5 +9,8 @@
 	},
 	"tag-mobile_app_edit": "мобилно уређивање преко апликације",
 	"tag-mobile_app_edit-description": "Измене начињене мобилним апликацијама",
-	"tag-android_app_edit": "уређивање преко андроид апликације"
+	"tag-android_app_edit": "уређивање преко андроид апликације",
+	"tag-android_app_edit-description": "Измене направљене са мобилне апликације за Android",
+	"tag-ios_app_edit": "Измена са апликације за iOS",
+	"tag-ios_app_edit-description": "Измене направљење са мобилне апликације за iOS"
 }

@@ -12,5 +12,8 @@
 	"tag-mobile_app_edit": "تعديل بتطبيق جوال",
 	"tag-mobile_app_edit-description": "تعديل باستعمال تطبيق الهاتف المحمول",
 	"tag-android_app_edit": "تعديل بتطبيق أندرويد",
+	"tag-android_app_edit-description": "تعديلات تم إجراؤها من تطبيق الجوال لأندرويد",
+	"tag-ios_app_edit": "تعديل تطبيق آي أو إس",
+	"tag-ios_app_edit-description": "تعديلات تم إجراؤها من تطبيق الجوال لآي أو إس",
 	"abusefilter-edit-builder-vars-user-app": "ما إذا كان المستخدم يعدل من تطبيق الجوال"
 }

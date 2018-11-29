@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Christian List"
+			"Christian List",
+			"Saederup92"
 		]
 	},
 	"mobileapp-desc": "Leverer stilarter og scripts til brug i Wikimedia Mobile applikationer",
 	"tag-mobile_app_edit": "Redigering via mobilapp",
-	"tag-mobile_app_edit-description": "Redigeringer foretaget fra mobil-apps"
+	"tag-mobile_app_edit-description": "Redigeringer foretaget fra mobil-apps",
+	"tag-android_app_edit": "Redigering lavet i Android appen",
+	"tag-ios_app_edit": "Redigering lavet i iOS appen"
 }

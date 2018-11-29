@@ -13,5 +13,9 @@
 	"mobileapp-desc": "위키미디어 모바일 애플리케이션에서 사용할 스크립트와 스타일을 제공합니다",
 	"tag-mobile_app_edit": "모바일 앱 편집",
 	"tag-mobile_app_edit-description": "모바일 앱에서의 편집",
+	"tag-android_app_edit": "안드로이드 앱 편집",
+	"tag-android_app_edit-description": "안드로이드용 모바일 앱에서의 편집",
+	"tag-ios_app_edit": "iOS 앱 편집",
+	"tag-ios_app_edit-description": "iOS용 모바일 앱에서의 편집",
 	"abusefilter-edit-builder-vars-user-app": "사용자가 모바일 앱에서 편집하고 있는지의 여부"
 }
