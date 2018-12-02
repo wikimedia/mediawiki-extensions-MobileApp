@@ -3,11 +3,14 @@
 		"authors": [
 			"Liuxinyu970226",
 			"Duolaimi",
-			"Hanyanbo98"
+			"Hanyanbo98",
+			"Angrydog001"
 		]
 	},
 	"mobileapp-desc": "为维基媒体移动应用提供样式和脚本",
 	"tag-mobile_app_edit": "移动应用程序编辑",
 	"tag-mobile_app_edit-description": "来自移动应用程序的编辑",
+	"tag-android_app_edit": "Android应用编辑",
+	"tag-ios_app_edit": "iOS应用编辑",
 	"abusefilter-edit-builder-vars-user-app": "用户是否正使用移动应用进行编辑"
 }
