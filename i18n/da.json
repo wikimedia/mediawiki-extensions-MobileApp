@@ -9,5 +9,7 @@
 	"tag-mobile_app_edit": "Redigering via mobilapp",
 	"tag-mobile_app_edit-description": "Redigeringer foretaget fra mobil-apps",
 	"tag-android_app_edit": "Redigering lavet i Android appen",
-	"tag-ios_app_edit": "Redigering lavet i iOS appen"
+	"tag-android_app_edit-description": "Redigeringer lavet fra Android mobilappen",
+	"tag-ios_app_edit": "Redigering lavet i iOS appen",
+	"tag-ios_app_edit-description": "Redigeringer lavet fra iOS mobilappen"
 }
