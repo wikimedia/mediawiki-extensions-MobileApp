@@ -2,8 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Geraki",
-			"SucreRouge"
+			"SucreRouge",
+			"Nikosgranturismogt"
 		]
 	},
-	"tag-mobile_app_edit": "Επεξεργασία από εφαρμογή κινητού"
+	"tag-mobile_app_edit": "Επεξεργασία από εφαρμογή κινητού",
+	"tag-android_app_edit": "επεξεργασία από εφαρμογή Android",
+	"tag-android_app_edit-description": "Επεξεργασίες που έγιναν από την εφαρμογή κινητού για το Android",
+	"tag-ios_app_edit": "Επεξεργασία από εφαρμογή IOS"
 }
