@@ -8,5 +8,9 @@
 	"mobileapp-desc": "Levererar stilar och skript för användning i Wikimedia-mobilappar",
 	"tag-mobile_app_edit": "Redigering via mobilapp",
 	"tag-mobile_app_edit-description": "Redigeringar gjorda av mobilappar",
+	"tag-android_app_edit": "Redigering i Android-app",
+	"tag-android_app_edit-description": "Redigeringar gjorda från mobilappen för Android",
+	"tag-ios_app_edit": "Redigering i iOS-app",
+	"tag-ios_app_edit-description": "Redigeringar gjorda från mobilappen för iOS",
 	"abusefilter-edit-builder-vars-user-app": "Om användaren redigerar från mobilappen"
 }
