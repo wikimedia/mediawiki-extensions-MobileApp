@@ -3,12 +3,15 @@
 		"authors": [
 			"Sayginer",
 			"Hedda",
-			"Diyapazon"
+			"Diyapazon",
+			"Sucsuzz"
 		]
 	},
 	"mobileapp-desc": "Wikimedia Mobil uygulamalarında kullanılacak stilleri ve komut dosyalarını sunar",
 	"tag-mobile_app_edit": "Mobil uygulama değişikliği",
 	"tag-mobile_app_edit-description": "Mobil uygulamayla yapılmış değişiklikler",
 	"tag-android_app_edit": "android uygulaması değişikliği",
+	"tag-ios_app_edit": "iOS uygulaması değişikliği",
+	"tag-ios_app_edit-description": "iOS mobil uygulamasından yapılmış değişiklikler",
 	"abusefilter-edit-builder-vars-user-app": "Kullanıcının mobil uygulamadan düzenleme yapıp yapmayacağı"
 }
