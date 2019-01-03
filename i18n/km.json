@@ -5,5 +5,9 @@
 		]
 	},
 	"tag-mobile_app_edit": "កំណែប្រែពីកម្មវិធីចល័ត",
-	"tag-mobile_app_edit-description": "កំណែប្រែពីកម្មវិធីចល័ត"
+	"tag-mobile_app_edit-description": "កំណែប្រែពីកម្មវិធីចល័ត",
+	"tag-android_app_edit": "កំណែប្រែពីកម្មវិធីAndroid",
+	"tag-android_app_edit-description": "កំណែប្រែដែលធ្វើឡើងពីកម្មវិធីចល័តសម្រាប់Android",
+	"tag-ios_app_edit": "កំណែប្រែពីកម្មវិធីiOS",
+	"tag-ios_app_edit-description": "កំណែប្រែដែលធ្វើឡើងពីកម្មវិធីចល័តសម្រាប់iOS"
 }
