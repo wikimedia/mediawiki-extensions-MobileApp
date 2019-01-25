@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Pxos",
-			"Stryn"
+			"Stryn",
+			"Pyscowicz"
 		]
 	},
 	"tag-mobile_app_edit": "Mobiilisovellus-muokkaus",
-	"tag-mobile_app_edit-description": "Muokkaus, joka on tehty mobiilisovelluksesta"
+	"tag-mobile_app_edit-description": "Muokkaus, joka on tehty mobiilisovelluksesta",
+	"tag-android_app_edit": "Android-muokkaus",
+	"tag-ios_app_edit": "iOS-muokkaus"
 }
