@@ -9,5 +9,7 @@
 	"tag-mobile_app_edit": "Mobiilisovellus-muokkaus",
 	"tag-mobile_app_edit-description": "Muokkaus, joka on tehty mobiilisovelluksesta",
 	"tag-android_app_edit": "Android-muokkaus",
-	"tag-ios_app_edit": "iOS-muokkaus"
+	"tag-android_app_edit-description": "Muokkaus, joka on tehty Android-mobiilisovelluksesta",
+	"tag-ios_app_edit": "iOS-muokkaus",
+	"tag-ios_app_edit-description": "Muokkaus, joka on tehty iOS-mobiilisovelluksesta"
 }
