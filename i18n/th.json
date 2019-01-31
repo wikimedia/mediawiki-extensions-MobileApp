@@ -2,8 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Horus",
-			"Ans"
+			"Ans",
+			"Patsagorn Y."
 		]
 	},
-	"tag-mobile_app_edit": "แก้ไขจากแอพบนอุปกรณ์เคลื่อนที่"
+	"mobileapp-desc": "ทำหน้าที่สไตล์และสคริปต์สำหรับใช้ในแอปพลิเคชัน Wikimedia Mobile",
+	"tag-mobile_app_edit": "แก้ไขจากแอพบนอุปกรณ์เคลื่อนที่",
+	"tag-mobile_app_edit-description": "การแก้ไขจากแอปพลิเคชั่นในโทรศัพท์เคลื่อนที่",
+	"tag-android_app_edit": "แก้ไขโดยแอปพลิเคชั่นในแอนดรอย",
+	"tag-android_app_edit-description": "การแก้ไขที่ทำจากแอพพลิเคชั่นสำหรับ Android",
+	"tag-ios_app_edit": "แก้ไขจากแอปพลิเคชั่นใน iOS",
+	"tag-ios_app_edit-description": "การแก้ไขจากแอปพลิเคชั่นสำหรับ iOS",
+	"abusefilter-edit-builder-vars-user-app": "ผู้ใช้กำลังแก้ไขจากแอพมือถือหรือไม่"
 }
