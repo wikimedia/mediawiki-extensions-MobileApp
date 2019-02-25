@@ -5,5 +5,10 @@
 		]
 	},
 	"tag-mobile_app_edit": "מאביל־אנווענדונג רעדאַקטירונג",
-	"tag-mobile_app_edit-description": "רעדאַקטירן געמאַכט פון מאביל־אָנווענדונגען"
+	"tag-mobile_app_edit-description": "רעדאַקטירן געמאַכט פון מאביל־אָנווענדונגען",
+	"tag-android_app_edit": "רעדאקטירונג מיט אן אנדרויד־אפ",
+	"tag-android_app_edit-description": "רעדאקטירונגען געמאכט פון א מאבילן אפ פאר אנדרויד",
+	"tag-ios_app_edit": "רעדאקטירונג מיט אן iOS־אפ",
+	"tag-ios_app_edit-description": "רעדאקטירונגען געמאכט פון א מאבילן אפ פאר iOS",
+	"abusefilter-edit-builder-vars-user-app": "צי דער באניצער רעדאקטירט פון א מאבילן אפ"
 }
