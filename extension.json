@@ -13,7 +13,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"MobileAppHooks": "MobileApp.hooks.php"
+		"MobileAppHooks": "includes/MobileAppHooks.php"
 	},
 	"ResourceModules": {
 		"mobile.app": {
