@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Metalhead64",
-			"Inkowik"
+			"Inkowik",
+			"Kghbln"
 		]
 	},
 	"mobileapp-desc": "Stellt Stile und Skripte zur Verwendung in den Wikimedia-Mobile-Anwendungen zur Verfügung",
 	"tag-mobile_app_edit": "Bearbeitung von einer mobilen Anwendung",
-	"tag-mobile_app_edit-description": "Bearbeitungen von mobilen Anwendungen durchgeführt",
+	"tag-mobile_app_edit-description": "Bearbeitungen, die mit einer mobilen Anwendung durchgeführt wurden",
 	"tag-android_app_edit": "Bearbeitung der Android-App",
-	"tag-android_app_edit-description": "Bearbeitungen, die von der mobilen App für Android durchgeführt wurden.",
+	"tag-android_app_edit-description": "Bearbeitungen, die mit der mobilen Anwendung für Android durchgeführt wurden",
 	"tag-ios_app_edit": "Bearbeitung der iOS-App",
-	"tag-ios_app_edit-description": "Bearbeitungen, die von der mobilen App für iOS durchgeführt wurden.",
+	"tag-ios_app_edit-description": "Bearbeitungen, die mit der mobilen Anwendung für iOS durchgeführt wurden",
 	"abusefilter-edit-builder-vars-user-app": "Ob der Benutzer von der mobilen App bearbeitet"
 }
