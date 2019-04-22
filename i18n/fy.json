@@ -7,6 +7,9 @@
 		]
 	},
 	"tag-mobile_app_edit": "Bewurking mobile app",
+	"tag-mobile_app_edit-description": "Bewurkings dien mei mobile apps",
 	"tag-android_app_edit": "Bewurking Android-app",
-	"tag-ios_app_edit": "Bewurking iOS-app"
+	"tag-android_app_edit-description": "Bewurkings dien mei de mobile app foar Android",
+	"tag-ios_app_edit": "Bewurking iOS-app",
+	"tag-ios_app_edit-description": "Bewurkings dien mei de mobile app foar iOS"
 }
