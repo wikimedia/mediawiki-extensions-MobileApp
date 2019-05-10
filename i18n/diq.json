@@ -4,9 +4,12 @@
 			"Mirzali",
 			"Marmase",
 			"Kumkumuk",
-			"Gırd"
+			"Gırd",
+			"Orbot707"
 		]
 	},
 	"tag-mobile_app_edit": "Vurnayışê aplikasyonê mobili",
-	"tag-mobile_app_edit-description": "Mobil dezgeh ra vıraşte vurnayış"
+	"tag-mobile_app_edit-description": "Aplikasyonê mobili ra vıraşte vurnayışi",
+	"tag-android_app_edit": "Vurnayışê Aplikasyona Androidi",
+	"tag-ios_app_edit": "Vurnayışê aplikasyonê İOS'i"
 }
