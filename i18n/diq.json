@@ -9,7 +9,9 @@
 		]
 	},
 	"tag-mobile_app_edit": "Vurnayışê aplikasyonê mobili",
-	"tag-mobile_app_edit-description": "Aplikasyonê mobili ra vıraşte vurnayışi",
-	"tag-android_app_edit": "Vurnayışê Aplikasyona Androidi",
-	"tag-ios_app_edit": "Vurnayışê aplikasyonê İOS'i"
+	"tag-mobile_app_edit-description": "Vurnayışê aplikasyonê mobili",
+	"tag-android_app_edit": "Vurnayışê aplikasyonê Androidi",
+	"tag-android_app_edit-description": "Seba Androidi rê vurnayışê aplikasyonê mobili",
+	"tag-ios_app_edit": "Vurnayışê aplikasyonê İOSi",
+	"tag-ios_app_edit-description": "Seba iOSi rê vurnayışê aplikasyonê mobili"
 }
