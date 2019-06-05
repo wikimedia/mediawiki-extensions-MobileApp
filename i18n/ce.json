@@ -6,5 +6,9 @@
 	},
 	"mobileapp-desc": "Викимедиан мобилан тӀетохарш лело хатӀийн а, скриптийн а хьашт кхочушдо",
 	"tag-mobile_app_edit": "Нисдар дина мобилан тӀетохарца",
-	"tag-mobile_app_edit-description": "Нисдарш дина мобилан тӀетохарца"
+	"tag-mobile_app_edit-description": "Нисдарш дина мобилан тӀетохарца",
+	"tag-android_app_edit": "Нисдар дина Андроид тӀера",
+	"tag-android_app_edit-description": "Android телефон тӀера дина нисдарш",
+	"tag-ios_app_edit": "Нисдар дина iOS тӀера",
+	"tag-ios_app_edit-description": "iOS телефон тӀера дина нисдарш"
 }
