@@ -2,8 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"TomášPolonec",
-			"Teslaton"
+			"Teslaton",
+			"Vegetator"
 		]
 	},
-	"tag-mobile_app_edit": "úprava mobilnou aplikáciou"
+	"tag-mobile_app_edit": "úprava mobilnou aplikáciou",
+	"tag-mobile_app_edit-description": "Editácie z mobilných aplikácií",
+	"tag-android_app_edit": "úprava z aplikácie pre Android",
+	"tag-android_app_edit-description": "Editácia z mobilnej aplikácie pre Android",
+	"tag-ios_app_edit": "úprava z aplikácie pre iOS",
+	"tag-ios_app_edit-description": "Editácia z mobilnej aplikácie pre iOS",
+	"abusefilter-edit-builder-vars-user-app": "Či užívateľ edituje z mobilnej aplikácie"
 }
