@@ -13,6 +13,8 @@
 	"tag-mobile_app_edit": "editace z mobilní aplikace",
 	"tag-mobile_app_edit-description": "Editace provedené pomocí mobilní aplikace",
 	"tag-android_app_edit": "editace z mobilní aplikace pro Android",
+	"tag-android_app_edit-description": "Editace provedené z mobilní aplikace pro Android",
 	"tag-ios_app_edit": "editace z mobilní aplikace pro iOS",
+	"tag-ios_app_edit-description": "Editace provedené z mobilní aplikace pro iOS",
 	"abusefilter-edit-builder-vars-user-app": "Zda uživatel edituje z mobilní aplikace"
 }
