@@ -4,5 +4,7 @@
 			"Pyscowicz"
 		]
 	},
-	"tag-mobile_app_edit": "mupiilisovellus-mookkaus"
+	"tag-mobile_app_edit": "mupiilisovellus-mookkaus",
+	"tag-android_app_edit": "Android-mookkaus",
+	"tag-ios_app_edit": "iOS-mookkaus"
 }
