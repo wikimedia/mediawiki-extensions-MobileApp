@@ -4,7 +4,11 @@
 			"The Discoverer"
 		]
 	},
-	"tag-mobile_app_edit": "Mobail app-a vorvim bodol",
-	"tag-mobile_app_edit-description": "Mobile app-an savn kel'le bodol",
+	"tag-mobile_app_edit": "Mobail app sompadon",
+	"tag-mobile_app_edit-description": "Mobail appa koddlean kel'le sompadon",
+	"tag-android_app_edit": "Android app sompadon",
+	"tag-android_app_edit-description": "Androida khatir mobail appa koddlean kel'le sompadon",
+	"tag-ios_app_edit": "iOS app sompadon",
+	"tag-ios_app_edit-description": "iOS khatir mobail appa koddlean kel'le sompadon",
 	"abusefilter-edit-builder-vars-user-app": "Vaporpi mobayl app-an savn bodol korta zalear"
 }
