@@ -3,9 +3,11 @@
 		"authors": [
 			"TomášPolonec",
 			"Teslaton",
-			"Vegetator"
+			"Vegetator",
+			"Luky001"
 		]
 	},
+	"mobileapp-desc": "Poskytuje štýly a skripty na použitie v mobilných aplikáciách Wikimedia",
 	"tag-mobile_app_edit": "úprava mobilnou aplikáciou",
 	"tag-mobile_app_edit-description": "Editácie z mobilných aplikácií",
 	"tag-android_app_edit": "úprava z aplikácie pre Android",
