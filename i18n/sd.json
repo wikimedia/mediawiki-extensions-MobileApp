@@ -5,7 +5,12 @@
 			"Tweety"
 		]
 	},
+	"mobileapp-desc": "وڪيميڊيا موبائل ايپليڪيشنن ۾ استعمال لاءِ انداز ۽ اسڪرپٽون مھيا ڪري ٿو",
 	"tag-mobile_app_edit": "موبائل ايپ سنوار",
 	"tag-mobile_app_edit-description": "موبائل ايپس مان ٿيل سنوارون",
-	"tag-android_app_edit": "اينڊروئيڊ ايپ ترميم"
+	"tag-android_app_edit": "اينڊروئيڊ ايپ ترميم",
+	"tag-android_app_edit-description": "اينڊروئيڊ لاءِ موبائل ايپ مان ڪيل سنوارون",
+	"tag-ios_app_edit": "آءِاوايس ايپ سنوار",
+	"tag-ios_app_edit-description": "آءِاوايس موبائل ايپ مان ڪيل سنوارون",
+	"abusefilter-edit-builder-vars-user-app": "ڇ واپرائيندڙ موبائل ايپ مان سنواري رھيو آھيو"
 }
