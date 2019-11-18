@@ -7,5 +7,9 @@
 	"mobileapp-desc": "Sirve estilos y scripts pa usar nes Aplicaciones pa móvil de Wikimedia",
 	"tag-mobile_app_edit": "Edición de app móvil",
 	"tag-mobile_app_edit-description": "Ediciones feches dende apps pa móvil",
+	"tag-android_app_edit": "Edición dende app d'Android",
+	"tag-android_app_edit-description": "Ediciones feches dende la app de móvil p'Android",
+	"tag-ios_app_edit": "Edición dende app d'iOS",
+	"tag-ios_app_edit-description": "Ediciones feches dende la app de móvil pa iOS",
 	"abusefilter-edit-builder-vars-user-app": "Si l'usuariu ta editando dende la app pa móviles"
 }
