@@ -4,7 +4,8 @@
 			"Verdy p",
 			"Gomoko",
 			"Wladek92",
-			"Niridya"
+			"Niridya",
+			"Thibaut120094"
 		]
 	},
 	"mobileapp-desc": "Sert des styles et scripts utilisés dans les Applications mobiles de Wikimédia",
@@ -14,5 +15,5 @@
 	"tag-android_app_edit-description": "Modifications faites par application mobile pour Android",
 	"tag-ios_app_edit": "Modification avec l’application iOS",
 	"tag-ios_app_edit-description": "Modifications faites par application mobile pour iOS",
-	"abusefilter-edit-builder-vars-user-app": "Dans le cas où l'utilisateur modifie à partir d'une application mobile"
+	"abusefilter-edit-builder-vars-user-app": "Dans le cas où l’utilisateur modifie à partir d’une application mobile"
 }
