@@ -36,8 +36,8 @@ class MobileAppHooks {
 		// Apply tag for edits done with the Wikipedia app, and
 		// edits and uploads done with the Commons app
 		if (
-			( $isWikipediaApp && is_null( $logType ) )
-			|| ( $isCommonsApp && ( is_null( $logType ) || $logType == 'upload' ) )
+			( $isWikipediaApp && $logType === null )
+			|| ( $isCommonsApp && ( $logType === null || $logType == 'upload' ) )
 		) {
 			// Although MobileFrontend applies the "mobile edit" tag to any edit
 			// that is made through the mobile domain, the Android app actually
