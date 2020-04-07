@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Verdy p",
 			"Gomoko",
-			"Wladek92",
 			"Niridya",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Verdy p",
+			"Wladek92"
 		]
 	},
 	"mobileapp-desc": "Sert des styles et scripts utilisés dans les Applications mobiles de Wikimédia",

@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fasouzafreitas",
 			"Araceletorres",
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Fasouzafreitas"
 		]
 	},
 	"mobileapp-desc": "Fornece estilos e scripts para uso em aplicativos móveis da Wikimedia",

@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"WTM",
-			"VerMa",
-			"Peter Bowman",
-			"Tar Lócesilion",
-			"Railfail536",
 			"Chrumps",
-			"Rail"
+			"Peter Bowman",
+			"Rail",
+			"Railfail536",
+			"Tar Lócesilion",
+			"VerMa",
+			"WTM"
 		]
 	},
 	"mobileapp-desc": "Obsługuje style oraz skrypty wykorzystywane w aplikacjach mobilnych projektu Wikimedia",

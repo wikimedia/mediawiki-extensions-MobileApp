@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Elroy",
 			"Siebrand",
-			"Sjoerddebruin",
-			"Elroy"
+			"Sjoerddebruin"
 		]
 	},
 	"mobileapp-desc": "Voegt stijlen en scripts toe voor het gebruik in mobiele toepassingen van Wikimedia.",
