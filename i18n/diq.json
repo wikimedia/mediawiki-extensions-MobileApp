@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Gırd",
 			"Kumkumuk",
 			"Marmase",
@@ -8,10 +9,12 @@
 			"Orbot707"
 		]
 	},
+	"mobileapp-desc": "Pê aplikasyonê Wikimedia Mobil ya karneyaye dosyayanê stili u skripti arz keno",
 	"tag-mobile_app_edit": "Vurnayışê aplikasyonê mobili",
 	"tag-mobile_app_edit-description": "Vurnayışê aplikasyonê mobili",
 	"tag-android_app_edit": "Vurnayışê aplikasyonê Androidi",
 	"tag-android_app_edit-description": "Seba Androidi rê vurnayışê aplikasyonê mobili",
 	"tag-ios_app_edit": "Vurnayışê aplikasyonê İOSi",
-	"tag-ios_app_edit-description": "Seba iOSi rê vurnayışê aplikasyonê mobili"
+	"tag-ios_app_edit-description": "Seba iOSi rê vurnayışê aplikasyonê mobili",
+	"abusefilter-edit-builder-vars-user-app": "Heqê karberi bışo aplikasyona mobili ra vurnayış"
 }
