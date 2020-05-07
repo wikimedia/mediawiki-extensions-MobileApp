@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dağlı95"
+			"Dağlı95",
+			"Toghrul Rahimli"
 		]
 	},
-	"tag-mobile_app_edit": "Mobil tətbiqetmə vasitəsilə redaktə"
+	"tag-mobile_app_edit": "Mobil tətbiqetmə vasitəsilə redaktə",
+	"tag-android_app_edit-description": "Android tətbiqetməsi vasitəsilə edilmiş redaktələr"
 }
