@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"Iwan Novirion",
 			"Kenrick95"
 		]
 	},
 	"mobileapp-desc": "Menyediakan gaya-gaya dan skrip-skrip untuk penggunaan di aplikasi-aplikasi Wikimedia Mobile",
 	"tag-mobile_app_edit": "Suntingan seluler",
-	"tag-mobile_app_edit-description": "Suntingan yang dibuat dari aplikasi mobile"
+	"tag-mobile_app_edit-description": "Suntingan yang dibuat dari aplikasi mobile",
+	"tag-android_app_edit": "Suntingan aplikasi Android",
+	"tag-ios_app_edit": "Suntingan aplikasi iOS"
 }
