@@ -2,9 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Babanwalia",
+			"Satnam S Virdi",
 			"Tow"
 		]
 	},
 	"tag-mobile_app_edit": "ਮੋਬਾਈਲ ਐਪ ਦੀ ਸੋਧ",
-	"tag-mobile_app_edit-description": "ਮੋਬਾਈਲ ਐਪਾੰ ਤੋੰ ਕੀਤੀਆੰ ਸੋਧਾੰ"
+	"tag-mobile_app_edit-description": "ਮੋਬਾਈਲ ਐਪਾੰ ਤੋੰ ਕੀਤੀਆੰ ਸੋਧਾੰ",
+	"tag-android_app_edit": "ਐਂਡਰੌਇਡ ਐਪ ਦੀ ਸੋਧ",
+	"tag-android_app_edit-description": "ਸੋਧਾਂ ਐਂਡਰੌਇਡ ਦੀ ਮੋਬਾਇਲ ਐਪ ਤੋਂ ਕੀਤੀਆਂ ਹਨ",
+	"tag-ios_app_edit": "iOS ਐਪ ਦੀ ਸੋਧ",
+	"tag-ios_app_edit-description": "ਸੋਧਾਂ iOS ਦੀ ਮੋਬਾਇਲ ਐਪ ਤੋਂ ਕੀਤੀਆਂ ਹਨ"
 }
