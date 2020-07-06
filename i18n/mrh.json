@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Laitei",
+			"Teitei Para"
+		]
+	},
+	"mobileapp-desc": "Wikimedia Mobile applications liata hmâpa châta sataihzy nata scripts tao teih",
+	"tag-mobile_app_edit": "Mobile app taopathi",
+	"tag-mobile_app_edit-description": "Mobile apps tawhta taopathinazy tao teih",
+	"tag-android_app_edit": "Android app taopathi",
+	"tag-android_app_edit-description": "Android châta mobile app tawh taopa taopathinazy",
+	"tag-ios_app_edit": "iOS app taopathi",
+	"tag-ios_app_edit-description": "iOS châta mobile app tawhta taopathinazy tao teih",
+	"abusefilter-edit-builder-vars-user-app": "Hmâhtuhpa cha mobile app tawh taopathi vei"
+}
