@@ -6,10 +6,12 @@
 			"Robin0van0der0vliet"
 		]
 	},
+	"mobileapp-desc": "Leveret stilen en skripts foar gebrûk yn de applikaasjes fan Wikimedia Mobyl",
 	"tag-mobile_app_edit": "Bewurking mobile app",
 	"tag-mobile_app_edit-description": "Bewurkings dien mei mobile apps",
 	"tag-android_app_edit": "Bewurking Android-app",
 	"tag-android_app_edit-description": "Bewurkings dien mei de mobile app foar Android",
 	"tag-ios_app_edit": "Bewurking iOS-app",
-	"tag-ios_app_edit-description": "Bewurkings dien mei de mobile app foar iOS"
+	"tag-ios_app_edit-description": "Bewurkings dien mei de mobile app foar iOS",
+	"abusefilter-edit-builder-vars-user-app": "Oft de meidogger mei in mobile app bewurket"
 }
