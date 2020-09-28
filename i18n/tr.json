@@ -4,14 +4,15 @@
 			"BaRaN6161 TURK",
 			"Diyapazon",
 			"Hedda",
+			"MuratTheTurkish",
 			"Sayginer",
 			"Sucsuzz"
 		]
 	},
-	"mobileapp-desc": "Wikimedia Mobil uygulamalarında kullanılacak stilleri ve komut dosyalarını sunar",
+	"mobileapp-desc": "Wikimedia Mobil uygulamalarında kullanılacak stilleri ve betiklerini sunar",
 	"tag-mobile_app_edit": "Mobil uygulama değişikliği",
 	"tag-mobile_app_edit-description": "Mobil uygulamayla yapılmış değişiklikler",
-	"tag-android_app_edit": "android uygulaması değişikliği",
+	"tag-android_app_edit": "Android uygulaması değişikliği",
 	"tag-android_app_edit-description": "Android için mobil uygulamadan yapılan düzenlemeler",
 	"tag-ios_app_edit": "iOS uygulaması değişikliği",
 	"tag-ios_app_edit-description": "iOS mobil uygulamasından yapılmış değişiklikler",
