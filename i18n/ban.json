@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chinamoonroll",
 			"Joseagush",
 			"NoiX180"
 		]
 	},
-	"tag-mobile_app_edit": "Uahan aplikasi HP"
+	"mobileapp-desc": "Nganyediaang gaya-gaya miwah skrip-skrip antuk sang anganggé ring aplikasi-aplikasi Wikimédia Mobile",
+	"tag-mobile_app_edit": "Uahan aplikasi HP",
+	"tag-mobile_app_edit-description": "Kauahin saking aplikasi mobile",
+	"tag-android_app_edit": "Uahan aplikasi Android",
+	"tag-android_app_edit-description": "Kauahin saking aplikasi mobile antuk Android",
+	"tag-ios_app_edit": "Uahan aplikasi iOS",
+	"tag-ios_app_edit-description": "Kauahin saking aplikasi mobile antuk iOS",
+	"abusefilter-edit-builder-vars-user-app": "Napiké sang anganggé nguahin saking aplikasi mobile"
 }
