@@ -1,10 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Renessaince"
 		]
 	},
 	"mobileapp-desc": "Абслугоўвае стылі і скрыпты для выкарыстаньня ў мабільных праграмах Вікімэдыі",
-	"tag-mobile_app_edit": "Праўка праз мабільную праграму",
-	"tag-mobile_app_edit-description": "Праўкі, зробленыя з мабільных праграмаў"
+	"tag-mobile_app_edit": "Рэдагаваньне мабільнай праграмай",
+	"tag-mobile_app_edit-description": "Рэдагаваньні, зробленыя з мабільных праграмаў",
+	"tag-android_app_edit": "Рэдагаваньне праграмай Android",
+	"tag-android_app_edit-description": "Рэдагаваньні зробленыя мабільнымі праграмамі для Android",
+	"tag-ios_app_edit": "Рэдагаваньне праграмай iOS",
+	"tag-ios_app_edit-description": "Рэдагаваньні зробленыя мабільнымі праграмамі для iOS"
 }
