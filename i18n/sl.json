@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"mobileapp-desc": "Streže sloge in skripte za uporabo v mobilnih aplikacijah Wikimedie",
 	"tag-mobile_app_edit": "Urejanje z mobilno aplikacijo",
-	"tag-mobile_app_edit-description": "Urejanja, narejena z mobilno aplikacijo"
+	"tag-mobile_app_edit-description": "Urejanja, narejena z mobilno aplikacijo",
+	"tag-android_app_edit": "aplikacija za Android",
+	"tag-android_app_edit-description": "Urejanja, opravljena iz mobilne aplikacije za Android",
+	"tag-ios_app_edit": "aplikacija za iOS"
 }
