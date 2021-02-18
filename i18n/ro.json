@@ -9,5 +9,8 @@
 	"tag-mobile_app_edit": "Modificare prin aplicația mobilă",
 	"tag-mobile_app_edit-description": "Modificări efectuate prin aplicațiile mobile",
 	"tag-android_app_edit": "Modificare prin aplicația pentru Android",
-	"tag-ios_app_edit": "Modificare prin aplicația pentru iOS"
+	"tag-android_app_edit-description": "Editări făcute din aplicați mobilă pentru Android",
+	"tag-ios_app_edit": "Modificare prin aplicația pentru iOS",
+	"tag-ios_app_edit-description": "Editări făcute din aplicați mobilă pentru iOS",
+	"abusefilter-edit-builder-vars-user-app": "Dacă utilizatorul editează din aplicația mobilă sau nu"
 }
