@@ -4,5 +4,10 @@
 			"Servien"
 		]
 	},
-	"tag-mobile_app_edit": "bewarking via mobile applikaty"
+	"tag-mobile_app_edit": "Bewarking via mobile applikaty",
+	"tag-mobile_app_edit-description": "Bewarkingen dån via mobile applikatys",
+	"tag-android_app_edit": "Bewarking in en Android-applikaty",
+	"tag-android_app_edit-description": "Bewarkingen dån in en mobile Android-applikaty",
+	"tag-ios_app_edit": "Bewarking in en iOS-applikaty",
+	"tag-ios_app_edit-description": "Bewarkingen dån in en mobile iOS-applikaty"
 }
