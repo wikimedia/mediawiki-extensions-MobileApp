@@ -6,7 +6,6 @@
 	"tocLogSampleRate": 100,
 	"restbaseBetaPercent": 100,
 	"restbaseProdPercent": 100,
-	"descriptionEditLangBlacklist": [],
 	"pushNotificationsExcludeCountries": [
 		"AZ",
 		"BH",
