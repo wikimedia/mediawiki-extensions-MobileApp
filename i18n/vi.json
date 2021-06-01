@@ -1,11 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Vinhtantran"
 		]
 	},
 	"mobileapp-desc": "Cung cấp các kiểu và kịch bản cho các ứng dụng di động của Wikimedia",
 	"tag-mobile_app_edit": "Sửa đổi qua ứng dụng di động",
 	"tag-mobile_app_edit-description": "Sửa đổi qua ứng dụng di động",
+	"tag-android_app_edit": "Sửa đổi bằng ứng dụng Android",
+	"tag-android_app_edit-description": "Sửa đổi bằng ứng dụng di động dành cho Android",
+	"tag-ios_app_edit": "Sửa đổi bằng ứng dụng iOS",
+	"tag-ios_app_edit-description": "Sửa đổi bằng ứng dụng di động dành cho iOS",
 	"abusefilter-edit-builder-vars-user-app": "Người dùng có sử dụng ứng dụng di động hay không"
 }
