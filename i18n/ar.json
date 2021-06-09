@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hhaboh162002",
 			"Meno25",
 			"Mido",
 			"ديفيد",
@@ -9,7 +10,7 @@
 		]
 	},
 	"mobileapp-desc": "يقدم الواجهات والإضافات المستخدمة في تطبيقات ويكيميديا للجوال",
-	"tag-mobile_app_edit": "تعديل بتطبيق المحمول",
+	"tag-mobile_app_edit": "تعديل في تطبيق الأجهزة المحمولة",
 	"tag-mobile_app_edit-description": "التعديلات باستعمال تطبيقات المحمول",
 	"tag-android_app_edit": "تعديل بتطبيق أندرويد",
 	"tag-android_app_edit-description": "تعديلات تم إجراؤها من تطبيق المحمول لأندرويد",
