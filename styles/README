@@ -1,0 +1,5 @@
+Please note that these files are not loaded anywhere, but
+are kept in this repository because they are the source of the
+compiled styles in the mobileapps service.
+
+See https://phabricator.wikimedia.org/T291317 for more information.

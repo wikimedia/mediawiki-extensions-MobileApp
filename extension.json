@@ -18,23 +18,6 @@
 	"AutoloadClasses": {
 		"MobileAppHooks": "includes/MobileAppHooks.php"
 	},
-	"ResourceModules": {
-		"mobile.app": {
-			"styles": [
-				"styles/imageOverflow.less",
-				"styles/ipa.less"
-			]
-		},
-		"mobile.app.parsoid": {
-			"styles": [
-				"styles/parsoid/figure.less"
-			]
-		}
-	},
-	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "MobileApp"
-	},
 	"Hooks": {
 		"ListDefinedTags": "MobileAppHooks::onListDefinedTags",
 		"ChangeTagsListActive": "MobileAppHooks::onListDefinedTags",
