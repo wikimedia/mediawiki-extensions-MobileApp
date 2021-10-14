@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
+
 class MobileAppHooks {
 	/**
 	 * ListDefinedTags and ChangeTagsListActive hook handler
@@ -62,7 +64,7 @@ class MobileAppHooks {
 	 * AbuseFilter-generateUserVars hook handler that adds the user_app variable.
 	 *
 	 * @see hooks.txt in AbuseFilter extension
-	 * @param AbuseFilterVariableHolder $vars object to add vars to
+	 * @param VariableHolder $vars object to add vars to
 	 * @param User $user
 	 * @param RecentChange|null $rc If the variables should be generated for an RC entry, this
 	 *  is the entry. Null if it's for the current action being filtered.
