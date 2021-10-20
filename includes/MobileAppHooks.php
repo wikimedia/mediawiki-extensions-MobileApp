@@ -30,8 +30,6 @@ class MobileAppHooks {
 		global $wgRequest;
 		$userAgent = $wgRequest->getHeader( "User-agent" );
 		$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
-		$isAndroid = strpos( $userAgent, "Android" ) > 0;
-		$isIOS = strpos( $userAgent, "iOS" ) > 0;
 		$isCommonsApp = strpos( $userAgent, "Commons/" ) === 0;
 		$logType = $rc->getAttribute( 'rc_log_type' );
 
@@ -39,7 +37,7 @@ class MobileAppHooks {
 		// edits and uploads done with the Commons app
 		if (
 			( $isWikipediaApp && $logType === null )
-			|| ( $isCommonsApp && ( $logType === null || $logType == 'upload' ) )
+			|| ( $isCommonsApp && ( $logType === null || $logType === 'upload' ) )
 		) {
 			// Although MobileFrontend applies the "mobile edit" tag to any edit
 			// that is made through the mobile domain, the Android app actually
@@ -48,13 +46,15 @@ class MobileAppHooks {
 			// to the "mobile app edit" tag.
 			$tags = [ 'mobile edit', 'mobile app edit' ];
 
+			$isAndroid = strpos( $userAgent, "Android" ) > 0;
+			$isIOS = strpos( $userAgent, "iOS" ) > 0;
+
 			if ( $isAndroid ) {
 				$tags[] = 'android app edit';
 			} elseif ( $isIOS ) {
 				$tags[] = 'ios app edit';
 			}
-		}
-		if ( isset( $tags ) ) {
+
 			$rc->addTags( $tags );
 		}
 		return true;
@@ -75,12 +75,7 @@ class MobileAppHooks {
 		if ( !$rc ) {
 			$userAgent = $wgRequest->getHeader( "User-agent" );
 			$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
-
-			if ( $isWikipediaApp ) {
-				$vars->setVar( 'user_app', true );
-			} else {
-				$vars->setVar( 'user_app', false );
-			}
+			$vars->setVar( 'user_app', $isWikipediaApp );
 		} else {
 			$dbr = wfGetDB( DB_REPLICA );
 			$tags = ChangeTags::getTags( $dbr, $rc->getAttribute( 'rc_id' ) );
