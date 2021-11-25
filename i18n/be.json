@@ -3,10 +3,14 @@
 		"authors": [
 			"Artsiom91",
 			"Maksim L.",
+			"ZlyiLev",
 			"Чаховіч Уладзіслаў"
 		]
 	},
 	"tag-mobile_app_edit": "Праўка праз маб. дадатак",
-	"tag-mobile_app_edit-description": "Праўкі, зроблены праз мабільны дадатак",
-	"tag-android_app_edit": "Праўка праз дадатак Android"
+	"tag-mobile_app_edit-description": "Праўкі, зробленыя праз мабільны дадатак",
+	"tag-android_app_edit": "Праўка праз дадатак Android",
+	"tag-android_app_edit-description": "Праўкі, зробленыя праз мабільны дадатак для Android",
+	"tag-ios_app_edit": "Праўка праз дадатак IOS",
+	"tag-ios_app_edit-description": "Праўкі, зробленыя праз мабільны дадатак IOS"
 }
