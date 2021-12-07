@@ -4,11 +4,12 @@
 			"Elroy",
 			"Servien",
 			"Siebrand",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Nickthijssen1994"
 		]
 	},
 	"mobileapp-desc": "Voegt stijlen en scripts toe voor het gebruik in mobiele toepassingen van Wikimedia.",
-	"tag-mobile_app_edit": "bewerking via mobiele app",
+	"tag-mobile_app_edit": "Bewerking via mobiele app",
 	"tag-mobile_app_edit-description": "Bewerkingen gemaakt via mobiele apps",
 	"tag-android_app_edit": "Bewerking in een toepassing voor Android",
 	"tag-android_app_edit-description": "Gemaakte bewerkingen in een mobiele toepassing voor Android",

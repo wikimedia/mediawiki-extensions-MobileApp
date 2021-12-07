@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vriullop"
+			"Vriullop",
+			"Vfc"
 		]
 	},
-	"tag-mobile_app_edit": "via aplicació mòbil",
+	"tag-mobile_app_edit": "edició a través de l'aplicació mòbil",
 	"tag-mobile_app_edit-description": "Modificacions fetes des d'aplicacions per a mòbils"
 }
