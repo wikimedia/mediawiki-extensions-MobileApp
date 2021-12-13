@@ -2,11 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Dgstranz",
-			"Fitoschido"
+			"Fitoschido",
+			"Rodney Araujo"
 		]
 	},
 	"mobileapp-desc": "Proporciona los estilos y ''scripts'' que utilizan las aplicaciones para móviles de Wikimedia",
 	"tag-mobile_app_edit": "Edición vía aplic. móvil",
 	"tag-mobile_app_edit-description": "Ediciones hechas desde aplicaciones para móviles",
+	"tag-android_app_edit": "Edición vía aplic. para Android",
+	"tag-android_app_edit-description": "Ediciones hechas desde aplicaciones para móviles Android",
+	"tag-ios_app_edit": "Edición vía aplic. para iOS",
+	"tag-ios_app_edit-description": "Ediciones hechas desde aplicaciones para móviles iOS",
 	"abusefilter-edit-builder-vars-user-app": "Si un usuario está editando a través de la aplicación para móvil"
 }

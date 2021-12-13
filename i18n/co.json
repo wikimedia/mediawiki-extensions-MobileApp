@@ -4,5 +4,6 @@
 			"Jumpy01"
 		]
 	},
-	"tag-mobile_app_edit": "Mobile app edit"
+	"tag-mobile_app_edit": "<small>Mobile app edit</small>",
+	"tag-android_app_edit": "<small>Modifica da app Android</small>"
 }

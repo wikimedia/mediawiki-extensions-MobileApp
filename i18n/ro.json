@@ -1,10 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minisarm"
+			"Minisarm",
+			"NGC 54"
 		]
 	},
 	"mobileapp-desc": "Furnizează stiluri și scripturi pentru utilizarea în aplicațiile mobile ale Wikimediei",
 	"tag-mobile_app_edit": "Modificare prin aplicația mobilă",
-	"tag-mobile_app_edit-description": "Modificări efectuate prin aplicațiile mobile"
+	"tag-mobile_app_edit-description": "Modificări efectuate prin aplicațiile mobile",
+	"tag-android_app_edit": "Modificare prin aplicația pentru Android",
+	"tag-android_app_edit-description": "Editări făcute din aplicația mobilă pentru Android",
+	"tag-ios_app_edit": "Modificare prin aplicația pentru iOS",
+	"tag-ios_app_edit-description": "Editări făcute din aplicația mobilă pentru iOS",
+	"abusefilter-edit-builder-vars-user-app": "Dacă utilizatorul editează din aplicația mobilă sau nu"
 }

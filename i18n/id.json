@@ -5,12 +5,16 @@
 			"Hidayatsrf",
 			"Iwan Novirion",
 			"Kenrick95",
-			"Sumbukompor"
+			"Sumbukompor",
+			"Daud I.F. Argana"
 		]
 	},
 	"mobileapp-desc": "Menyediakan gaya-gaya dan skrip-skrip untuk penggunaan di aplikasi-aplikasi Wikimedia Mobile",
 	"tag-mobile_app_edit": "Suntingan aplikasi seluler",
 	"tag-mobile_app_edit-description": "Suntingan yang dibuat dari aplikasi mobile",
 	"tag-android_app_edit": "Suntingan aplikasi Android",
-	"tag-ios_app_edit": "Suntingan aplikasi iOS"
+	"tag-android_app_edit-description": "Suntingan yang dibuat dari aplikasi mobile untuk Android",
+	"tag-ios_app_edit": "Suntingan aplikasi iOS",
+	"tag-ios_app_edit-description": "Suntingan yang dibuat dari aplikasi mobile untuk iOS",
+	"abusefilter-edit-builder-vars-user-app": "Apakah pengguna menyunting dari aplikasi mobile"
 }

@@ -7,5 +7,7 @@
 		]
 	},
 	"tag-mobile_app_edit": "မိုဘိုင်းလ် app တည်းဖြတ်",
-	"tag-mobile_app_edit-description": "မိုလ်ဘိုင်း app မှ ဆောင်ရွက်ခဲ့သော တည်းဖြတ်မှုများ"
+	"tag-mobile_app_edit-description": "မိုလ်ဘိုင်း app မှ ဆောင်ရွက်ခဲ့သော တည်းဖြတ်မှုများ",
+	"tag-android_app_edit": "အန်းဒရွိုက် app တည်းဖြတ်",
+	"tag-ios_app_edit-description": "အိုင်အိုအက်စ်အတွက် မိုဘိုင်း app မှ တည်းဖြတ်မှုများ"
 }

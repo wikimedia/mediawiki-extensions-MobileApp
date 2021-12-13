@@ -3,15 +3,16 @@
 		"authors": [
 			"Ans",
 			"Horus",
-			"Patsagorn Y."
+			"Patsagorn Y.",
+			"Aefgh39622"
 		]
 	},
 	"mobileapp-desc": "ทำหน้าที่สไตล์และสคริปต์สำหรับใช้ในแอปพลิเคชัน Wikimedia Mobile",
-	"tag-mobile_app_edit": "แก้ไขจากแอพบนอุปกรณ์เคลื่อนที่",
-	"tag-mobile_app_edit-description": "การแก้ไขจากแอปพลิเคชั่นในโทรศัพท์เคลื่อนที่",
-	"tag-android_app_edit": "แก้ไขโดยแอปพลิเคชั่นในแอนดรอย",
-	"tag-android_app_edit-description": "การแก้ไขที่ทำจากแอพพลิเคชั่นสำหรับ Android",
-	"tag-ios_app_edit": "แก้ไขจากแอปพลิเคชั่นใน iOS",
-	"tag-ios_app_edit-description": "การแก้ไขจากแอปพลิเคชั่นสำหรับ iOS",
-	"abusefilter-edit-builder-vars-user-app": "ผู้ใช้กำลังแก้ไขจากแอพมือถือหรือไม่"
+	"tag-mobile_app_edit": "แก้ไขด้วยแอปสำหรับอุปกรณ์เคลื่อนที่",
+	"tag-mobile_app_edit-description": "การแก้ไขที่ทำจากแอปสำหรับอุปกรณ์เคลื่อนที่",
+	"tag-android_app_edit": "แก้ไขด้วยแอปสำหรับแอนดรอยด์",
+	"tag-android_app_edit-description": "การแก้ไขโดยใช้แอปพลิเคชันสำหรับแอนดรอยด์",
+	"tag-ios_app_edit": "แก้ไขด้วยแอปสำหรับ iOS",
+	"tag-ios_app_edit-description": "การแก้ไขที่ทำจากแอปพลิเคชันสำหรับ iOS",
+	"abusefilter-edit-builder-vars-user-app": "ผู้ใช้กำลังแก้ไขจากแอปสำหรับอุปกรณ์เคลื่อนที่หรือไม่"
 }
