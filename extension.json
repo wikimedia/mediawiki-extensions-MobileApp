@@ -15,15 +15,15 @@
 			"i18n"
 		]
 	},
-	"AutoloadClasses": {
-		"MobileAppHooks": "includes/MobileAppHooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\MobileApp\\": "includes/"
 	},
 	"Hooks": {
-		"ListDefinedTags": "MobileAppHooks::onListDefinedTags",
-		"ChangeTagsListActive": "MobileAppHooks::onListDefinedTags",
-		"RecentChange_save": "MobileAppHooks::onRecentChange_save",
-		"AbuseFilter-generateUserVars": "MobileAppHooks::onAbuseFilterGenerateUserVars",
-		"AbuseFilter-builder": "MobileAppHooks::onAbuseFilterBuilder"
+		"ListDefinedTags": "MediaWiki\\Extension\\MobileApp\\Hooks::onListDefinedTags",
+		"ChangeTagsListActive": "MediaWiki\\Extension\\MobileApp\\Hooks::onListDefinedTags",
+		"RecentChange_save": "MediaWiki\\Extension\\MobileApp\\Hooks::onRecentChange_save",
+		"AbuseFilter-generateUserVars": "MediaWiki\\Extension\\MobileApp\\Hooks::onAbuseFilterGenerateUserVars",
+		"AbuseFilter-builder": "MediaWiki\\Extension\\MobileApp\\Hooks::onAbuseFilterBuilder"
 	},
 	"manifest_version": 2
 }

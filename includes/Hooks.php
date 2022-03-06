@@ -1,8 +1,13 @@
 <?php
 
-use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
+namespace MediaWiki\Extension\MobileApp;
 
-class MobileAppHooks {
+use ChangeTags;
+use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
+use RecentChange;
+use User;
+
+class Hooks {
 	/**
 	 * ListDefinedTags and ChangeTagsListActive hook handler
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ListDefinedTags
