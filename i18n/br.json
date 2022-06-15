@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Huñvreüs"
 		]
 	},
-	"tag-mobile_app_edit": "Kemmañ dre un arload hezoug"
+	"tag-mobile_app_edit": "Kemmañ dre un arload hezoug",
+	"tag-android_app_edit": "Kemm arload Android",
+	"tag-android_app_edit-description": "Kemmoù graet gant an arload hezoug Android",
+	"tag-ios_app_edit": "Kemm arload iOS",
+	"tag-ios_app_edit-description": "Kemmoù graet gant an arload hezoug iOS"
 }
