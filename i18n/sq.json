@@ -2,8 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Liridon",
-			"Olsi"
+			"Olsi",
+			"AT44"
 		]
 	},
-	"tag-mobile_app_edit": "Redaktim nga aplikacioni për celular"
+	"mobileapp-desc": "Shërben stilet dhe skriptet për përdorim në aplikacionet celulare të Wikimedia-s",
+	"tag-mobile_app_edit": "Redaktim nga aplikacioni për celular",
+	"tag-mobile_app_edit-description": "Ndryshime të bëra nga aplikacion celulari",
+	"tag-android_app_edit": "Ndryshim nga aplikacioni Android",
+	"tag-android_app_edit-description": "Ndryshime të bëra nga aplikacioni celular për Android",
+	"tag-ios_app_edit": "Ndryshim nga aplikacioni iOS",
+	"tag-ios_app_edit-description": "Ndryshime të bëra nga aplikacioni celular për iOS",
+	"abusefilter-edit-builder-vars-user-app": "Nëse përdoruesi është duke redaktuar nga aplikacioni celular"
 }
