@@ -4,5 +4,12 @@
 			"McDutchie"
 		]
 	},
-	"tag-mobile_app_edit": "Modification per app mobile"
+	"mobileapp-desc": "Servi stilos e scripts a usar in le applicationes mobile de Wikimedia",
+	"tag-mobile_app_edit": "Modification per app mobile",
+	"tag-mobile_app_edit-description": "Modificationes facite usante applicationes mobile",
+	"tag-android_app_edit": "Modification de un app Android",
+	"tag-android_app_edit-description": "Modificationes facite usante applicationes mobile de Android",
+	"tag-ios_app_edit": "Modification de un app iOS",
+	"tag-ios_app_edit-description": "Modificationes facite usante applicationes mobile de iOS",
+	"abusefilter-edit-builder-vars-user-app": "Si le usator modifica usante un application mobile"
 }
