@@ -7,6 +7,12 @@
 			"Guherto"
 		]
 	},
+	"mobileapp-desc": "Di sepanên Wîkîmedyayê ya Mobîl de ji bo bikaranîna şêwaz û nivîsan xizmet dike",
 	"tag-mobile_app_edit": "Guhartina sepana mobîl",
-	"tag-mobile_app_edit-description": "Guhartinên ku bi sepanên mobîl hatine çêkirin"
+	"tag-mobile_app_edit-description": "Guhartinên ku bi sepanên mobîl hatine çêkirin",
+	"tag-android_app_edit": "Guhartina sepanê Androidê",
+	"tag-android_app_edit-description": "Guhartinên ku ji sepana mobîl ya Androidê hatine çêkirin",
+	"tag-ios_app_edit": "Guhartina sepana iOSê",
+	"tag-ios_app_edit-description": "Guhartinên ku ji sepana mobîl ya iOsê hatine çêkirin",
+	"abusefilter-edit-builder-vars-user-app": "Bikarhêner ji sepana mobîl diguhêre yan na"
 }
