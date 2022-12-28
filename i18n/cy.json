@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ham II"
+			"Ham II",
+			"Afalau"
 		]
 	},
-	"tag-mobile_app_edit": "Golygiad ar declun symudol (ap)"
+	"tag-mobile_app_edit": "Golygiad ar declun symudol (ap)",
+	"tag-mobile_app_edit-description": "golygiadau trwy'r ap ar gyfer dyfeisiau symudol",
+	"tag-android_app_edit": "golygiad trwy'r ap Android",
+	"tag-android_app_edit-description": "golygiadau trwy'r ap ar gyfer dyfeisiau Android",
+	"tag-ios_app_edit": "golygiad trwy'r ap iOS",
+	"tag-ios_app_edit-description": "golygiadau trwy'r ap ar gyfer dyfeisiau iOS"
 }
