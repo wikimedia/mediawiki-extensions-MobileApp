@@ -11,5 +11,6 @@
 	"tag-android_app_edit": "aplikacija za Android",
 	"tag-android_app_edit-description": "Urejanja, opravljena z mobilno aplikacijo za Android",
 	"tag-ios_app_edit": "aplikacija za iOS",
-	"tag-ios_app_edit-description": "Urejanja, opravljena z mobilno aplikacijo za iOS"
+	"tag-ios_app_edit-description": "Urejanja, opravljena z mobilno aplikacijo za iOS",
+	"abusefilter-edit-builder-vars-user-app": "Ali uporabnik ureja z mobilno aplikacijo"
 }
