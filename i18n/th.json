@@ -3,6 +3,7 @@
 		"authors": [
 			"Aefgh39622",
 			"Ans",
+			"Ekminarin",
 			"Horus",
 			"Patsagorn Y."
 		]
@@ -12,7 +13,7 @@
 	"tag-mobile_app_edit-description": "การแก้ไขที่ทำจากแอปสำหรับอุปกรณ์เคลื่อนที่",
 	"tag-android_app_edit": "แก้ไขด้วยแอปสำหรับแอนดรอยด์",
 	"tag-android_app_edit-description": "การแก้ไขโดยใช้แอปพลิเคชันสำหรับแอนดรอยด์",
-	"tag-ios_app_edit": "แก้ไขด้วยแอปสำหรับ iOS",
-	"tag-ios_app_edit-description": "การแก้ไขที่ทำจากแอปพลิเคชันสำหรับ iOS",
+	"tag-ios_app_edit": "แก้ไขด้วยแอปสำหรับไอโอเอส",
+	"tag-ios_app_edit-description": "การแก้ไขโดยใช้แอปพลิเคชันสำหรับไอโอเอส",
 	"abusefilter-edit-builder-vars-user-app": "ผู้ใช้กำลังแก้ไขจากแอปสำหรับอุปกรณ์เคลื่อนที่หรือไม่"
 }
