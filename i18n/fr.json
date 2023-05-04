@@ -10,10 +10,10 @@
 	},
 	"mobileapp-desc": "Sert des styles et scripts utilisés dans les Applications mobiles de Wikimédia",
 	"tag-mobile_app_edit": "Modification par application mobile",
-	"tag-mobile_app_edit-description": "Modifications effectuées depuis des applications mobile",
+	"tag-mobile_app_edit-description": "Modifications effectuées depuis des applications mobiles",
 	"tag-android_app_edit": "Modification avec l’application Android",
-	"tag-android_app_edit-description": "Modifications faites par application mobile pour Android",
+	"tag-android_app_edit-description": "Modifications effectuées au moyen d'une application mobile pour Android",
 	"tag-ios_app_edit": "Modification avec l’application iOS",
-	"tag-ios_app_edit-description": "Modifications faites par application mobile pour iOS",
-	"abusefilter-edit-builder-vars-user-app": "Dans le cas où l’utilisateur modifie à partir d’une application mobile"
+	"tag-ios_app_edit-description": "Modifications effectuées au moyen d’une application mobile pour iOS",
+	"abusefilter-edit-builder-vars-user-app": "Si l’utilisateur modifie au moyen d’une application mobile"
 }
