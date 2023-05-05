@@ -3,16 +3,17 @@
 		"authors": [
 			"Okras",
 			"Ole Yves",
+			"Pacha Tchernof",
 			"ToJack",
 			"Vlad5250"
 		]
 	},
 	"mobileapp-desc": "Обслуживает стили и скрипты для использования в мобильных приложениях Викимедиа",
 	"tag-mobile_app_edit": "правка из мобильного приложения",
-	"tag-mobile_app_edit-description": "Правки, сделанные через мобильное приложение",
-	"tag-android_app_edit": "Правка через приложение Андроид",
-	"tag-android_app_edit-description": "Правки, сделанные через мобильное приложение Android",
-	"tag-ios_app_edit": "Правка через приложение iOS",
-	"tag-ios_app_edit-description": "Правки, сделанные через мобильное приложение iOS",
+	"tag-mobile_app_edit-description": "Правки, сделанные из мобильного приложения",
+	"tag-android_app_edit": "правка из Android-приложения",
+	"tag-android_app_edit-description": "Правки, сделанные из мобильного Android-приложения",
+	"tag-ios_app_edit": "правка из iOS-приложения",
+	"tag-ios_app_edit-description": "Правки, сделанные из iOS-приложения",
 	"abusefilter-edit-builder-vars-user-app": "Редактирует ли пользователь через мобильное приложение"
 }
