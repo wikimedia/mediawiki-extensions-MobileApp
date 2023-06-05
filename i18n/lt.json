@@ -2,11 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Hugo.arg",
-			"Manvydasz"
+			"Manvydasz",
+			"Nokeoo"
 		]
 	},
 	"tag-mobile_app_edit": "Keitimas įskiepiu mobiliesiems",
 	"tag-mobile_app_edit-description": "Keitimai atlikti per mobiliąją programėlę",
 	"tag-android_app_edit": "Android programėlės keitimas",
-	"tag-ios_app_edit": "iOS programėlės keitimas"
+	"tag-android_app_edit-description": "Pakeitimai, atlikti Android mobiliąja programėle",
+	"tag-ios_app_edit": "iOS programėlės keitimas",
+	"tag-ios_app_edit-description": "Pakeitimai, atlikti iOS mobiliąja programėle",
+	"abusefilter-edit-builder-vars-user-app": "Ar naudotojas redaguoja per mobiliąją programėlę"
 }
