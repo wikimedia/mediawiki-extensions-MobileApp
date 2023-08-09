@@ -14,6 +14,8 @@ module.exports = function ( grunt ) {
 			},
 			all: [
 				'**/*.{js,json}',
+				// Symlinks
+				'!config/{android,ios}.json',
 				'!node_modules/**',
 				'!vendor/**'
 			]
