@@ -3,35 +3,54 @@
 namespace MediaWiki\Extension\MobileApp;
 
 use ChangeTags;
+use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
+use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
+use MediaWiki\Hook\RecentChange_saveHook;
 use RecentChange;
 use User;
 
-class Hooks {
+class Hooks implements
+	ListDefinedTagsHook,
+	ChangeTagsListActiveHook,
+	RecentChange_saveHook
+{
 	/**
-	 * ListDefinedTags and ChangeTagsListActive hook handler
+	 * ListDefinedTags hook handler
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ListDefinedTags
+	 *
+	 * @param array &$tags
+	 */
+	public function onListDefinedTags( &$tags ) {
+		$this->addChangeTags( $tags );
+	}
+
+	/**
+	 * ChangeTagsListActive hook handler
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ChangeTagsListActive
 	 *
 	 * @param array &$tags
-	 * @return bool
 	 */
-	public static function onListDefinedTags( array &$tags ) {
+	public function onChangeTagsListActive( &$tags ) {
+		$this->addChangeTags( $tags );
+	}
+
+	/**
+	 * @param array &$tags
+	 */
+	private function addChangeTags( &$tags ) {
 		$tags[] = 'mobile edit';
 		$tags[] = 'mobile app edit';
 		$tags[] = 'android app edit';
 		$tags[] = 'ios app edit';
-		return true;
 	}
 
 	/**
 	 * RecentChange_save hook handler that tags mobile changes
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/RecentChange_save
 	 * @param RecentChange $rc
-	 *
-	 * @return bool
 	 */
-	public static function onRecentChange_save( RecentChange $rc ) {
+	public function onRecentChange_save( $rc ) {
 		global $wgRequest;
 		$userAgent = $wgRequest->getHeader( "User-agent" );
 		$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
@@ -62,7 +81,6 @@ class Hooks {
 
 			$rc->addTags( $tags );
 		}
-		return true;
 	}
 
 	/**

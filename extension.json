@@ -19,11 +19,16 @@
 		"MediaWiki\\Extension\\MobileApp\\": "includes/"
 	},
 	"Hooks": {
-		"ListDefinedTags": "MediaWiki\\Extension\\MobileApp\\Hooks::onListDefinedTags",
-		"ChangeTagsListActive": "MediaWiki\\Extension\\MobileApp\\Hooks::onListDefinedTags",
-		"RecentChange_save": "MediaWiki\\Extension\\MobileApp\\Hooks::onRecentChange_save",
+		"ListDefinedTags": "main",
+		"ChangeTagsListActive": "main",
+		"RecentChange_save": "main",
 		"AbuseFilter-generateUserVars": "MediaWiki\\Extension\\MobileApp\\Hooks::onAbuseFilterGenerateUserVars",
 		"AbuseFilter-builder": "MediaWiki\\Extension\\MobileApp\\Hooks::onAbuseFilterBuilder"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\MobileApp\\Hooks"
+		}
 	},
 	"manifest_version": 2
 }
