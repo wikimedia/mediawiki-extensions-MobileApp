@@ -5,7 +5,8 @@
 			"Siebrand",
 			"Sjoerddebruin",
 			"Nickthijssen1994",
-			"Servien"
+			"Servien",
+			"McDutchie"
 		]
 	},
 	"mobileapp-desc": "Voegt stijlen en scripts toe voor het gebruik in mobiele toepassingen van Wikimedia.",
@@ -14,5 +15,6 @@
 	"tag-android_app_edit": "Bewerking in een toepassing voor Android",
 	"tag-android_app_edit-description": "Gemaakte bewerkingen in een mobiele toepassing voor Android",
 	"tag-ios_app_edit": "Bewerking in een toepassing voor iOS",
-	"tag-ios_app_edit-description": "Gemaakte bewerkingen in een mobiele toepassing voor iOS"
+	"tag-ios_app_edit-description": "Gemaakte bewerkingen in een mobiele toepassing voor iOS",
+	"abusefilter-edit-builder-vars-user-app": "Of de gebruiker aan het bewerken is vanuit de mobiele app"
 }
