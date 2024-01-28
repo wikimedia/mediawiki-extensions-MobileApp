@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Malikxan",
 			"Sociologist"
 		]
 	},
-	"tag-mobile_app_edit": "Mobil dastur orqali",
-	"tag-mobile_app_edit-description": "Mobil dastur orqali qilingan tahrirlar"
+	"tag-mobile_app_edit": "Mobil ilova orqali",
+	"tag-mobile_app_edit-description": "Mobil ilova orqali qilingan tahrirlar",
+	"tag-android_app_edit": "Android-ilova orqali",
+	"tag-android_app_edit-description": "Android-ilova orqali qilingan tahrirlar",
+	"tag-ios_app_edit": "iOS-ilova orqali",
+	"tag-ios_app_edit-description": "iOS-ilova orqali qilingan tahrirlar"
 }
