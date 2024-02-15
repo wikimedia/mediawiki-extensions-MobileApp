@@ -22,12 +22,15 @@
 		"ListDefinedTags": "main",
 		"ChangeTagsListActive": "main",
 		"RecentChange_save": "main",
-		"AbuseFilter-generateUserVars": "MediaWiki\\Extension\\MobileApp\\Hooks::onAbuseFilterGenerateUserVars",
+		"AbuseFilter-generateUserVars": "main",
 		"AbuseFilter-builder": "MediaWiki\\Extension\\MobileApp\\Hooks::onAbuseFilterBuilder"
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\MobileApp\\Hooks"
+			"class": "MediaWiki\\Extension\\MobileApp\\Hooks",
+			"services": [
+				"DBLoadBalancer"
+			]
 		}
 	},
 	"manifest_version": 2

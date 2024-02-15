@@ -9,12 +9,21 @@ use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
 use MediaWiki\Hook\RecentChange_saveHook;
 use MediaWiki\User\User;
 use RecentChange;
+use Wikimedia\Rdbms\ILoadBalancer;
 
 class Hooks implements
 	ListDefinedTagsHook,
 	ChangeTagsListActiveHook,
 	RecentChange_saveHook
 {
+	private ILoadBalancer $lb;
+
+	public function __construct(
+		ILoadBalancer $lb
+	) {
+		$this->lb = $lb;
+	}
+
 	/**
 	 * ListDefinedTags hook handler
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ListDefinedTags
@@ -93,14 +102,14 @@ class Hooks implements
 	 *  is the entry. Null if it's for the current action being filtered.
 	 * @return bool
 	 */
-	public static function onAbuseFilterGenerateUserVars( $vars, $user, RecentChange $rc = null ) {
+	public function onAbuseFilter_generateUserVars( $vars, $user, RecentChange $rc = null ) {
 		global $wgRequest;
 		if ( !$rc ) {
 			$userAgent = $wgRequest->getHeader( "User-agent" );
 			$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
 			$vars->setVar( 'user_app', $isWikipediaApp );
 		} else {
-			$dbr = wfGetDB( DB_REPLICA );
+			$dbr = $this->lb->getConnection( DB_REPLICA );
 			$tags = ChangeTags::getTags( $dbr, $rc->getAttribute( 'rc_id' ) );
 			$vars->setVar( 'user_app', in_array( 'mobile app edit', $tags, true ) );
 		}
