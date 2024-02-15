@@ -9,19 +9,19 @@ use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
 use MediaWiki\Hook\RecentChange_saveHook;
 use MediaWiki\User\User;
 use RecentChange;
-use Wikimedia\Rdbms\ILoadBalancer;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 class Hooks implements
 	ListDefinedTagsHook,
 	ChangeTagsListActiveHook,
 	RecentChange_saveHook
 {
-	private ILoadBalancer $lb;
+	private IConnectionProvider $dbProvider;
 
 	public function __construct(
-		ILoadBalancer $lb
+		IConnectionProvider $dbProvider
 	) {
-		$this->lb = $lb;
+		$this->dbProvider = $dbProvider;
 	}
 
 	/**
@@ -109,7 +109,7 @@ class Hooks implements
 			$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
 			$vars->setVar( 'user_app', $isWikipediaApp );
 		} else {
-			$dbr = $this->lb->getConnection( DB_REPLICA );
+			$dbr = $this->dbProvider->getReplicaDatabase();
 			$tags = ChangeTags::getTags( $dbr, $rc->getAttribute( 'rc_id' ) );
 			$vars->setVar( 'user_app', in_array( 'mobile app edit', $tags, true ) );
 		}

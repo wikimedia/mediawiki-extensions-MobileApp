@@ -29,7 +29,7 @@
 		"main": {
 			"class": "MediaWiki\\Extension\\MobileApp\\Hooks",
 			"services": [
-				"DBLoadBalancer"
+				"ConnectionProvider"
 			]
 		}
 	},
