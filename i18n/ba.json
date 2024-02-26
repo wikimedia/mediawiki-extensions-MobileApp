@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bashkorttan",
 			"З. ӘЙЛЕ",
 			"Рустам Нурыев"
 		]
 	},
-	"tag-mobile_app_edit": "Мобиль ҡушымта аша үҙгәртеү"
+	"tag-mobile_app_edit": "Мобиль ҡушымта аша үҙгәртеү",
+	"tag-android_app_edit": "Android ҡушымтаһы аша үҙгәртеү",
+	"tag-ios_app_edit": "iOS ҡушымтаһы аша үҙгәртеү"
 }
