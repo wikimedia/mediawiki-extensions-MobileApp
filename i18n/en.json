@@ -11,5 +11,5 @@
 	"tag-android_app_edit-description": "Edits made from mobile app for Android",
 	"tag-ios_app_edit": "iOS app edit",
 	"tag-ios_app_edit-description": "Edits made from mobile app for iOS",
-	"abusefilter-edit-builder-vars-user-app": "Whether the user is editing from mobile app"
+	"abusefilter-edit-builder-vars-user-app": "Whether the user is editing from mobile app ($1)"
 }

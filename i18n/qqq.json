@@ -12,5 +12,5 @@
 	"tag-android_app_edit-description": "Edit tag description for edits that have been made from the mobile app for [[w:Android (operating system)|Android]].\n\nSee also:\n* {{msg-mw|Tag-android app edit}}\n* {{msg-mw|Tag-mobile app edit-description}}\n* {{msg-mw|Tag-ios app edit-description}}",
 	"tag-ios_app_edit": "Short edit tag name for edits that have been made from the mobile app for [[w:iOS|iOS]].\n\nSee also:\n* {{msg-mw|Tag-ios app edit-description}}\n* {{msg-mw|Tag-android app edit}}\n* {{msg-mw|Tag-mobile app edit}}",
 	"tag-ios_app_edit-description": "Edit tag description for edits that have been made from the mobile app for [[w:iOS|iOS]].\n\nSee also:\n* {{msg-mw|Tag-ios app edit}}\n* {{msg-mw|Tag-android app edit-description}}\n* {{msg-mw|Tag-mobile app edit-description}}",
-	"abusefilter-edit-builder-vars-user-app": "AbuseFilter extension rule variable that allows distinguishing edits based on if they have been made using the Wikipedia App or not."
+	"abusefilter-edit-builder-vars-user-app": "AbuseFilter extension rule variable that allows distinguishing edits based on if they have been made using the Wikipedia App or not. ($1 is the text that will be inserted into the filter code editor.)"
 }
