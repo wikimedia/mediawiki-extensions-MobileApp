@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dgstranz",
+			"Eulalio",
 			"Fitoschido",
 			"Rodney Araujo"
 		]
@@ -13,5 +14,5 @@
 	"tag-android_app_edit-description": "Ediciones hechas desde aplicaciones para móviles Android",
 	"tag-ios_app_edit": "Edición vía aplic. para iOS",
 	"tag-ios_app_edit-description": "Ediciones hechas desde aplicaciones para móviles iOS",
-	"abusefilter-edit-builder-vars-user-app": "Si un usuario está editando a través de la aplicación para móvil"
+	"abusefilter-edit-builder-vars-user-app": "Si el usuario está editando desde la aplicación móvil ($1)"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Funkytoast",
 			"Gomoko",
 			"Niridya",
 			"Thibaut120094",
@@ -15,5 +16,5 @@
 	"tag-android_app_edit-description": "Modifications effectuées au moyen d'une application mobile pour Android",
 	"tag-ios_app_edit": "Modification avec l’application iOS",
 	"tag-ios_app_edit-description": "Modifications effectuées au moyen d’une application mobile pour iOS",
-	"abusefilter-edit-builder-vars-user-app": "Si l’utilisateur modifie au moyen d’une application mobile"
+	"abusefilter-edit-builder-vars-user-app": "Si l’utilisateur modifie à partir de l'appli mobile ($1)"
 }

@@ -13,5 +13,5 @@
 	"tag-android_app_edit-description": "Bearbeitungen, die mit der mobilen Anwendung für Android durchgeführt wurden",
 	"tag-ios_app_edit": "Bearbeitung der iOS-App",
 	"tag-ios_app_edit-description": "Bearbeitungen, die mit der mobilen Anwendung für iOS durchgeführt wurden",
-	"abusefilter-edit-builder-vars-user-app": "Ob der Benutzer von der mobilen App bearbeitet"
+	"abusefilter-edit-builder-vars-user-app": "Ob der Benutzer von der mobilen App bearbeitet ($1)"
 }

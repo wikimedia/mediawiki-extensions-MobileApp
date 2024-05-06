@@ -12,5 +12,5 @@
 	"tag-android_app_edit-description": "עריכות שנעשו מהאפליקציה לאנדרואיד",
 	"tag-ios_app_edit": "עריכה מאפליקציית iOS",
 	"tag-ios_app_edit-description": "עריכות שנעשו מהאפליקציה ל־iOS",
-	"abusefilter-edit-builder-vars-user-app": "האם המשתמש עורך מיישום למכשירים ניידים"
+	"abusefilter-edit-builder-vars-user-app": "האם המשתמש עורך מיישום למכשירים ניידים ($1)"
 }
