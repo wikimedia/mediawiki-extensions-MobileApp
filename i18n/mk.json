@@ -11,5 +11,5 @@
 	"tag-android_app_edit-description": "Уредувања направени од мобилниот прилог за Андроид",
 	"tag-ios_app_edit": "Уредување од прилогот за iOS",
 	"tag-ios_app_edit-description": "Уредувања направени од мобилниот прилог за iOS",
-	"abusefilter-edit-builder-vars-user-app": "Дали корисникот уредува од мобилниот прилог"
+	"abusefilter-edit-builder-vars-user-app": "Дали корисникот уредува од мобилниот прилог ($1)"
 }
