@@ -16,5 +16,5 @@
 	"tag-android_app_edit-description": "Gemaakte bewerkingen in een mobiele toepassing voor Android",
 	"tag-ios_app_edit": "Bewerking via iOS-app",
 	"tag-ios_app_edit-description": "Gemaakte bewerkingen in een mobiele toepassing voor iOS",
-	"abusefilter-edit-builder-vars-user-app": "Of de gebruiker aan het bewerken is vanuit de mobiele app"
+	"abusefilter-edit-builder-vars-user-app": "Of de gebruiker aan het bewerken is vanuit de mobiele app ($1)"
 }
