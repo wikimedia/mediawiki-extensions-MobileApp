@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kaganer",
 			"Okras",
 			"Ole Yves",
 			"Pacha Tchernof",
@@ -16,5 +17,5 @@
 	"tag-android_app_edit-description": "Правки, сделанные из мобильного Android-приложения",
 	"tag-ios_app_edit": "через&nbsp;приложение для&nbsp;iOS",
 	"tag-ios_app_edit-description": "Правки, сделанные из iOS-приложения",
-	"abusefilter-edit-builder-vars-user-app": "Редактирует ли пользователь через мобильное приложение"
+	"abusefilter-edit-builder-vars-user-app": "Редактирует ли пользователь через мобильное приложение ($1)"
 }
