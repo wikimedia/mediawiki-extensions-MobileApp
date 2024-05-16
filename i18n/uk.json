@@ -12,5 +12,5 @@
 	"tag-android_app_edit-description": "Редагування, зроблені з мобільного додатка для Android",
 	"tag-ios_app_edit": "Редагування з додатка iOS",
 	"tag-ios_app_edit-description": "Редагування, зроблені з мобільного додатка для iOS",
-	"abusefilter-edit-builder-vars-user-app": "Чи редагує користувач з мобільного додатка"
+	"abusefilter-edit-builder-vars-user-app": "Чи користувач редагує з мобільного додатка ($1)"
 }
