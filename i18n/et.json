@@ -11,5 +11,5 @@
 	"tag-android_app_edit-description": "Androidi mobiilirakenduse kaudu tehtud muudatused",
 	"tag-ios_app_edit": "iOS-i muudatus",
 	"tag-ios_app_edit-description": "iOS-i mobiilirakenduse kaudu tehtud muudatused",
-	"abusefilter-edit-builder-vars-user-app": "Kas kasutaja redigeerib mobiilirakenduse kaudu"
+	"abusefilter-edit-builder-vars-user-app": "Kas kasutaja redigeerib mobiilirakenduse kaudu ($1)"
 }
