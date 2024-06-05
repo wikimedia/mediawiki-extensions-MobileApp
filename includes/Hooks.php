@@ -80,7 +80,7 @@ class Hooks implements
 			$tags = [ 'mobile edit', 'mobile app edit' ];
 
 			$isAndroid = strpos( $userAgent, "Android" ) > 0;
-			$isIOS = strpos( $userAgent, "iOS" ) > 0;
+			$isIOS = strpos( $userAgent, "iOS" ) > 0 || strpos( $userAgent, "iPadOS" ) > 0;
 
 			if ( $isAndroid ) {
 				$tags[] = 'android app edit';
