@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arystanbek"
+			"Arystanbek",
+			"Casserium"
 		]
 	},
-	"tag-mobile_app_edit": "Mobile app edit",
-	"tag-mobile_app_edit-description": "Мобайлдік қосымшадан жасалған өңдемелер"
+	"tag-mobile_app_edit": "Мобильді қосымша арқылы",
+	"tag-mobile_app_edit-description": "Мобильді қосымшадан жасалған өңдемелер"
 }
