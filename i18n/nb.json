@@ -12,5 +12,5 @@
 	"tag-android_app_edit-description": "Redigeringer gjort fra Android-appen",
 	"tag-ios_app_edit": "iOS-appredigering",
 	"tag-ios_app_edit-description": "Redigeringer gjort fra iOS-appen",
-	"abusefilter-edit-builder-vars-user-app": "Hvorvidt brukeren redigerer fra mobilapp"
+	"abusefilter-edit-builder-vars-user-app": "Hvorvidt brukeren redigerer fra en mobilapp ($1)"
 }
