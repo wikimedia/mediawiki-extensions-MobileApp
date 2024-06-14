@@ -6,5 +6,9 @@
 		]
 	},
 	"tag-mobile_app_edit": "Мобильді қосымша арқылы",
-	"tag-mobile_app_edit-description": "Мобильді қосымшадан жасалған өңдемелер"
+	"tag-mobile_app_edit-description": "Мобильді қосымшадан жасалған өңдемелер",
+	"tag-android_app_edit": "Android қосымшасы арқылы",
+	"tag-android_app_edit-description": "Мобильді Android қосымшасынан жасалған өңдемелер",
+	"tag-ios_app_edit": "iOS қосымшасы арқылы",
+	"tag-ios_app_edit-description": "Мобильді iOS қосымшасынан жасалған өңдемелер"
 }
