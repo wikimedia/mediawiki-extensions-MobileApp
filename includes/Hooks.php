@@ -9,6 +9,7 @@ use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
 use MediaWiki\Hook\RecentChange_saveHook;
 use MediaWiki\User\User;
 use RecentChange;
+use RequestContext;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class Hooks implements
@@ -17,6 +18,22 @@ class Hooks implements
 	RecentChange_saveHook
 {
 	private IConnectionProvider $dbProvider;
+
+	private const USER_AGENT_TAGS = [
+		'mobile edit',
+		'mobile app edit',
+		'android app edit',
+		'ios app edit'
+	];
+
+	private const APP_EDIT_TAGS = [
+		'app-suggestededit',
+		'app-undo',
+		'app-rollback',
+		'app-description-add',
+		'app-description-change',
+		'app-description-translate'
+	];
 
 	public function __construct(
 		IConnectionProvider $dbProvider
@@ -31,7 +48,7 @@ class Hooks implements
 	 * @param array &$tags
 	 */
 	public function onListDefinedTags( &$tags ) {
-		$this->addChangeTags( $tags );
+		$tags = array_merge( $tags, static::USER_AGENT_TAGS, static::APP_EDIT_TAGS );
 	}
 
 	/**
@@ -41,17 +58,7 @@ class Hooks implements
 	 * @param array &$tags
 	 */
 	public function onChangeTagsListActive( &$tags ) {
-		$this->addChangeTags( $tags );
-	}
-
-	/**
-	 * @param array &$tags
-	 */
-	private function addChangeTags( &$tags ) {
-		$tags[] = 'mobile edit';
-		$tags[] = 'mobile app edit';
-		$tags[] = 'android app edit';
-		$tags[] = 'ios app edit';
+		$this->onListDefinedTags( $tags );
 	}
 
 	/**
@@ -86,6 +93,11 @@ class Hooks implements
 				$tags[] = 'android app edit';
 			} elseif ( $isIOS ) {
 				$tags[] = 'ios app edit';
+			}
+
+			$matags = static::getMobileAppTagsFromRequest();
+			if ( $matags ) {
+				$tags = array_merge( $tags, $matags );
 			}
 
 			$rc->addTags( $tags );
@@ -126,5 +138,14 @@ class Hooks implements
 	public static function onAbuseFilterBuilder( &$builder ) {
 		$builder['vars']['user_app'] = 'user-app';
 		return true;
+	}
+
+	/**
+	 * Get MobileApp tags from the matags param in the request, and validate against known tags.
+	 */
+	public static function getMobileAppTagsFromRequest(): array {
+		$request = RequestContext::getMain()->getRequest();
+		$tags = explode( ',', $request->getText( 'matags' ) );
+		return array_values( array_intersect( $tags, static::APP_EDIT_TAGS ) );
 	}
 }
