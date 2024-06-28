@@ -8,11 +8,13 @@
 		]
 	},
 	"mobileapp-desc": "儲存用於維基媒體行動版應用程式的樣式和腳本",
+	"tag-app-suggestededit": "App 建議編輯",
+	"tag-app-suggestededit-description": "以行動應用程式中的建議編輯功能做出的編輯",
 	"tag-mobile_app_edit": "行動版應用程式編輯",
 	"tag-mobile_app_edit-description": "由行動版應用程式編輯",
 	"tag-android_app_edit": "Android 應用程式編輯",
 	"tag-android_app_edit-description": "由 Android 行動版應用程式作出的編輯",
 	"tag-ios_app_edit": "iOS 應用程式編輯",
 	"tag-ios_app_edit-description": "由 iOS 行動版應用程式作出的編輯",
-	"abusefilter-edit-builder-vars-user-app": "使用者是否從手機應用程式編輯"
+	"abusefilter-edit-builder-vars-user-app": "使用者是否從手機應用程式編輯（$1）"
 }
