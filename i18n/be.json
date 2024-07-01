@@ -5,15 +5,16 @@
 			"Chadyka",
 			"Maksim L.",
 			"ZlyiLev",
-			"Чаховіч Уладзіслаў"
+			"Чаховіч Уладзіслаў",
+			"Kapatych"
 		]
 	},
 	"mobileapp-desc": "Абслугоўвае стылі і скрыпты для выкарыстання ў мабільных дадатках Вікімедыі",
-	"tag-mobile_app_edit": "Праўка праз маб. дадатак",
-	"tag-mobile_app_edit-description": "Праўкі, зробленыя праз мабільны дадатак",
-	"tag-android_app_edit": "Праўка праз дадатак Android",
-	"tag-android_app_edit-description": "Праўкі, зробленыя праз мабільны дадатак для Android",
-	"tag-ios_app_edit": "Праўка праз дадатак IOS",
-	"tag-ios_app_edit-description": "Праўкі, зробленыя праз мабільны дадатак IOS",
+	"tag-mobile_app_edit": "Праўка праз маб. праграму",
+	"tag-mobile_app_edit-description": "Праўкі, зробленыя праз мабільную праграму",
+	"tag-android_app_edit": "Праўка праз праграму Android",
+	"tag-android_app_edit-description": "Праўкі, зробленыя праз мабільную праграму для Android",
+	"tag-ios_app_edit": "Праўка праз праграму IOS",
+	"tag-ios_app_edit-description": "Праўкі, зробленыя праз мабільну праграму IOS",
 	"abusefilter-edit-builder-vars-user-app": "Ці ўдзельнік правіць праз мабільны дадатак"
 }
