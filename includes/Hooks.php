@@ -5,11 +5,11 @@ namespace MediaWiki\Extension\MobileApp;
 use ChangeTags;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
 use MediaWiki\Hook\RecentChange_saveHook;
 use MediaWiki\User\User;
 use RecentChange;
-use RequestContext;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 class Hooks implements
