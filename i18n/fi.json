@@ -3,6 +3,7 @@
 		"authors": [
 			"Pxos",
 			"Pyscowicz",
+			"Samoasambia",
 			"Stryn"
 		]
 	},
@@ -11,5 +12,6 @@
 	"tag-android_app_edit": "Android-muokkaus",
 	"tag-android_app_edit-description": "Muokkaus, joka on tehty Android-mobiilisovelluksesta",
 	"tag-ios_app_edit": "iOS-muokkaus",
-	"tag-ios_app_edit-description": "Muokkaus, joka on tehty iOS-mobiilisovelluksesta"
+	"tag-ios_app_edit-description": "Muokkaus, joka on tehty iOS-mobiilisovelluksesta",
+	"abusefilter-edit-builder-vars-user-app": "Muokkaako käyttäjä mobiilisovelluksen kautta ($1)"
 }
