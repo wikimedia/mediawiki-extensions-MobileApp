@@ -32,7 +32,13 @@ class Hooks implements
 		'app-rollback',
 		'app-description-add',
 		'app-description-change',
-		'app-description-translate'
+		'app-description-translate',
+		'app-section-source',
+		'app-full-source',
+		'app-select-source',
+		'app-talk-source',
+		'app-talk-reply',
+		'app-talk-topic'
 	];
 
 	public function __construct(
