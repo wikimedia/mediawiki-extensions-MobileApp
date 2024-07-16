@@ -38,7 +38,12 @@ class Hooks implements
 		'app-select-source',
 		'app-talk-source',
 		'app-talk-reply',
-		'app-talk-topic'
+		'app-talk-topic',
+		'app-image-caption-add',
+		'app-image-caption-translate',
+		'app-image-tag-add',
+		'app-image-add-top',
+		'app-image-add-infobox'
 	];
 
 	public function __construct(
