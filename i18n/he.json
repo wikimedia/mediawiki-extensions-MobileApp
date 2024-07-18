@@ -5,12 +5,12 @@
 			"Guycn2"
 		]
 	},
-	"mobileapp-desc": "אחסון סגנונות ותסריטים לשימוש היישום הנייד של ויקימדיה",
+	"mobileapp-desc": "אחסון סגנונות ותסריטים לשימוש ביישומים הניידים של ויקימדיה",
 	"tag-mobile_app_edit": "עריכה מיישום נייד",
 	"tag-mobile_app_edit-description": "עריכות מיישומים ניידים",
-	"tag-android_app_edit": "עריכה מאפליקציית אנדרואיד",
-	"tag-android_app_edit-description": "עריכות שנעשו מהאפליקציה לאנדרואיד",
-	"tag-ios_app_edit": "עריכה מאפליקציית iOS",
-	"tag-ios_app_edit-description": "עריכות שנעשו מהאפליקציה ל־iOS",
+	"tag-android_app_edit": "עריכה ביישום אנדרואיד",
+	"tag-android_app_edit-description": "עריכות שנעשו מיישום לאנדרואיד",
+	"tag-ios_app_edit": "עריכה ביישום iOS",
+	"tag-ios_app_edit-description": "עריכות שנעשו ביישום ל־iOS",
 	"abusefilter-edit-builder-vars-user-app": "האם המשתמש עורך מיישום למכשירים ניידים"
 }
