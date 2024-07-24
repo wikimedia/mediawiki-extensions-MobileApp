@@ -10,5 +10,6 @@
 	"tag-android_app_edit": "Нисдар дина Андроид тӀера",
 	"tag-android_app_edit-description": "Android телефон тӀера дина нисдарш",
 	"tag-ios_app_edit": "Нисдар дина iOS тӀера",
-	"tag-ios_app_edit-description": "iOS телефон тӀера дина нисдарш"
+	"tag-ios_app_edit-description": "iOS телефон тӀера дина нисдарш",
+	"abusefilter-edit-builder-vars-user-app": "Мобилан ($1) программица хийцамаш бой декъашхочо"
 }
