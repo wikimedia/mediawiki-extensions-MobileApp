@@ -43,7 +43,8 @@ class Hooks implements
 		'app-image-caption-translate',
 		'app-image-tag-add',
 		'app-image-add-top',
-		'app-image-add-infobox'
+		'app-image-add-infobox',
+		'app-ai-assist'
 	];
 
 	public function __construct(

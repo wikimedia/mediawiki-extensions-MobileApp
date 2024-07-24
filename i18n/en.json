@@ -40,6 +40,8 @@
 	"tag-app-image-add-top-description": "Image added to the top of the article from the mobile apps",
 	"tag-app-image-add-infobox": "[{{int:mobileapp-edit-tags-link}}#app-image-add-infobox App image add infobox]",
 	"tag-app-image-add-infobox-description": "Image added to the infobox from the mobile apps",
+	"tag-app-ai-assist": "App AI assist",
+	"tag-app-ai-assist-description": "Edits from the mobile apps that were machine assisted",
 	"tag-mobile_app_edit": "Mobile app edit",
 	"tag-mobile_app_edit-description": "Edits made from mobile apps",
 	"tag-android_app_edit": "Android app edit",

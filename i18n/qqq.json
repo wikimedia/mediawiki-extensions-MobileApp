@@ -41,6 +41,8 @@
 	"tag-app-image-add-top-description": "Edit tag description for images that were added to the top of the article from the mobile apps",
 	"tag-app-image-add-infobox": "Short edit tag name for images that were added to the infobox from the mobile apps.\n\nPlease make sure to preserve the <nowiki>{{int}}</nowiki> template and URL fragment when translating.",
 	"tag-app-image-add-infobox-description": "Edit tag description for images that were added to the infobox from the mobile apps",
+	"tag-app-ai-assist": "Short edit tag name for machine-assisted edits that were made from the mobile apps",
+	"tag-app-ai-assist-description": "Edit tag description for machine-assisted edits that were made from the mobile apps",
 	"tag-mobile_app_edit": "Short edit tag name for edits that have been made from the mobile apps.\n\nSee also:\n* {{msg-mw|Tag-mobile app edit-description}}\n* {{msg-mw|Tag-android app edit}}\n* {{msg-mw|Tag-ios app edit}}",
 	"tag-mobile_app_edit-description": "Edit tag description for edits that have been made from the mobile apps.\n\nSee also:\n* {{msg-mw|Tag-mobile app edit}}\n* {{msg-mw|Tag-android app edit-description}}\n* {{msg-mw|Tag-ios app edit-description}}",
 	"tag-android_app_edit": "Short edit tag name for edits that have been made from the mobile app for [[w:Android (operating system)|Android]].\n\nSee also:\n* {{msg-mw|Tag-android app edit-description}}\n* {{msg-mw|Tag-mobile app edit}}\n* {{msg-mw|Tag-ios app edit}}",
