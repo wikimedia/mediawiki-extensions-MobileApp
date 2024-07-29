@@ -6,7 +6,7 @@
 		]
 	},
 	"mobileapp-desc": "Propone stili e script per l'uso nelle applicazioni mobile di Wikimedia",
-	"tag-app-suggestededit": "Modifica suggerita dall'app",
+	"tag-app-suggestededit": "[{{int:mobileapp-edit-tags-link}}#app-suggestededit Modifica suggerita dall'app]",
 	"tag-app-description-add-description": "Brevi descrizioni aggiunte dalle app mobili",
 	"tag-app-description-change-description": "Brevi descrizioni modificate dalle app mobili",
 	"tag-app-description-translate-description": "Traduzioni di brevi descrizioni aggiunte dalle app mobili",
