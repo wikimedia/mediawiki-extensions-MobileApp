@@ -4,12 +4,16 @@
 			"Hhaboh162002",
 			"Meno25",
 			"Mido",
+			"بهتين شوكت",
 			"ديفيد",
 			"زكريا",
 			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"mobileapp-desc": "يقدم الواجهات والإضافات المستخدمة في تطبيقات ويكيميديا للجوال",
+	"tag-app-talk-topic": "[{{int:mobileapp-edit-tags-link}}#app-talk-topic هو موضوع نقاش التطبيق]",
+	"tag-app-image-add-top": "{{int:mobileapp-edit-tags-link}}# برنامج\nصورة يوضع قمة برنامج صورة يوضع قمة",
+	"tag-app-ai-assist": "وهو تطبيق مساعدة علي الذكاء الاصطناعي",
 	"tag-mobile_app_edit": "تعديل في تطبيق الأجهزة المحمولة",
 	"tag-mobile_app_edit-description": "التعديلات باستعمال تطبيقات المحمول",
 	"tag-android_app_edit": "تعديل بتطبيق أندرويد",
