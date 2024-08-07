@@ -5,6 +5,7 @@
 			"Gomoko",
 			"Méthodes Bulebe Hangi",
 			"Niridya",
+			"Pols12",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -15,7 +16,7 @@
 	"tag-app-description-add": "[{{int:mobileapp-edit-tags-link}}#app-image-caption-add Ajout de la légende de l'image de l'application].",
 	"tag-app-full-source": "[{{int:mobileapp-edit-tags-link}}#app-rollback App rollback]",
 	"tag-app-talk-reply": "{{int:mobileapp-edit-tags-link}}#app-talk-reply App talk reply\nAdd a terminology definition for this term",
-	"tag-app-talk-topic": "[{{int:mobileapp-edit-tags-link}}#app-talk-topic Sujet de discussion sur l'application",
+	"tag-app-talk-topic": "[{{int:mobileapp-edit-tags-link}}#app-talk-topic Sujet de discussion sur l'application]",
 	"tag-app-image-caption-add": "[{{int:mobileapp-edit-tags-link}}#app-image-caption-add Ajout de la légende de l'image de l'application].",
 	"tag-app-image-caption-add-description": "Des légendes d'image ajoutées à partir des applications mobiles",
 	"tag-app-image-caption-translate": "[{{int:mobileapp-edit-tags-link}}#app-image-caption-translate App image caption translate]",
