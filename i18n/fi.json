@@ -3,13 +3,14 @@
 		"authors": [
 			"Pxos",
 			"Pyscowicz",
-			"Stryn"
+			"Stryn",
+			"Samoasambia"
 		]
 	},
 	"tag-mobile_app_edit": "Mobiilisovellus-muokkaus",
-	"tag-mobile_app_edit-description": "Muokkaus, joka on tehty mobiilisovelluksesta",
+	"tag-mobile_app_edit-description": "Mobiilisovelluksesta tehty muokkaus",
 	"tag-android_app_edit": "Android-muokkaus",
-	"tag-android_app_edit-description": "Muokkaus, joka on tehty Android-mobiilisovelluksesta",
+	"tag-android_app_edit-description": "Android-mobiilisovelluksesta tehty muokkaus",
 	"tag-ios_app_edit": "iOS-muokkaus",
-	"tag-ios_app_edit-description": "Muokkaus, joka on tehty iOS-mobiilisovelluksesta"
+	"tag-ios_app_edit-description": "iOS-mobiilisovelluksesta tehty muokkaus"
 }
