@@ -3,6 +3,7 @@
 		"authors": [
 			"Funkytoast",
 			"Gomoko",
+			"Goombiis",
 			"Méthodes Bulebe Hangi",
 			"Niridya",
 			"Pols12",
@@ -12,6 +13,7 @@
 		]
 	},
 	"mobileapp-desc": "Sert des styles et scripts utilisés dans les Applications mobiles de Wikimédia",
+	"tag-app-undo-description": "Annuler des actions effectuées à partir des applications mobiles",
 	"tag-app-rollback": "[{{int:mobileapp-edit-tags-link}}#app-rollback App rollback]",
 	"tag-app-description-add": "[{{int:mobileapp-edit-tags-link}}#app-image-caption-add Ajout de la légende de l'image de l'application].",
 	"tag-app-full-source": "[{{int:mobileapp-edit-tags-link}}#app-rollback App rollback]",
