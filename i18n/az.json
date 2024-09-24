@@ -9,5 +9,6 @@
 	},
 	"tag-mobile_app_edit": "Mobil tətbiqetmə vasitəsilə redaktə",
 	"tag-android_app_edit": "Android tətbiqi ilə edilmiş redaktə",
-	"tag-android_app_edit-description": "Android tətbiqetməsi vasitəsilə edilmiş redaktələr"
+	"tag-android_app_edit-description": "Android tətbiqetməsi vasitəsilə edilmiş redaktələr",
+	"tag-ios_app_edit": "iOS tətbiqetməsi vasitəsilə redaktə"
 }
