@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jnanaranjan Sahu"
+			"Jnanaranjan Sahu",
+			"Psubhashish"
 		]
 	},
-	"tag-mobile_app_edit": "ମୋବାଇଲ ୱେବ ବଦଳ"
+	"tag-mobile_app_edit": "ମୋବାଇଲ ୱେବ ବଦଳ",
+	"tag-android_app_edit": "ଆଣ୍ଡ୍ରଏଡ ଆପ୍ ସମ୍ପାଦନା",
+	"tag-ios_app_edit": "iOS ଆପ୍ ସମ୍ପାଦନା"
 }
