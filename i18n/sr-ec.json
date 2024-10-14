@@ -13,5 +13,6 @@
 	"tag-android_app_edit": "Андроид апликација",
 	"tag-android_app_edit-description": "Измене направљене са мобилне апликације за Android",
 	"tag-ios_app_edit": "iOS апликација",
-	"tag-ios_app_edit-description": "Измене направљење са мобилне апликације за iOS"
+	"tag-ios_app_edit-description": "Измене направљење са мобилне апликације за iOS",
+	"abusefilter-edit-builder-vars-user-app": "Без обзира да ли корисник уређује преко мобилне апликације ($1)"
 }
