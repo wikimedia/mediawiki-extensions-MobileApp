@@ -2,12 +2,12 @@
 
 namespace MediaWiki\Extension\MobileApp;
 
-use ChangeTags;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
 use MediaWiki\Hook\RecentChange_saveHook;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\User\User;
 use RecentChange;
 use Wikimedia\Rdbms\IConnectionProvider;
@@ -134,7 +134,8 @@ class Hooks implements
 			$vars->setVar( 'user_app', $isWikipediaApp );
 		} else {
 			$dbr = $this->dbProvider->getReplicaDatabase();
-			$tags = ChangeTags::getTags( $dbr, $rc->getAttribute( 'rc_id' ) );
+			$tags = MediaWikiServices::getInstance()->getChangeTagsStore()
+				->getTags( $dbr, $rc->getAttribute( 'rc_id' ) );
 			$vars->setVar( 'user_app', in_array( 'mobile app edit', $tags, true ) );
 		}
 		return true;
