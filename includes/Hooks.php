@@ -126,7 +126,7 @@ class Hooks implements
 	 *  is the entry. Null if it's for the current action being filtered.
 	 * @return bool
 	 */
-	public function onAbuseFilter_generateUserVars( $vars, $user, RecentChange $rc = null ) {
+	public function onAbuseFilter_generateUserVars( $vars, $user, ?RecentChange $rc = null ) {
 		global $wgRequest;
 		if ( !$rc ) {
 			$userAgent = $wgRequest->getHeader( "User-agent" );
