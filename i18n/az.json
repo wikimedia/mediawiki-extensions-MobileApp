@@ -7,6 +7,12 @@
 			"Toghrul Rahimli"
 		]
 	},
+	"mobileapp-desc": "Wikimedia Mobile proqramlarında istifadə üçün üslub və skriptlərə xidmət edir",
+	"tag-app-suggestededit": "[{{int:mobileapp-edit-tags-link}}#app-suggestededit Tətbiqdə təklif edilən redaktə]",
+	"tag-app-suggestededit-description": "Mobil tətbiqlərdə Təklif olunan Redaktələr funksiyası ilə edilən redaktələr",
+	"tag-app-undo": "[{{int:mobileapp-edit-tags-link}}#app-undo Tətbiqdə geri qaytar]",
+	"tag-app-undo-description": "Mobil tətbiqlərdən edilən geri qaytarılmalar",
+	"tag-app-rollback": "[{{int:mobileapp-edit-tags-link}}#app-rollback Tətbiq geri qaytarma (rollback)]",
 	"tag-mobile_app_edit": "Mobil tətbiqetmə vasitəsilə redaktə",
 	"tag-android_app_edit": "Android tətbiqi ilə edilmiş redaktə",
 	"tag-android_app_edit-description": "Android tətbiqetməsi vasitəsilə edilmiş redaktələr",
