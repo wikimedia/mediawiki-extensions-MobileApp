@@ -7,10 +7,15 @@
 			"بهتين شوكت",
 			"ديفيد",
 			"زكريا",
+			"علاء",
 			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"mobileapp-desc": "يقدم الواجهات والإضافات المستخدمة في تطبيقات ويكيميديا للجوال",
+	"tag-app-section-source": "[{{int:mobileapp-edit-tags-link}}#app-section-source محرر مصدر القسم للتطبيق]",
+	"tag-app-section-source-description": "أجريَّ التعديل من محرر مصدر قسم المقالة في تطبيقات الهاتف المحمول",
+	"tag-app-full-source": "[{{int:mobileapp-edit-tags-link}}#app-full-source محرر المصدر الكامل للتطبيق]",
+	"tag-app-full-source-description": "أجريَّ التعديل من محرر المصدر الكامل للمقالة في تطبيقات الهاتف المحمول",
 	"tag-app-talk-topic": "[{{int:mobileapp-edit-tags-link}}#app-talk-topic هو موضوع نقاش التطبيق]",
 	"tag-app-image-add-top": "{{int:mobileapp-edit-tags-link}}# برنامج\nصورة يوضع قمة برنامج صورة يوضع قمة",
 	"tag-app-ai-assist": "وهو تطبيق مساعدة علي الذكاء الاصطناعي",
@@ -20,5 +25,5 @@
 	"tag-android_app_edit-description": "تعديلات تم إجراؤها من تطبيق المحمول لأندرويد",
 	"tag-ios_app_edit": "تعديل بتطبيق iOS",
 	"tag-ios_app_edit-description": "تعديلات تم إجراؤها من تطبيق المحمول لiOS",
-	"abusefilter-edit-builder-vars-user-app": "ما إذا كان المستخدم يعدل من تطبيق المحمول"
+	"abusefilter-edit-builder-vars-user-app": "ما إذا كان المستخدم يعد من تطبيق الهاتف المحمول ($1)"
 }
