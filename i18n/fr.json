@@ -9,7 +9,8 @@
 			"Pols12",
 			"Thibaut120094",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Mahabarata"
 		]
 	},
 	"mobileapp-desc": "Sert des styles et scripts utilisés dans les Applications mobiles de Wikimédia",
@@ -25,7 +26,7 @@
 	"tag-app-image-caption-translate-description": "Des légendes d'image ajoutées à partir des applications mobiles",
 	"tag-app-image-tag-add": "[{{int:mobileapp-edit-tags-link}}#app-image-tag-add Ajout d'une balise d'image d'application].",
 	"tag-app-image-tag-add-description": "Tags d'image ajoutés à partir des applications mobiles",
-	"tag-app-image-add-top": "[{{int:mobileapp-edit-tags-link}}#app-talk-topic Sujet de discussion sur l'application",
+	"tag-app-image-add-top": "[{{int:mobileapp-edit-tags-link}}#app-image-add-top Ajouter l'image de l'application en haut]",
 	"tag-app-image-add-top-description": "Image ajoutée en haut de l'article depuis les applications mobiles",
 	"tag-app-image-add-infobox-description": "Image ajoutée à l' infobox des applications mobiles",
 	"tag-app-ai-assist": "Assistance à l'IA",
