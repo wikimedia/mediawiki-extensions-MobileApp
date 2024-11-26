@@ -13,6 +13,8 @@
 	"tag-app-undo": "[{{int:mobileapp-edit-tags-link}}#app-undo Tətbiqdə geri qaytar]",
 	"tag-app-undo-description": "Mobil tətbiqlərdən edilən geri qaytarılmalar",
 	"tag-app-rollback": "[{{int:mobileapp-edit-tags-link}}#app-rollback Tətbiq geri qaytarma (rollback)]",
+	"tag-app-rollback-description": "Mobil tətbiqlərdən edilən geri qaytarma əməliyyatları",
+	"tag-app-description-add": "[{{int:mobileapp-edit-tags-link}}#app-description-add Təsvirin əlavə olunması]",
 	"tag-mobile_app_edit": "Mobil tətbiqetmə vasitəsilə redaktə",
 	"tag-android_app_edit": "Android tətbiqi ilə edilmiş redaktə",
 	"tag-android_app_edit-description": "Android tətbiqetməsi vasitəsilə edilmiş redaktələr",
