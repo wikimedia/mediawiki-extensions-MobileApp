@@ -12,6 +12,8 @@ use MediaWiki\User\User;
 use RecentChange;
 use Wikimedia\Rdbms\IConnectionProvider;
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+
 class Hooks implements
 	ListDefinedTagsHook,
 	ChangeTagsListActiveHook,
