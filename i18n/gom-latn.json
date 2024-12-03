@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"The Discoverer"
+			"The Discoverer",
+			"QW90"
 		]
 	},
 	"tag-mobile_app_edit": "Mobail app sompadon",
@@ -10,5 +11,5 @@
 	"tag-android_app_edit-description": "Androida khatir mobail appa koddlean kel'le sompadon",
 	"tag-ios_app_edit": "iOS app sompadon",
 	"tag-ios_app_edit-description": "iOS khatir mobail appa koddlean kel'le sompadon",
-	"abusefilter-edit-builder-vars-user-app": "Vaporpi mobayl app-an savn bodol korta zalear"
+	"abusefilter-edit-builder-vars-user-app": "Vaporpi mobayl app-an savn bodol korta zalear ($1)"
 }
