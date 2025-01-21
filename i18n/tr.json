@@ -6,10 +6,13 @@
 			"Hedda",
 			"MuratTheTurkish",
 			"Sayginer",
-			"Sucsuzz"
+			"Sucsuzz",
+			"Leo"
 		]
 	},
 	"mobileapp-desc": "Wikimedia Mobil uygulamalarında kullanılacak stilleri ve betiklerini sunar",
+	"tag-app-ai-assist": "AI Uygulama yardımı",
+	"tag-app-ai-assist-description": "Makine destekli mobil uygulamalardan yapılan düzenlemeler",
 	"tag-mobile_app_edit": "Mobil uygulama değişikliği",
 	"tag-mobile_app_edit-description": "Mobil uygulamayla yapılmış değişiklikler",
 	"tag-android_app_edit": "Android uygulaması değişikliği",
