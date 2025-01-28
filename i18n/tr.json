@@ -11,10 +11,12 @@
 		]
 	},
 	"mobileapp-desc": "Wikimedia Mobil uygulamalarında kullanılacak stilleri ve betiklerini sunar",
+	"tag-app-section-source": "[{{int:mobileapp-edit-tags-link}}#app-section-source Uygulama bölümü kaynağı]",
+	"tag-app-section-source-description": "Mobil uygulamalada madde bölümü kaynak düzenleyicisinden yapılan düzenleme",
 	"tag-app-ai-assist": "AI Uygulama yardımı",
 	"tag-app-ai-assist-description": "Makine destekli mobil uygulamalardan yapılan düzenlemeler",
 	"tag-mobile_app_edit": "Mobil uygulama değişikliği",
-	"tag-mobile_app_edit-description": "Mobil uygulamayla yapılmış değişiklikler",
+	"tag-mobile_app_edit-description": "Mobil uygulamadan yapılan düzenlemeler",
 	"tag-android_app_edit": "Android uygulaması değişikliği",
 	"tag-android_app_edit-description": "Android için mobil uygulamadan yapılan düzenlemeler",
 	"tag-ios_app_edit": "iOS uygulaması değişikliği",
