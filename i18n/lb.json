@@ -6,8 +6,8 @@
 		]
 	},
 	"mobileapp-desc": "Liwwert Stiler a Skripter fir mat den Applikatioune vu Wikimedia Mobile ze benotzen",
-	"tag-app-suggestededit": "[{{int:mobileapp-edit-tags-link}}#app-suggestededit App-Ännerungsvirschlag]",
-	"tag-app-description-change": "[{{int:mobileapp-edit-tags-link}}#app-description-change App-Beschreiwungsännerung]",
+	"tag-app-suggestededit": "App-Ännerungsvirschlag",
+	"tag-app-description-change": "App-Beschreiwungsännerung",
 	"tag-app-description-change-description": "Kuerzbeschreiwunge mat enger mobiller App geännert",
 	"tag-app-description-translate": "[{{int:mobileapp-edit-tags-link}}#app-description-translate App-Beschreiwungsiwwersetzung]",
 	"tag-app-description-translate-description": "Iwwersetzunge vu Kuerzbeschreiwunge mat enger mobiller App geännert",
