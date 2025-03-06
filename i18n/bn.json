@@ -3,14 +3,15 @@
 		"authors": [
 			"Aftab1995",
 			"Aftabuzzaman",
+			"Ата",
 			"আফতাবুজ্জামান"
 		]
 	},
 	"mobileapp-desc": "উইকিমিডিয়া মোবাইল অ্যাপ্লিকেশনে ব্যবহারের জন্য স্ক্রিপ্ট এবং পরিষেবা শৈলী",
-	"tag-app-suggestededit": "[{{int:mobileapp-edit-tags-link}}#app-suggestededit অ্যাপ পরামর্শকৃত সম্পাদনা]",
-	"tag-app-rollback": "[{{int:mobileapp-edit-tags-link}}#app-rollback অ্যাপ পুনর্বহাল]",
-	"tag-app-section-source": "[{{int:mobileapp-edit-tags-link}}#app-section-source অ্যাপ অনুচ্ছেদ উৎস]",
-	"tag-app-full-source": "[{{int:mobileapp-edit-tags-link}}#app-full-source অ্যাপ পূর্ণ উৎস]",
+	"tag-app-suggestededit": "অ্যাপ পরামর্শকৃত সম্পাদনা",
+	"tag-app-rollback": "অ্যাপ পুনর্বহাল",
+	"tag-app-section-source": "অ্যাপ অনুচ্ছেদ উৎস",
+	"tag-app-full-source": "অ্যাপ পূর্ণ উৎস",
 	"tag-app-ai-assist": "অ্যাপ এআই সহায়তা",
 	"tag-mobile_app_edit": "মোবাইল অ্যাপ সম্পাদনা",
 	"tag-mobile_app_edit-description": "মোবাইল অ্যাপ থেকে সম্পাদনা করা হয়েছে",

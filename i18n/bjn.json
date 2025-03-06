@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ezagren"
+			"Ezagren",
+			"Ата"
 		]
 	},
 	"mobileapp-desc": "Manyurung gaya wan skrip gasan dipakai dalam aplikasi Wikimedia Mobile",
-	"tag-app-suggestededit": "[{{int:mobileapp-edit-tags-link}}#app-suggestededit Aplikasi maanjurakan babakan]",
+	"tag-app-suggestededit": "Aplikasi maanjurakan babakan",
 	"tag-app-suggestededit-description": "Pambabakan nang digawi lawan fitur Babakan nang Dianjurakan di aplikasi sélulér",
-	"tag-app-undo": "[{{int:mobileapp-edit-tags-link}}#app-undo Pasahakan aplikasi]",
+	"tag-app-undo": "Pasahakan aplikasi",
 	"tag-app-undo-description": "Pasahakan gawian nang digawi matan aplikasi sélulér",
-	"tag-app-rollback": "[{{int:mobileapp-edit-tags-link}}#app-rollback Pambulikan aplikasi]",
+	"tag-app-rollback": "Pambulikan aplikasi",
 	"tag-app-rollback-description": "Gawian pamasahan nang digawi matan aplikasi sélulér",
-	"tag-app-section-source": "[{{int:mobileapp-edit-tags-link}}#app-section-source Bahan acuan bagian aplikasi]",
+	"tag-app-section-source": "Bahan acuan bagian aplikasi",
 	"tag-app-section-source-description": "Babakan diulah matan éditor bahan acuan bagian artikal di aplikasi sélulér",
 	"tag-app-full-source-description": "Babakan diulah matan éditor bahan acuan langkap artikal di aplikasi sélulér",
 	"tag-mobile_app_edit": "Babakan selulér",

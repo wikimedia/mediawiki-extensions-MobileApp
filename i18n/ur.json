@@ -4,12 +4,13 @@
 			"BukhariSaeed",
 			"Muhammad Shuaib",
 			"Obaid Raza",
+			"Ата",
 			"عثمان خان شاہ"
 		]
 	},
-	"tag-app-suggestededit": "[{{int:mobileapp-edit-tags-link}}#app-suggestededit ایپ مجوزہ ترمیم]",
-	"tag-app-undo": "[{{int:mobileapp-edit-tags-link}}#app-undo ایپ ردِ ترمیم]",
-	"tag-app-section-source": "[{{int:mobileapp-edit-tags-link}}#app-section-source بذریعہ ایپ قطعہ میں ماخذی ترمیم]",
+	"tag-app-suggestededit": "ایپ مجوزہ ترمیم",
+	"tag-app-undo": "ایپ ردِ ترمیم",
+	"tag-app-section-source": "بذریعہ ایپ قطعہ میں ماخذی ترمیم",
 	"tag-mobile_app_edit": "موبائل ایپ ترمیم",
 	"tag-mobile_app_edit-description": "موبائل اطلاقیوں کے ذریعہ کی جانے والی ترامیم",
 	"tag-android_app_edit": "اینڈرائیڈ ایپ ترمیم",
