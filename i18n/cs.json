@@ -15,7 +15,7 @@
 	"tag-app-suggestededit-description": "Editace provedené pomocí funkce Navržené editace v mobilních aplikacích",
 	"tag-app-undo": "Aplikace: zrušení editace",
 	"tag-app-undo-description": "Zrušení editací provedená z mobilních aplikací",
-	"tag-app-rollback": "Aplikace: vrácení zpět",
+	"tag-app-rollback": "Aplikace: rychlý revert",
 	"tag-app-rollback-description": "Editace vrácené zpět z mobilních aplikací",
 	"tag-app-description-add": "Aplikace: přidání popisu",
 	"tag-app-description-add-description": "Krátké popisy přidané z mobilních aplikací",

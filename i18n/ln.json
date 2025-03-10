@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"BOKOBA VEROLY"
+		]
+	},
+	"tag-app-suggestededit": "App esengi kobongisa",
+	"tag-app-undo": "App undo",
+	"tag-app-rollback": "App ya kozonga nsima",
+	"tag-app-description-add": "Ndimbola ya application ebakisi",
+	"tag-app-description-change": "Mbongwana ya ndimbola ya application",
+	"tag-app-description-translate": "Ndimbola ya application",
+	"tag-app-section-source": "Eutelo ya eteni ya application",
+	"tag-app-full-source": "App source mobimba",
+	"tag-app-select-source": "Eutelo ya application",
+	"tag-app-talk-source": "Liziba ya masolo ya application",
+	"tag-app-talk-reply": "Eyano ya lisolo ya application",
+	"tag-app-talk-topic": "Lisolo ya application",
+	"tag-app-image-caption-add": "App image caption bakisa",
+	"tag-app-image-caption-translate": "Maloba ya elilingi ya application ebongolami",
+	"tag-app-image-tag-add": "App image tag add",
+	"tag-app-image-add-top": "Elilingi ya application add top",
+	"tag-app-image-add-infobox": "Bililingi ya application kobakisa infobox"
+}

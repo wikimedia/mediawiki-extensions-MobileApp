@@ -3,11 +3,12 @@
 		"authors": [
 			"Danmichaelo",
 			"EdoAug",
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Matma Rex"
 		]
 	},
 	"mobileapp-desc": "Leverer stilsett og skript for bruk i Wikimedia-mobilapper",
-	"tag-app-section-source": "[{{int:mobileapp-edit-tags-link}}#app-section-source Avsnittskilde i app]",
+	"tag-app-section-source": "Avsnittskilde i app",
 	"tag-mobile_app_edit": "Redigering fra mobilapp",
 	"tag-mobile_app_edit-description": "Redigeringer gjort fra mobilapper",
 	"tag-android_app_edit": "Android-appredigering",

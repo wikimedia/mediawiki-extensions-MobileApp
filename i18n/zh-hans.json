@@ -7,11 +7,12 @@
 			"GuoPC",
 			"Hanyanbo98",
 			"Liuxinyu970226",
+			"Matma Rex",
 			"沈澄心"
 		]
 	},
 	"mobileapp-desc": "为维基媒体移动应用提供样式和脚本",
-	"tag-app-undo": "[{{int:mobileapp-edit-tags-link}}#app-undo 应用程序撤销]",
+	"tag-app-undo": "应用程序撤销",
 	"tag-app-undo-description": "移动应用程序做出的撤销操作",
 	"tag-app-ai-assist": "应用程序AI辅助",
 	"tag-app-ai-assist-description": "通过移动应用程序的机器辅助做出的编辑",
