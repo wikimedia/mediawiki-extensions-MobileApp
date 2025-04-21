@@ -8,8 +8,8 @@ use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
 use MediaWiki\Hook\RecentChange_saveHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\RecentChanges\RecentChange;
 use MediaWiki\User\User;
-use RecentChange;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 // phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
