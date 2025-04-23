@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro"
+		]
+	},
+	"tag-mobile_app_edit": "Mobil qullanımdan deñiştirme",
+	"tag-mobile_app_edit-description": "Mobil qullanım vastasınen yapılğan deñiştirmeler",
+	"tag-android_app_edit": "Android qullanımından deñiştirme",
+	"tag-android_app_edit-description": "Android mobil qullanımı vastasınen yapılğan deñiştirmeler",
+	"tag-ios_app_edit": "iOS qullanımından deñiştirme",
+	"tag-ios_app_edit-description": "iOS mobil qullanımı vastasınen yapılğan deñiştirmeler"
+}
