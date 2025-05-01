@@ -9,5 +9,8 @@
 	"mobileapp-desc": "Achega estilos e escrituras para usar nas aplicacións móbiles da Wikimedia",
 	"tag-mobile_app_edit": "Edición feita a través da aplicación móbil",
 	"tag-mobile_app_edit-description": "Edicións feitas a través das aplicacións móbiles",
-	"tag-android_app_edit-description": "Edicións realizadas dende a aplicación móbil para Android"
+	"tag-android_app_edit": "Edición feita a través da aplicación de Android",
+	"tag-android_app_edit-description": "Edicións feitas a través da aplicación móbil para Android",
+	"tag-ios_app_edit": "Edición feita a través da aplicación de iOS",
+	"tag-ios_app_edit-description": "Edicións feitas a través da aplicación móbil para iOS"
 }
