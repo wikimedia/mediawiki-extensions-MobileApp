@@ -4,15 +4,34 @@
 			"Afaz",
 			"Shirayuki",
 			"Whym",
-			"おはぐろ蜻蛉"
+			"おはぐろ蜻蛉",
+			"Kokage si"
 		]
 	},
 	"mobileapp-desc": "ウィキメディアの携帯機器版アプリケーションで使用するスタイルとスクリプトを提供する",
+	"tag-app-suggestededit-description": "モバイルアプリの提案編集機能を使って行われた編集",
+	"tag-app-undo-description": "モバイルアプリから行われた取り消し操作",
+	"tag-app-rollback-description": "モバイルアプリから行われた巻き戻し操作",
+	"tag-app-description-add-description": "モバイルアプリから短い説明を追加",
+	"tag-app-description-change-description": "モバイルアプリから短い説明を変更",
+	"tag-app-description-translate-description": "モバイルアプリから追加された短い説明の翻訳",
+	"tag-app-section-source-description": "モバイルアプリの記事セクションソースエディタから編集",
+	"tag-app-full-source-description": "モバイルアプリの記事全文ソースエディタから編集",
+	"tag-app-talk-source-description": "モバイルアプリのトークページ全文ソースエディタから行われた編集",
+	"tag-app-talk-reply-description": "モバイルアプリからトークページのインライン返信を追加",
+	"tag-app-talk-topic-description": "モバイルアプリからトークページに新しい話題を追加",
+	"tag-app-image-caption-add-description": "モバイルアプリから行われた画像キャプションの追加",
+	"tag-app-image-caption-translate-description": "モバイルアプリから追加された画像キャプションの翻訳",
+	"tag-app-image-tag-add-description": "モバイルアプリから行われた画像タグの追加",
+	"tag-app-image-add-top-description": "モバイルアプリから記事の冒頭に画像を追加",
+	"tag-app-image-add-infobox-description": "モバイルアプリから情報ボックスに画像を追加",
+	"tag-app-ai-assist": "アプリAIアシスト",
+	"tag-app-ai-assist-description": "モバイルアプリから機械の補助による編集",
 	"tag-mobile_app_edit": "モバイルアプリ編集",
 	"tag-mobile_app_edit-description": "携帯機器アプリから行われた編集",
 	"tag-android_app_edit": "Androidアプリ編集",
 	"tag-android_app_edit-description": "Android向け携帯機器アプリから行われた編集",
 	"tag-ios_app_edit": "iOSアプリ編集",
 	"tag-ios_app_edit-description": "iOS向け携帯機器アプリから行われた編集",
-	"abusefilter-edit-builder-vars-user-app": "利用者が携帯機器アプリから編集しているかどうか"
+	"abusefilter-edit-builder-vars-user-app": "利用者が携帯機器アプリから編集しているかどうか ($1)"
 }
