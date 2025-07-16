@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Piramidion",
-			"Ата"
+			"Ата",
+			"Ahonc",
+			"Andygol"
 		]
 	},
 	"mobileapp-desc": "Обслуговує стилі і скрипти, використовувані у мобільних додатках Вікімедіа",
@@ -10,8 +12,8 @@
 	"tag-app-suggestededit-description": "Редагування, зроблені через функцію пропонованих редагувань у мобільних програмках",
 	"tag-app-undo": "Скасування у програмці",
 	"tag-app-undo-description": "Скасування, зроблені у мобільних програмках",
-	"tag-app-rollback": "Відкіт у програмці",
-	"tag-app-rollback-description": "Відкоти, зроблені у мобільних програмках",
+	"tag-app-rollback": "Відкіт у мобільному застосунку",
+	"tag-app-rollback-description": "Відкоти, виконані у мобільних застосунках",
 	"tag-app-description-add": "Додання опису у програмці",
 	"tag-app-description-add-description": "Короткі описи, додані з мобільних програмок",
 	"tag-app-description-change": "Зміна опису у програмці",
