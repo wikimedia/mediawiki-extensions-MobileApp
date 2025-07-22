@@ -2,15 +2,35 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
-			"Vinhtantran"
+			"Vinhtantran",
+			"NgocAnMaster"
 		]
 	},
 	"mobileapp-desc": "Cung cấp các kiểu và kịch bản cho các ứng dụng di động của Wikimedia",
+	"tag-app-suggestededit-description": "Sửa đổi được thực hiện bằng tính năng Đề xuất Sửa đổi trên ứng dụng di động",
+	"tag-app-undo-description": "Các tác vụ lùi sửa được thực hiện trên ứng dụng di động",
+	"tag-app-rollback-description": "Các tác vụ lùi tất cả được thực hiện trên ứng dụng di động",
+	"tag-app-description-add-description": "Miêu tả ngắn được thêm từ ứng dụng di động",
+	"tag-app-description-change-description": "Miêu tả ngắn được sửa đổi từ ứng dụng di động",
+	"tag-app-description-translate-description": "Bản dịch miêu tả ngắn được thêm từ ứng dụng di động",
+	"tag-app-section-source-description": "Sửa đổi được thực hiện từ trình soạn thảo mã nguồn đề mục bài viết trên ứng dụng di động",
+	"tag-app-full-source-description": "Sửa đổi được thực hiện từ trình soạn thảo mã nguồn toàn bộ bài viết trên ứng dụng di động",
+	"tag-app-select-source-description": "Sửa đổi được thực hiện từ việc chọn từ trong bài viết trên ứng dụng di động",
+	"tag-app-talk-source-description": "Sửa đổi được thực hiện từ trình soạn thảo mã nguồn toàn bộ trang thảo luận trên ứng dụng di động",
+	"tag-app-talk-reply-description": "Tác vụ thêm trả lời trong hàng trên trang thảo luận thực hiện từ ứng dụng di động",
+	"tag-app-talk-topic-description": "Tác vụ thêm chủ đề mới trên trang thảo luận thực hiện từ ứng dụng di động",
+	"tag-app-image-caption-add-description": "Chú thích hình ảnh được thêm vào từ ứng dụng di động",
+	"tag-app-image-caption-translate-description": "Bản dịch chú thích hình ảnh được thêm từ ứng dụng di động",
+	"tag-app-image-tag-add-description": "Thẻ của hình ảnh được thêm vào từ ứng dụng di động",
+	"tag-app-image-add-top-description": "Hình ảnh được thêm vào đầu bài viết từ ứng dụng di động",
+	"tag-app-image-add-infobox-description": "Hình ảnh được thêm vào hộp thông tin từ ứng dụng di động",
+	"tag-app-ai-assist": "Được hỗ trợ bởi AI trên ứng dụng",
+	"tag-app-ai-assist-description": "Sửa đổi trên ứng dụng di động được máy hỗ trợ",
 	"tag-mobile_app_edit": "Sửa đổi qua ứng dụng di động",
 	"tag-mobile_app_edit-description": "Sửa đổi qua ứng dụng di động",
 	"tag-android_app_edit": "Sửa đổi bằng ứng dụng Android",
 	"tag-android_app_edit-description": "Sửa đổi bằng ứng dụng di động dành cho Android",
 	"tag-ios_app_edit": "Sửa đổi bằng ứng dụng iOS",
 	"tag-ios_app_edit-description": "Sửa đổi bằng ứng dụng di động dành cho iOS",
-	"abusefilter-edit-builder-vars-user-app": "Người dùng có sử dụng ứng dụng di động hay không"
+	"abusefilter-edit-builder-vars-user-app": "Người dùng có sử dụng ứng dụng di động hay không ($1)"
 }
