@@ -1,11 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Ktchankt"
 		]
 	},
 	"mobileapp-desc": "儲存樣式同用響維基媒體流動應用程式嘅程式碼",
-	"tag-mobile_app_edit": "流動程式修改",
+	"tag-mobile_app_edit": "流動應用程式編輯",
 	"tag-mobile_app_edit-description": "用流動應用程式嘅編輯",
+	"tag-android_app_edit": "Android應用程式編輯",
+	"tag-android_app_edit-description": "用咗Android流動應用程式嘅編輯",
+	"tag-ios_app_edit": "iOS應用程式編輯",
+	"tag-ios_app_edit-description": "用咗iOS流動應用程式嘅編輯",
 	"abusefilter-edit-builder-vars-user-app": "呢位用戶係唔係用手機應用程式改嘢"
 }

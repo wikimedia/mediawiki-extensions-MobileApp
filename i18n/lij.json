@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giromin Cangiaxo"
+			"Giromin Cangiaxo",
+			"N. Longo"
 		]
 	},
-	"tag-mobile_app_edit": "Modiffica da applicassion mobbile"
+	"mobileapp-desc": "O propónn-e di stîli e di script pe l'ûzo inte aplicaçioìn mòbile de Wikimedia",
+	"tag-mobile_app_edit": "Modìfica da app mòbile",
+	"tag-mobile_app_edit-description": "Modìfiche fæte da-e app mòbile",
+	"tag-android_app_edit": "Modìfica da app Android",
+	"tag-android_app_edit-description": "Modìfiche fæte da l'app mòbile pe Android",
+	"tag-ios_app_edit": "Modìfica app iOS",
+	"tag-ios_app_edit-description": "Modìfiche fæte da l'app mòbile pe iOS"
 }
