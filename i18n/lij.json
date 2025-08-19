@@ -1,8 +1,35 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giromin Cangiaxo"
+			"Giromin Cangiaxo",
+			"N. Longo"
 		]
 	},
-	"tag-mobile_app_edit": "Modiffica da applicassion mobbile"
+	"mobileapp-desc": "O propónn-e di stîli e di script pe l'ûzo inte aplicaçioìn mòbile de Wikimedia",
+	"tag-app-suggestededit-description": "Modìfiche fæte co-a fonçionalitæ modìfiche consegiæ inte app mòbile",
+	"tag-app-undo-description": "Anùlla açioìn fæte da-e app mòbile",
+	"tag-app-rollback-description": "Fæ 'n rollback de açioìn fæte da-e app mòbile",
+	"tag-app-description-add-description": "Descriçioìn cùrte azónte da-e app mòbile",
+	"tag-app-description-change-description": "Descriçioìn cùrte modificæ da-e app mòbile",
+	"tag-app-description-translate-description": "Descriçioìn cùrte tradûte da-e app mòbile",
+	"tag-app-section-source-description": "Modìfica fæta de l'editor wikitèsto pi-â seçión de pàgina da-e app mòbile",
+	"tag-app-full-source-description": "Modìfica fæta de l'editor wikitèsto pi-â pàgina da-e app mòbile",
+	"tag-app-select-source-description": "Modìfica fæta de l'editor wikitèsto co-a seleçión de 'na pòula da pàgina da-e app mòbile",
+	"tag-app-talk-source-description": "Modìfica fæta de l'editor wikitèsto pi-â pàgina de discusción da-e app mòbile",
+	"tag-app-talk-reply-description": "Modìfica fæta de l'editor wikitèsto pi-â respòsta a-a pàgina de discusción da-e app mòbile",
+	"tag-app-talk-topic-description": "Nêuvo argoménto inta pàgina de discusción azónto da-e app mòbile",
+	"tag-app-image-caption-add-description": "Descriçioìn de inmàgine azónte da-e app mòbile",
+	"tag-app-image-caption-translate-description": "Descriçioìn inmàgine tradûte da-e app mòbile",
+	"tag-app-image-tag-add-description": "Tag de inmàgine azónti da-e app mòbile",
+	"tag-app-image-add-top-description": "Inmàgine azónta a-o coménso da pàgina da-e app mòbile",
+	"tag-app-image-add-infobox-description": "Inmàgine azónta a l'infobox da pàgina da-e app mòbile",
+	"tag-app-ai-assist": "Ascisténsa IA da app",
+	"tag-app-ai-assist-description": "Modìfiche con l'ascisténsa de l'IA fæte da app",
+	"tag-mobile_app_edit": "Modìfica da app mòbile",
+	"tag-mobile_app_edit-description": "Modìfiche fæte da-e app mòbile",
+	"tag-android_app_edit": "Modìfica da app Android",
+	"tag-android_app_edit-description": "Modìfiche fæte da l'app mòbile pe Android",
+	"tag-ios_app_edit": "Modìfica app iOS",
+	"tag-ios_app_edit-description": "Modìfiche fæte da l'app mòbile pe iOS",
+	"abusefilter-edit-builder-vars-user-app": "Se l'uténte o l'é aprêuvo a modificâ da app mòbile ($1)"
 }
