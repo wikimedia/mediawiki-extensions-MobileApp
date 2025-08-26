@@ -3,10 +3,12 @@
 		"authors": [
 			"AT44",
 			"Liridon",
-			"Olsi"
+			"Olsi",
+			"Xhulianoo"
 		]
 	},
 	"mobileapp-desc": "Shërben stilet dhe skriptet për përdorim në aplikacionet celulare të Wikimedia-s",
+	"tag-app-section-source-description": "Redaktim i bërë nga redaktuesi i burimeve të pjesëve të artikujve në aplikacionet celulare",
 	"tag-mobile_app_edit": "Redaktim nga aplikacioni për celular",
 	"tag-mobile_app_edit-description": "Ndryshime të bëra nga aplikacion celulari",
 	"tag-android_app_edit": "Ndryshim nga aplikacioni Android",
