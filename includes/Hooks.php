@@ -19,8 +19,6 @@ class Hooks implements
 	ChangeTagsListActiveHook,
 	RecentChange_saveHook
 {
-	private IConnectionProvider $dbProvider;
-
 	private const USER_AGENT_TAGS = [
 		'mobile edit',
 		'mobile app edit',
@@ -50,9 +48,8 @@ class Hooks implements
 	];
 
 	public function __construct(
-		IConnectionProvider $dbProvider
+		private readonly IConnectionProvider $dbProvider,
 	) {
-		$this->dbProvider = $dbProvider;
 	}
 
 	/**
