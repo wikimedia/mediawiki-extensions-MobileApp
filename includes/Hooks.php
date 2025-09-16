@@ -5,14 +5,8 @@ namespace MediaWiki\Extension\MobileApp;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Context\RequestContext;
-use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
 use MediaWiki\Hook\RecentChange_saveHook;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\RecentChanges\RecentChange;
-use MediaWiki\User\User;
-use Wikimedia\Rdbms\IConnectionProvider;
-
-// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 
 class Hooks implements
 	ListDefinedTagsHook,
@@ -46,11 +40,6 @@ class Hooks implements
 		'app-image-add-infobox',
 		'app-ai-assist'
 	];
-
-	public function __construct(
-		private readonly IConnectionProvider $dbProvider,
-	) {
-	}
 
 	/**
 	 * ListDefinedTags hook handler
@@ -113,43 +102,6 @@ class Hooks implements
 
 			$rc->addTags( $tags );
 		}
-	}
-
-	/**
-	 * AbuseFilter-generateUserVars hook handler that adds the user_app variable.
-	 *
-	 * @see hooks.txt in AbuseFilter extension
-	 * @param VariableHolder $vars object to add vars to
-	 * @param User $user
-	 * @param RecentChange|null $rc If the variables should be generated for an RC entry, this
-	 *  is the entry. Null if it's for the current action being filtered.
-	 * @return bool
-	 */
-	public function onAbuseFilter_generateUserVars( $vars, $user, ?RecentChange $rc = null ) {
-		global $wgRequest;
-		if ( !$rc ) {
-			$userAgent = $wgRequest->getHeader( "User-agent" );
-			$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
-			$vars->setVar( 'user_app', $isWikipediaApp );
-		} else {
-			$dbr = $this->dbProvider->getReplicaDatabase();
-			$tags = MediaWikiServices::getInstance()->getChangeTagsStore()
-				->getTags( $dbr, $rc->getAttribute( 'rc_id' ) );
-			$vars->setVar( 'user_app', in_array( 'mobile app edit', $tags, true ) );
-		}
-		return true;
-	}
-
-	/**
-	 * AbuseFilter-builder hook handler that adds user_app variable to list
-	 *  of valid vars
-	 *
-	 * @param array &$builder Array in AbuseFilter::getBuilderValues to add to.
-	 * @return bool
-	 */
-	public static function onAbuseFilterBuilder( &$builder ) {
-		$builder['vars']['user_app'] = 'user-app';
-		return true;
 	}
 
 	/**

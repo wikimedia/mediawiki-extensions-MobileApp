@@ -22,14 +22,18 @@
 		"ListDefinedTags": "main",
 		"ChangeTagsListActive": "main",
 		"RecentChange_save": "main",
-		"AbuseFilter-generateUserVars": "main",
-		"AbuseFilter-builder": "MediaWiki\\Extension\\MobileApp\\Hooks::onAbuseFilterBuilder"
+		"AbuseFilter-generateUserVars": "abusefilter",
+		"AbuseFilter-builder": "abusefilter"
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\MobileApp\\Hooks",
+			"class": "MediaWiki\\Extension\\MobileApp\\Hooks"
+		},
+		"abusefilter": {
+			"class": "MediaWiki\\Extension\\MobileApp\\AbuseFilterHooks",
 			"services": [
-				"ConnectionProvider"
+				"ConnectionProvider",
+				"ChangeTagsStore"
 			]
 		}
 	},
