@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"tag-mobile_app_edit": "د موبايل کاريال سمون",
-	"tag-mobile_app_edit-description": "سمونونه د موبايل کاريال له لارې"
+	"tag-mobile_app_edit-description": "سمونونه د موبايل کاريال له لارې",
+	"tag-android_app_edit": "اندرويد کاريال سمون",
+	"tag-android_app_edit-description": "د اندرويد لپاره د موبايل کاريال څخه شوي سمونونه",
+	"tag-ios_app_edit": "آی‌او‌اېس کاريال سمون",
+	"tag-ios_app_edit-description": "د آی‌او‌اېس لپاره د موبايل کاريال څخه شوي سمونونه"
 }
