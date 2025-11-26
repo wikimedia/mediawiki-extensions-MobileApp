@@ -21,6 +21,7 @@
 	"tag-app-description-translate": "Beskrivelse oversatt i app",
 	"tag-app-description-translate-description": "Nye oversettelser av korte beskrivelser gjennom mobilappen",
 	"tag-app-section-source": "Avsnittskilde i app",
+	"tag-app-section-source-description": "Redigering gjort med seksjonsredigering i kildemodus i mobilappene",
 	"tag-mobile_app_edit": "Redigering fra mobilapp",
 	"tag-mobile_app_edit-description": "Redigeringer gjort fra mobilapper",
 	"tag-android_app_edit": "Android-appredigering",
