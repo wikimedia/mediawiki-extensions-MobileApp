@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Lokal Profil",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
@@ -12,5 +13,5 @@
 	"tag-android_app_edit-description": "Redigeringar gjorda från mobilappen för Android",
 	"tag-ios_app_edit": "Redigering i iOS-app",
 	"tag-ios_app_edit-description": "Redigeringar gjorda från mobilappen för iOS",
-	"abusefilter-edit-builder-vars-user-app": "Om användaren redigerar från mobilappen"
+	"abusefilter-edit-builder-vars-user-app": "Om användaren redigerar från mobilappen ($1)"
 }
