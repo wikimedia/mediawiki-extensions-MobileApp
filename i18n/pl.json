@@ -7,7 +7,8 @@
 			"Railfail536",
 			"Tar Lócesilion",
 			"VerMa",
-			"WTM"
+			"WTM",
+			"Woytecr"
 		]
 	},
 	"mobileapp-desc": "Obsługuje style oraz skrypty wykorzystywane w aplikacjach mobilnych projektu Wikimedia",
@@ -17,5 +18,5 @@
 	"tag-android_app_edit-description": "Edycje wykonane z aplikacji mobilnej na Androida",
 	"tag-ios_app_edit": "Z aplikacji iOS",
 	"tag-ios_app_edit-description": "Edycje wykonane z aplikacji mobilnej na iOS",
-	"abusefilter-edit-builder-vars-user-app": "Czy użytkownik edytuje z aplikacji mobilnej"
+	"abusefilter-edit-builder-vars-user-app": "Czy użytkownik edytuje z aplikacji mobilnej ($1)"
 }
