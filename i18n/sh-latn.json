@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
 	"mobileapp-desc": "Opslužuje stilove i skripte za upotrebu u Vikimedijinim mobilnim izvršnicima",
-	"tag-mobile_app_edit": "Izmjena mobilnim izvršnikom",
-	"tag-mobile_app_edit-description": "Izmjene načinjene mobilnim izvršnicima",
+	"tag-mobile_app_edit": "izmjena mobilnom aplikacijom",
+	"tag-mobile_app_edit-description": "Izmjene načinjene mobilnim aplikacijama",
 	"tag-android_app_edit": "uređivanje prilogom za Android",
 	"tag-android_app_edit-description": "Uređivanja načinjena uz mobilni prilog za Android",
 	"tag-ios_app_edit": "uređivanje prilogom za iOS",
