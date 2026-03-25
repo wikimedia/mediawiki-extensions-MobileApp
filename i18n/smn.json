@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Trondtr"
 		]
 	},
-	"tag-mobile_app_edit": "Moobiilsiijđoi hammim"
+	"tag-app-section-source": "Heiviittâs: uási wikitekstâhammim",
+	"tag-mobile_app_edit": "Moobiilsiijđoi hammim",
+	"tag-android_app_edit": "Android-hammim"
 }
