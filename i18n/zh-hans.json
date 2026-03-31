@@ -10,14 +10,15 @@
 			"沈澄心",
 			"Matma Rex",
 			"Peterxy12",
-			"Libamidi"
+			"Libamidi",
+			"Srapoj"
 		]
 	},
 	"mobileapp-desc": "为维基媒体移动应用提供样式和脚本",
 	"tag-app-suggestededit-description": "以移动应用程序中的建议编辑功能做出的编辑",
 	"tag-app-undo": "[{{int:mobileapp-edit-tags-link}}#app-undo 应用程序撤销]",
 	"tag-app-undo-description": "移动应用程序做出的撤销操作",
-	"tag-app-rollback-description": "移动应用程序做出的还原操作",
+	"tag-app-rollback-description": "移动应用程序做出的回退操作",
 	"tag-app-description-add-description": "从移动应用程序添加的简短描述",
 	"tag-app-description-change-description": "从移动应用程序修改的简短描述",
 	"tag-app-description-translate-description": "从移动应用程序新增的简短描述翻译",

@@ -5,12 +5,12 @@
 			"Aca"
 		]
 	},
-	"mobileapp-desc": "Opslužuje stilove i skripte za upotrebu u Vikimedijinim mobilnim izvršnicima",
+	"mobileapp-desc": "Opslužuje stilove i skripte za upotrebu u Wikimedijinim mobilnim aplikacijama",
 	"tag-mobile_app_edit": "izmjena mobilnom aplikacijom",
 	"tag-mobile_app_edit-description": "Izmjene načinjene mobilnim aplikacijama",
-	"tag-android_app_edit": "uređivanje prilogom za Android",
-	"tag-android_app_edit-description": "Uređivanja načinjena uz mobilni prilog za Android",
-	"tag-ios_app_edit": "uređivanje prilogom za iOS",
-	"tag-ios_app_edit-description": "Uređivanja načinjena uz mobilni prilog za iOS",
+	"tag-android_app_edit": "izmjena Android aplikacijom",
+	"tag-android_app_edit-description": "Izmjene načinjene pomoću mobilne aplikacije za Android",
+	"tag-ios_app_edit": "izmjena iOS aplikacijom",
+	"tag-ios_app_edit-description": "Izmjene načinjene pomoću mobilne aplikacije za iOS",
 	"abusefilter-edit-builder-vars-user-app": "Uređuje li korisnik mobilnim prilogom"
 }
