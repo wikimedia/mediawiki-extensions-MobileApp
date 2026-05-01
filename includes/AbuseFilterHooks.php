@@ -5,6 +5,7 @@
 namespace MediaWiki\Extension\MobileApp;
 
 use MediaWiki\ChangeTags\ChangeTagsStore;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\AbuseFilter\Hooks\AbuseFilterBuilderHook;
 use MediaWiki\Extension\AbuseFilter\Hooks\AbuseFilterGenerateUserVarsHook;
 use MediaWiki\Extension\AbuseFilter\Variables\VariableHolder;
@@ -31,9 +32,8 @@ class AbuseFilterHooks implements
 	 *  is the entry. Null if it's for the current action being filtered.
 	 */
 	public function onAbuseFilter_generateUserVars( VariableHolder $vars, User $user, ?RecentChange $rc ) {
-		global $wgRequest;
 		if ( !$rc ) {
-			$userAgent = $wgRequest->getHeader( "User-agent" );
+			$userAgent = RequestContext::getMain()->getRequest()->getHeader( "User-agent" );
 			$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
 			$vars->setVar( 'user_app', $isWikipediaApp );
 		} else {

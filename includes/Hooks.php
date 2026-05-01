@@ -67,8 +67,7 @@ class Hooks implements
 	 * @param RecentChange $rc
 	 */
 	public function onRecentChange_save( $rc ) {
-		global $wgRequest;
-		$userAgent = $wgRequest->getHeader( "User-agent" );
+		$userAgent = RequestContext::getMain()->getRequest()->getHeader( "User-agent" );
 		$isWikipediaApp = strpos( $userAgent, "WikipediaApp/" ) === 0;
 		$isCommonsApp = strpos( $userAgent, "Commons/" ) === 0;
 		$logType = $rc->getAttribute( 'rc_log_type' );
