@@ -6,13 +6,15 @@
 			"Okras",
 			"Ole Yves",
 			"Pacha Tchernof",
+			"Shabe",
 			"Stjn",
 			"ToJack",
 			"Vlad5250"
 		]
 	},
 	"mobileapp-desc": "Обслуживает стили и скрипты для использования в мобильных приложениях Викимедиа",
-	"tag-app-full-source-description": "Правка сделана в редакторе кода в мобильном приложении",
+	"tag-app-section-source-description": "Правка выполнена из редактора исходного кода в мобильном приложении",
+	"tag-app-full-source-description": "Правка выполнена из полнофункционального редактора исходного кода статьи в мобильном приложении",
 	"tag-mobile_app_edit": "через&nbsp;мобильное приложение",
 	"tag-mobile_app_edit-description": "Правки, сделанные из мобильного приложения",
 	"tag-android_app_edit": "через&nbsp;приложение для&nbsp;Android",
