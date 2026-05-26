@@ -7,16 +7,18 @@
 			"Nuevo Paso",
 			"Priviet",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"Matma Rex",
+			"Tensama0415"
 		]
 	},
 	"mobileapp-desc": "위키미디어 모바일 애플리케이션에서 사용할 스크립트와 스타일을 제공합니다",
 	"tag-app-suggestededit": "[{{int:mobileapp-edit-tags-link}}#app-suggestededit 앱 편집 제안]",
 	"tag-app-suggestededit-description": "모바일 앱에서 편집 제안 기능을 이용한 편집",
 	"tag-app-undo": "[{{int:mobileapp-edit-tags-link}}#app-undo 앱 편집 취소]",
-	"tag-app-undo-description": "모바일 앱에서 편집을 취소한 동작",
+	"tag-app-undo-description": "모바일 앱에서 편집을 취소한 작업",
 	"tag-app-rollback": "[{{int:mobileapp-edit-tags-link}}#app-rollback 앱 일괄 되돌리기]",
-	"tag-app-rollback-description": "모바일 앱에서 수행한 일괄 되돌리기 동작",
+	"tag-app-rollback-description": "모바일 앱에서 수행한 일괄 되돌리기 작업",
 	"tag-app-description-add": "[{{int:mobileapp-edit-tags-link}}#app-description-add 앱 설명 추가]",
 	"tag-app-description-add-description": "모바일 앱에서 추가된 짧은 설명",
 	"tag-app-description-change": "[{{int:mobileapp-edit-tags-link}}#app-description-change 앱 설명 변경]",

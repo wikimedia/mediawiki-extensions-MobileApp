@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abdullahi"
+			"Abdullahi",
+			"AhmedG612"
 		]
 	},
-	"tag-mobile_app_edit": "Wax badalka app'ka ee moobiilada"
+	"tag-mobile_app_edit": "Wax badalka app'ka ee moobiilada",
+	"tag-mobile_app_edit-description": "Tafatirrada laga sameeyay barnaamijyada mobilka",
+	"tag-android_app_edit": "Tafatir barnaamijka Android",
+	"tag-android_app_edit-description": "Tafatirrada laga sameeyay barnaamijka mobilka ee Android",
+	"tag-ios_app_edit": "Tafatir barnaamijka iOS",
+	"tag-ios_app_edit-description": "Tafatirrada laga sameeyay barnaamijka mobilka ee iOS"
 }
