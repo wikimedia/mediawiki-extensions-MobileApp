@@ -5,10 +5,31 @@
 			"AhmedG612"
 		]
 	},
+	"mobileapp-desc": "Waxay bixisaa styles iyo scripts loogu isticmaalo barnaamijyada Wikimedia Mobile",
+	"tag-app-suggestededit-description": "Tafatirrada lagu sameeyay astaanta Tafatirrada La Soo Jeediyay ee barnaamijyada moobaylka",
+	"tag-app-undo-description": "Ka noqo falalka laga sameeyay barnaamijyada moobaylka",
+	"tag-app-rollback-description": "Dib u celinta falalka laga sameeyay barnaamijyada moobaylka",
+	"tag-app-description-add-description": "Sharaxaad gaaban oo laga daray barnaamijyada moobaylka",
+	"tag-app-description-change-description": "Sharaxaad gaaban oo laga beddelay barnaamijyada moobaylka",
+	"tag-app-description-translate-description": "Turjumaado sharaxaad gaaban oo laga daray barnaamijyada moobaylka",
+	"tag-app-section-source-description": "Tafatir laga sameeyay tifaftiraha ilaha qaybta maqaalka ee barnaamijyada moobaylka",
+	"tag-app-full-source-description": "Tafatir laga sameeyay tifaftiraha ilaha buuxa ee maqaalka ee barnaamijyada moobaylka",
+	"tag-app-select-source-description": "Tafatir laga sameeyay marka eray maqaal laga xusho barnaamijyada moobaylka",
+	"tag-app-talk-source-description": "Tafatir laga sameeyay tifaftiraha ilaha buuxa ee bogga wadahadalka ee barnaamijyada moobaylka",
+	"tag-app-talk-reply-description": "Jawaab khadka dhexdiisa ah oo lagu daray bogga wadahadalka ee barnaamijyada moobaylka",
+	"tag-app-talk-topic-description": "Mawduuc cusub oo lagu daray bogga wadahadalka ee barnaamijyada moobaylka",
+	"tag-app-image-caption-add-description": "Sharaxaad sawir oo laga daray barnaamijyada moobaylka",
+	"tag-app-image-caption-translate-description": "Turjumaado sharaxaad sawir oo laga daray barnaamijyada moobaylka",
+	"tag-app-image-tag-add-description": "Sumado sawir oo laga daray barnaamijyada moobaylka",
+	"tag-app-image-add-top-description": "Sawir ayaa lagu daray dusha sare ee maqaalka ee barnaamijyada moobaylka",
+	"tag-app-image-add-infobox-description": "Sawir ayaa lagu daray sanduuqa ee barnaamijyada moobaylka",
+	"tag-app-ai-assist": "Caawinta AI ee abka",
+	"tag-app-ai-assist-description": "Tafatirrada laga sameeyay barnaamijyada moobaylka ee ay caawiyeen mashiinnada",
 	"tag-mobile_app_edit": "Wax badalka app'ka ee moobiilada",
 	"tag-mobile_app_edit-description": "Tafatirrada laga sameeyay barnaamijyada mobilka",
 	"tag-android_app_edit": "Tafatir barnaamijka Android",
 	"tag-android_app_edit-description": "Tafatirrada laga sameeyay barnaamijka mobilka ee Android",
 	"tag-ios_app_edit": "Tafatir barnaamijka iOS",
-	"tag-ios_app_edit-description": "Tafatirrada laga sameeyay barnaamijka mobilka ee iOS"
+	"tag-ios_app_edit-description": "Tafatirrada laga sameeyay barnaamijka mobilka ee iOS",
+	"abusefilter-edit-builder-vars-user-app": "Haddii isticmaaluhu ka tafatirayo barnaamijka moobaylka ($1)"
 }
