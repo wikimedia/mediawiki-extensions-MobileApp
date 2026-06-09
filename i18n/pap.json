@@ -5,5 +5,7 @@
 			"Kallmemel"
 		]
 	},
-	"tag-mobile_app_edit": "adaptá via app mobil"
+	"tag-mobile_app_edit": "Editá via aplikashon móbil",
+	"tag-android_app_edit": "Editá via aplikashon Android",
+	"tag-ios_app_edit": "Editá via aplikashon iOS"
 }
