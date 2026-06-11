@@ -5,5 +5,8 @@
 			"Kallmemel"
 		]
 	},
-	"tag-mobile_app_edit": "adaptá via app mobil"
+	"tag-app-section-source": "Fuente di sekshon via aplikashon",
+	"tag-mobile_app_edit": "Editá via aplikashon móbil",
+	"tag-android_app_edit": "Editá via aplikashon Android",
+	"tag-ios_app_edit": "Editá via aplikashon iOS"
 }
