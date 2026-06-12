@@ -4,7 +4,8 @@
 			"Luky001",
 			"Teslaton",
 			"TomášPolonec",
-			"Vegetator"
+			"Vegetator",
+			"Wizzard"
 		]
 	},
 	"mobileapp-desc": "Poskytuje štýly a skripty na použitie v mobilných aplikáciách Wikimedia",
@@ -14,5 +15,5 @@
 	"tag-android_app_edit-description": "Editácia z mobilnej aplikácie pre Android",
 	"tag-ios_app_edit": "úprava z aplikácie pre iOS",
 	"tag-ios_app_edit-description": "Editácia z mobilnej aplikácie pre iOS",
-	"abusefilter-edit-builder-vars-user-app": "Či užívateľ edituje z mobilnej aplikácie"
+	"abusefilter-edit-builder-vars-user-app": "Či používateľ upravuje z mobilnej aplikácie ($1)"
 }
