@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dj",
 			"Tacsipacsi"
 		]
 	},
@@ -11,5 +12,5 @@
 	"tag-android_app_edit-description": "Az androidos mobilalkalmazásból készített szerkesztések",
 	"tag-ios_app_edit": "iOS-alkalmazás-szerkesztés",
 	"tag-ios_app_edit-description": "Az iOS-es mobilalkalmazásból készített szerkesztések",
-	"abusefilter-edit-builder-vars-user-app": "A felhasználó mobilalkalmazásból szerkesztett-e"
+	"abusefilter-edit-builder-vars-user-app": "A felhasználó mobilalkalmazásból szerkesztett-e ($1)"
 }
