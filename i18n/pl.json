@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
+			"PanWor",
 			"Peter Bowman",
 			"Rail",
 			"Railfail536",
@@ -12,6 +13,7 @@
 		]
 	},
 	"mobileapp-desc": "Obsługuje style oraz skrypty wykorzystywane w aplikacjach mobilnych projektu Wikimedia",
+	"tag-app-suggestededit": "Sugerowana edycja z aplikacji",
 	"tag-mobile_app_edit": "Z aplikacji mobilnej",
 	"tag-mobile_app_edit-description": "Edycja dokonana za pomocą aplikacji mobilnej",
 	"tag-android_app_edit": "Z aplikacji Android",
