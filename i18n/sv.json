@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ainali",
 			"Boivie",
 			"Lokal Profil",
 			"Stefan2255",
@@ -20,7 +21,7 @@
 	"tag-app-description-change-description": "Korta beskrivningar modifierade från mobilapparna",
 	"tag-app-description-translate": "App översatt beskrivning",
 	"tag-app-description-translate-description": "Översättningar av korta beskrivningar, tillagda från mobilapparna",
-	"tag-app-section-source": "App avsnittskälla",
+	"tag-app-section-source": "App avsnitt wikitext",
 	"tag-app-section-source-description": "Redigering gjord med källtextredigeraren för artikelavsnitt i mobilapparna",
 	"tag-app-full-source": "App full källkod",
 	"tag-app-full-source-description": "Redigering gjord från artikelns fullständiga källkodsredigerare i mobilapparna",
