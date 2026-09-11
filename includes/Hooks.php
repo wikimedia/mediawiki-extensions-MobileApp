@@ -5,13 +5,15 @@ namespace MediaWiki\Extension\MobileApp;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Context\RequestContext;
+use MediaWiki\Extension\VisualEditor\VisualEditorRegisterChangeTagsHook;
 use MediaWiki\RecentChanges\Hook\RecentChange_saveHook;
 use MediaWiki\RecentChanges\RecentChange;
 
 class Hooks implements
 	ListDefinedTagsHook,
 	ChangeTagsListActiveHook,
-	RecentChange_saveHook
+	RecentChange_saveHook,
+	VisualEditorRegisterChangeTagsHook
 {
 	private const USER_AGENT_TAGS = [
 		'mobile edit',
@@ -110,5 +112,15 @@ class Hooks implements
 		$request = RequestContext::getMain()->getRequest();
 		$tags = explode( ',', $request->getText( 'matags' ) );
 		return array_values( array_intersect( $tags, static::APP_EDIT_TAGS ) );
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function onVisualEditorRegisterChangeTags( &$tags ): void {
+		// VE will handle the onListDefinedTags/onChangeTagsListActive for these:
+		$tags[] = 'app web edit android';
+		$tags[] = 'app web edit ios';
+		$tags[] = 'app web edit other';
 	}
 }
