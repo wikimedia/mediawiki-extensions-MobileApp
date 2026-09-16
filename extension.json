@@ -23,7 +23,8 @@
 		"ChangeTagsListActive": "main",
 		"RecentChange_save": "main",
 		"AbuseFilter-generateUserVars": "abusefilter",
-		"AbuseFilter-builder": "abusefilter"
+		"AbuseFilter-builder": "abusefilter",
+		"VisualEditorRegisterChangeTags": "visualeditor"
 	},
 	"HookHandlers": {
 		"main": {
@@ -35,6 +36,9 @@
 				"ConnectionProvider",
 				"ChangeTagsStore"
 			]
+		},
+		"visualeditor": {
+			"class": "MediaWiki\\Extension\\MobileApp\\VisualEditorHooks"
 		}
 	},
 	"manifest_version": 2
