@@ -5,6 +5,7 @@
 		]
 	},
 	"mobileapp-desc": "Serves styles and scripts for use in the Wikimedia Mobile applications",
+	"mobileapp-mobileappredirect-special-title": "Wikipedia Mobile App Redirect",
 	"tag-app-suggestededit": "App suggested edit",
 	"tag-app-suggestededit-description": "Edits made with the Suggested Edits feature in the mobile apps",
 	"tag-app-suggestededit-helppage": "https://www.mediawiki.org/wiki/Wikimedia_Apps/Mobile_App_Edits_Revision_Tags#app-suggestededit",

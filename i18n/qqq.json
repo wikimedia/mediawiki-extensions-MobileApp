@@ -6,6 +6,7 @@
 		]
 	},
 	"mobileapp-desc": "{{desc|name=Mobile App|url=https://www.mediawiki.org/wiki/Extension:MobileApp}}",
+	"mobileapp-mobileappredirect-special-title": "Title of Special:MobileAppRedirect. The page uses the configured store URLs and the User-Agent to determine where to redirect. If a store URL is not defined for the detected platform, it redirects to the configured portal.",
 	"tag-app-suggestededit": "Short edit tag name for edits that were made from the Suggested Edits feature in the mobile apps.",
 	"tag-app-suggestededit-description": "Edit tag description for edits that were made from the Suggested Edits feature in the mobile apps.",
 	"tag-app-suggestededit-helppage": "Link to a page where users learn about the feature for edits that were made from the Suggested Edits feature in the mobile apps.",

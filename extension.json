@@ -10,10 +10,27 @@
 	"requires": {
 		"MediaWiki": ">= 1.47.0"
 	},
+	"config": {
+		"MobileAppRedirectUrls": {
+			"description": "Map of app store and portal URLs used by Special:MobileAppRedirect. The default false disables the special page.",
+			"value": false
+		}
+	},
 	"MessagesDirs": {
 		"MobileApp": [
 			"i18n"
 		]
+	},
+	"SpecialPages": {
+		"MobileAppRedirect": {
+			"class": "MediaWiki\\Extension\\MobileApp\\MobileAppRedirect",
+			"services": [
+				"MainConfig"
+			]
+		}
+	},
+	"ExtensionMessagesFiles": {
+		"MobileAppAliases": "MobileApp.alias.php"
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\MobileApp\\": "includes/"
