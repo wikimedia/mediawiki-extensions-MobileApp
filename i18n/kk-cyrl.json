@@ -5,10 +5,27 @@
 			"Casserium"
 		]
 	},
+	"tag-app-suggestededit": "Қосымша арқылы ұсынылған өңдеме",
+	"tag-app-undo": "Қосымша арқылы жоққа шығару",
+	"tag-app-undo-description": "Мобильді қосымшадан жасалған әрекеттерді жоққа шығару",
+	"tag-app-rollback": "Қосымша арқылы шегіндіру",
+	"tag-app-rollback-description": "Мобильді қосымшадан жасалған шегіндіру әрекеті",
+	"tag-app-description-add": "Қосымша арқылы сипаттама қосу",
+	"tag-app-description-add-description": "Мобильді қосымшадан қысқаша сипаттамалар қосылды",
+	"tag-app-description-change": "Қосымша арқылы сипаттама өзгерту",
+	"tag-app-description-change-description": "Мобильді қосымшадан өзгертілген қысқаша сипаттамалар",
+	"tag-app-description-translate": "Қосымша арқылы сипаттама аудару",
+	"tag-app-description-translate-description": "Мобильді қосымшадан қосылған қысқаша сипаттаманың аудармалары",
+	"tag-app-section-source": "Қосымша арқылы бөлім кодын өңдеу",
+	"tag-app-full-source": "Қосымша арқылы толық кодын өңдеу",
+	"tag-app_web_edit_android": "Android қосымшасы арқылы (веб)",
+	"tag-app_web_edit_ios": "iOS қосымшасы арқылы (веб)",
+	"tag-app_web_edit_other": "қосымша арқылы (веб)",
 	"tag-mobile_app_edit": "Мобильді қосымша арқылы",
 	"tag-mobile_app_edit-description": "Мобильді қосымшадан жасалған өңдемелер",
 	"tag-android_app_edit": "Android қосымшасы арқылы",
 	"tag-android_app_edit-description": "Мобильді Android қосымшасынан жасалған өңдемелер",
 	"tag-ios_app_edit": "iOS қосымшасы арқылы",
-	"tag-ios_app_edit-description": "Мобильді iOS қосымшасынан жасалған өңдемелер"
+	"tag-ios_app_edit-description": "Мобильді iOS қосымшасынан жасалған өңдемелер",
+	"abusefilter-edit-builder-vars-user-app": "Қатысушы мобильді қосымшадан өңдеп жатыр ма, жоқ па ($1)"
 }
