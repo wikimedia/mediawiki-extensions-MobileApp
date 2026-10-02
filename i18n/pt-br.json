@@ -21,7 +21,7 @@
 	"tag-app-description-change-description": "Descrições curtas modificadas a partir dos aplicativos móveis",
 	"tag-app-description-translate": "Descrição traduzida pelo aplicativo",
 	"tag-app-description-translate-description": "Traduções das descrições curtas adicionadas a partir dos aplicativos móveis",
-	"tag-app-section-source": "Código-fonte em seção pelo aplicativo",
+	"tag-app-section-source": "Código-fonte em seção editado pelo aplicativo",
 	"tag-app-section-source-description": "Edição em seção do artigo feita a partir do editor de código-fonte nos aplicativos móveis",
 	"tag-app-full-source": "Código-fonte na íntegra pelo aplicativo",
 	"tag-app-full-source-description": "Edição na íntegra do artigo feita a partir do editor de código-fonte nos aplicativos móveis",
@@ -45,11 +45,14 @@
 	"tag-app-image-add-infobox-description": "Imagem adicionada à infocaixa através dos aplicativos móveis",
 	"tag-app-ai-assist": "Assistência por IA fornecida pelo aplicativo",
 	"tag-app-ai-assist-description": "Edições assistidas por máquina através dos aplicativos móveis",
+	"tag-app_web_edit_android": "Edição feita pelo aplicativo para Android (web)",
+	"tag-app_web_edit_ios": "Edição feita pelo aplicativo para iOS (web)",
+	"tag-app_web_edit_other": "Edição feita pelo aplicativo (web)",
 	"tag-mobile_app_edit": "Edição feita pelo aplicativo móvel",
 	"tag-mobile_app_edit-description": "Edições feitas pelos aplicativos móveis",
 	"tag-android_app_edit": "Edição feita pelo aplicativo para Android",
 	"tag-android_app_edit-description": "Edições feitas através do aplicativo móvel para Android",
 	"tag-ios_app_edit": "Edição feita pelo aplicativo para iOS",
 	"tag-ios_app_edit-description": "Edições feitas através do aplicativo móvel para iOS",
-	"abusefilter-edit-builder-vars-user-app": "Se o usuário está editando a partir do aplicativo para dispositivos móveis"
+	"abusefilter-edit-builder-vars-user-app": "Se o usuário está editando a partir do aplicativo móvel ($1)"
 }
