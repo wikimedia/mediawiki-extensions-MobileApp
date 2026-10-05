@@ -13,6 +13,7 @@
 		]
 	},
 	"mobileapp-desc": "위키미디어 모바일 애플리케이션에서 사용할 스크립트와 스타일을 제공합니다",
+	"mobileapp-mobileappredirect-special-title": "위키백과 모바일 앱 넘겨주기",
 	"tag-app-suggestededit": "앱 편집 제안",
 	"tag-app-suggestededit-description": "모바일 앱에서 편집 제안 기능을 이용한 편집",
 	"tag-app-undo": "앱 편집 취소",
@@ -49,6 +50,9 @@
 	"tag-app-image-add-infobox-description": "모바입 앱에서 정보상자에 이미지 추가",
 	"tag-app-ai-assist": "앱 AI 보조",
 	"tag-app-ai-assist-description": "모바일 앱에서 기계의 도움을 받은 편집",
+	"tag-app_web_edit_android": "안드로이드 앱 편집 (웹)",
+	"tag-app_web_edit_ios": "iOS 앱 편집 (웹)",
+	"tag-app_web_edit_other": "앱 편집 (웹)",
 	"tag-mobile_app_edit": "모바일 앱 편집",
 	"tag-mobile_app_edit-description": "모바일 앱에서의 편집",
 	"tag-android_app_edit": "안드로이드 앱 편집",
