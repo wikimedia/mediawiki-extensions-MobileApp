@@ -5,10 +5,31 @@
 			"Casserium"
 		]
 	},
+	"mobileapp-desc": "Wikimedia мобильді қосымшаларында қолдануға арналған стильдер мен скриптерді ұсынады",
+	"tag-app-suggestededit-description": "Мобильді қосымшадағы Ұсынылған өңдеулер функциясымен жасалған өңдемелер",
+	"tag-app-undo-description": "Мобильді қосымшадан жасалған әрекеттерді жоққа шығару",
+	"tag-app-rollback-description": "Мобильді қосымшадан жасалған шегіндіру әрекеті",
+	"tag-app-description-add-description": "Мобильді қосымшадан қысқаша сипаттамалар қосылды",
+	"tag-app-description-change-description": "Мобильді қосымшадан өзгертілген қысқаша сипаттамалар",
+	"tag-app-description-translate-description": "Мобильді қосымшадан қосылған қысқаша сипаттаманың аудармасы",
+	"tag-app-section-source-description": "Мобильді қосымшада мақала бөлімінің код редакторынан жасалған өңдеме",
+	"tag-app-full-source-description": "Мобильді қосымшада мақаланың толық код редакторынан жасалған өңдеме",
+	"tag-app-select-source-description": "Мобильді қосымшада мақаладағы сөзді таңдау арқылы жасалған өңдеме",
+	"tag-app-talk-source-description": "Мобильді қосымшада талқылау бетінің толық код редакторынан жасалған өңдеме",
+	"tag-app-talk-reply-description": "Мобильді қосымшадан талқылау бетіне қосылған кіріктірілген жауап",
+	"tag-app-talk-topic-description": "Мобильді қосымшадан талқылау бетіне қосылған жаңа тақырып",
+	"tag-app-image-caption-add-description": "Мобильді қосымшадан қосылған сурет тақырыбы",
+	"tag-app-image-caption-translate-description": "Мобильді қосымшадан қосылған сурет тақырыбының аудармасы",
+	"tag-app-image-tag-add-description": "Мобильді қосымшадан қосылған суреттің тэгі",
+	"tag-app-image-add-top-description": "Мобильді қосымшадан мақаланың үстіне қосылған сурет",
+	"tag-app-image-add-infobox-description": "Мобильді қосымшадан инфоксқа қосылған сурет",
+	"tag-app-ai-assist": "Қосымшадан ЖИ көмекші арқылы",
+	"tag-app-ai-assist-description": "Машина көмегімен мобильді қосымшадан жасалған өңдемелер",
 	"tag-mobile_app_edit": "Мобильді қосымша арқылы",
 	"tag-mobile_app_edit-description": "Мобильді қосымшадан жасалған өңдемелер",
 	"tag-android_app_edit": "Android қосымшасы арқылы",
 	"tag-android_app_edit-description": "Мобильді Android қосымшасынан жасалған өңдемелер",
 	"tag-ios_app_edit": "iOS қосымшасы арқылы",
-	"tag-ios_app_edit-description": "Мобильді iOS қосымшасынан жасалған өңдемелер"
+	"tag-ios_app_edit-description": "Мобильді iOS қосымшасынан жасалған өңдемелер",
+	"abusefilter-edit-builder-vars-user-app": "Қатысушы мобильді қосымшадан өңдеп жатыр ма, жоқ па ($1)"
 }

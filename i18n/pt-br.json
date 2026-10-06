@@ -34,5 +34,5 @@
 	"tag-android_app_edit-description": "Edições feitas através do aplicativo móvel para Android",
 	"tag-ios_app_edit": "Edição feita pelo aplicativo para iOS",
 	"tag-ios_app_edit-description": "Edições feitas através do aplicativo móvel para iOS",
-	"abusefilter-edit-builder-vars-user-app": "Se o usuário está editando a partir do aplicativo para dispositivos móveis"
+	"abusefilter-edit-builder-vars-user-app": "Se o usuário está editando a partir do aplicativo móvel ($1)"
 }
