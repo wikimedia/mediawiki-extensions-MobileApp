@@ -12,6 +12,7 @@
 		]
 	},
 	"mobileapp-desc": "يقدم الواجهات والإضافات المستخدمة في تطبيقات ويكيميديا للجوال",
+	"mobileapp-mobileappredirect-special-title": "إعادة توجيه تطبيق ويكيبيديا للهواتف المحمولة",
 	"tag-app-suggestededit": "تعديل مقترح للتطبيق",
 	"tag-app-suggestededit-description": "التعديلات التي تم إجراؤها باستخدام ميزة التعديلات المقترحة في تطبيقات الهاتف المحمول",
 	"tag-app-undo": "التراجع عن التطبيق",
@@ -48,6 +49,9 @@
 	"tag-app-image-add-infobox-description": "تمت إضافة الصورة إلى صندوق المعلومات من تطبيقات الهاتف المحمول",
 	"tag-app-ai-assist": "وهو تطبيق مساعدة علي الذكاء الاصطناعي",
 	"tag-app-ai-assist-description": "التعديلات من تطبيقات الهاتف المحمول التي تم مساعدتها آليًا",
+	"tag-app_web_edit_android": "تعديل تطبيق أندرويد (عبر الويب)",
+	"tag-app_web_edit_ios": "تعديل تطبيق iOS (عبر الويب)",
+	"tag-app_web_edit_other": "تعديل التطبيق (الويب)",
 	"tag-mobile_app_edit": "تعديل في تطبيق الأجهزة المحمولة",
 	"tag-mobile_app_edit-description": "التعديلات باستعمال تطبيقات المحمول",
 	"tag-android_app_edit": "تعديل بتطبيق أندرويد",
