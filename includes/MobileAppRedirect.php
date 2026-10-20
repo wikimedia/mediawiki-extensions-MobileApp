@@ -56,6 +56,13 @@ class MobileAppRedirect extends UnlistedSpecialPage {
 			return null;
 		}
 
+		$platform = strtolower( $this->getRequest()->getVal( 'platform', '' ) );
+		if ( array_key_exists( $platform, $redirectUrls ) ) {
+			return $redirectUrls[$platform];
+		} elseif ( $platform !== '' ) {
+			return null;
+		}
+
 		$userAgent = $this->getRequest()->getHeader( 'User-Agent' ) ?: '';
 		if ( $this->isWikipediaApp( $userAgent ) ) {
 			return Title::newMainPage()->getFullURL();

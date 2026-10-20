@@ -34,8 +34,12 @@ class MobileAppRedirectTest extends SpecialPageTestBase {
 		);
 	}
 
-	private function execute( string $userAgent, string $language = 'qqx' ): array {
-		$request = new FauxRequest();
+	private function execute(
+		string $userAgent,
+		string $language = 'qqx',
+		array $params = []
+	): array {
+		$request = new FauxRequest( $params );
 		$request->setHeader( 'User-Agent', $userAgent );
 
 		return $this->executeSpecialPage( '', $request, $language, null, true );
@@ -67,6 +71,140 @@ class MobileAppRedirectTest extends SpecialPageTestBase {
 		[ , $response ] = $this->execute( $userAgent );
 
 		$this->assertSame( $expectedUrl, $response->getHeader( 'location' ) );
+	}
+
+	public static function provideSupportedPlatforms(): iterable {
+		yield 'platform=ios with desktop user agent' => [
+			'ios',
+			'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+			self::IOS_URL,
+		];
+		yield 'platform=ios with Android user agent' => [
+			'ios',
+			'Mozilla/5.0 (Linux; Android 14; Pixel 8)',
+			self::IOS_URL,
+		];
+		yield 'platform=ios with empty user agent' => [
+			'ios',
+			'',
+			self::IOS_URL,
+		];
+		yield 'platform=ios with Wikipedia app user agent' => [
+			'ios',
+			'WikipediaApp/2.7.50411-r-2024-05-29 (Android 14; Pixel 8)',
+			self::IOS_URL,
+		];
+		yield 'platform=iOS case insensitive' => [
+			'iOS',
+			'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+			self::IOS_URL,
+		];
+		yield 'platform=android with desktop user agent' => [
+			'android',
+			'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+			self::ANDROID_URL,
+		];
+		yield 'platform=android with iPhone user agent' => [
+			'android',
+			'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)',
+			self::ANDROID_URL,
+		];
+		yield 'platform=android with empty user agent' => [
+			'android',
+			'',
+			self::ANDROID_URL,
+		];
+		yield 'platform=android with Wikipedia app user agent' => [
+			'android',
+			'WikipediaApp/2.7.50411-r-2024-05-29 (Android 14; Pixel 8)',
+			self::ANDROID_URL,
+		];
+		yield 'platform=ANDROID case insensitive' => [
+			'ANDROID',
+			'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+			self::ANDROID_URL,
+		];
+	}
+
+	/** @dataProvider provideSupportedPlatforms */
+	public function testRedirectsBasedOnPlatformParam(
+		string $platform,
+		string $userAgent,
+		string $expectedUrl
+	): void {
+		[ , $response ] = $this->execute( $userAgent, 'qqx', [ 'platform' => $platform ] );
+
+		$this->assertSame( $expectedUrl, $response->getHeader( 'location' ) );
+	}
+
+	public static function provideUnsupportedPlatforms(): iterable {
+		yield 'unsupported platform with iPhone user agent' => [
+			'windows',
+			'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)',
+		];
+		yield 'unsupported platform with Android user agent' => [
+			'windows',
+			'Mozilla/5.0 (Linux; Android 14; Pixel 8)',
+		];
+		yield 'unsupported platform with desktop user agent' => [
+			'windows',
+			'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+		];
+		yield 'unsupported platform with Wikipedia app user agent' => [
+			'invalid',
+			'WikipediaApp/2.7.50411-r-2024-05-29 (Android 14; Pixel 8)',
+		];
+		yield 'unsupported platform with empty user agent' => [
+			'invalid',
+			'',
+		];
+	}
+
+	/** @dataProvider provideUnsupportedPlatforms */
+	public function testReturns404WhenPlatformIsUnsupported(
+		string $platform,
+		string $userAgent
+	): void {
+		[ , $response ] = $this->execute( $userAgent, 'qqx', [ 'platform' => $platform ] );
+
+		$this->assertSame( 404, $response->getStatusCode() );
+		$this->assertNull( $response->getHeader( 'location' ) );
+	}
+
+	public function testReturns404WhenPlatformIsNotConfigured(): void {
+		$this->overrideConfigValues( [
+			'MobileAppRedirectUrls' => [
+				'android' => self::ANDROID_URL,
+				'portal' => self::WIKIPEDIA_PORTAL_URL,
+			],
+		] );
+
+		[ , $response ] = $this->execute(
+			'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+			'qqx',
+			[ 'platform' => 'ios' ]
+		);
+
+		$this->assertSame( 404, $response->getStatusCode() );
+		$this->assertNull( $response->getHeader( 'location' ) );
+	}
+
+	public function testEmptyPlatformParamFallsBackToUserAgent(): void {
+		[ , $response ] = $this->execute(
+			'Mozilla/5.0 (Linux; Android 14; Pixel 8)',
+			'qqx',
+			[ 'platform' => '' ]
+		);
+
+		$this->assertSame( self::ANDROID_URL, $response->getHeader( 'location' ) );
+
+		[ , $desktopResponse ] = $this->execute(
+			'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+			'qqx',
+			[ 'platform' => '' ]
+		);
+
+		$this->assertSame( self::WIKIPEDIA_PORTAL_URL, $desktopResponse->getHeader( 'location' ) );
 	}
 
 	public function testReturns404WhenRedirectUrlsAreNotConfigured(): void {
