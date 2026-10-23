@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fwolff"
+			"Fwolff",
+			"Pyn3tv"
 		]
 	},
-	"tag-mobile_app_edit": "Selfoonprogrambydrae"
+	"tag-mobile_app_edit": "Selfoonprogrambydrae",
+	"tag-android_app_edit": "Wysiging op die Android-toep",
+	"tag-android_app_edit-description": "Wysigings wat op die mobiele toep vir Android gemaak is",
+	"tag-ios_app_edit-description": "Wysigings wat op die mobiele toep vir iOS gemaak is"
 }
