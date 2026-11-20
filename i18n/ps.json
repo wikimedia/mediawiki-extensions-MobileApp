@@ -6,6 +6,7 @@
 		]
 	},
 	"mobileapp-desc": "د ويکي‌رسنۍ موبايل کاريالونو کې د کارولو لپاره ښودبڼې او سکريپټونه",
+	"mobileapp-mobileappredirect-special-title": "د ويکي‌پېډيا موبايل کاريال مخگرځ",
 	"tag-app-suggestededit": "کاريال وړانديزشوی سمون",
 	"tag-app-suggestededit-description": "هغه سمونونه چې د گرځنده کاريال وړانديز شوو سمونونو ځانگړنې سره ترسره شوې دي",
 	"tag-app-undo": "کاريال ناکړ",
@@ -42,6 +43,9 @@
 	"tag-app-image-add-infobox-description": "گرځنده کاريال سره مالوماتبکس ته انځور ورگډ شو",
 	"tag-app-ai-assist": "د کاريال مصنوعي ځيرکتيا مرسته",
 	"tag-app-ai-assist-description": "هغه سمونونه چې د گرځنده کاريال په وسيله ماشيني ترسره شوې دي",
+	"tag-app_web_edit_android": "اندرويد کاريال سمون (وېب)",
+	"tag-app_web_edit_ios": "آی‌او‌اېس کاريال سمون (وېب)",
+	"tag-app_web_edit_other": "کاريال سمون (وېب)",
 	"tag-mobile_app_edit": "د موبايل کاريال سمون",
 	"tag-mobile_app_edit-description": "سمونونه د موبايل کاريال له لارې",
 	"tag-android_app_edit": "اندرويد کاريال سمون",
