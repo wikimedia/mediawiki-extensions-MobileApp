@@ -8,6 +8,7 @@
 		]
 	},
 	"mobileapp-desc": "Обслуговує стилі і скрипти, використовувані у мобільних додатках Вікімедіа",
+	"mobileapp-mobileappredirect-special-title": "Перенаправлення з мобільного застосунку Вікіпедії",
 	"tag-app-suggestededit": "Пропоноване програмкою редагування",
 	"tag-app-suggestededit-description": "Редагування, зроблені через функцію пропонованих редагувань у мобільних програмках",
 	"tag-app-undo": "Скасування у програмці",
@@ -44,6 +45,9 @@
 	"tag-app-image-add-infobox-description": "Зображення картки, додані з мобільних програмок",
 	"tag-app-ai-assist": "ШІ-підказка у програмці",
 	"tag-app-ai-assist-description": "Редагування з мобільних програмок, зроблені з машинною допомогою",
+	"tag-app_web_edit_android": "Редагування з програмки для Android (веб)",
+	"tag-app_web_edit_ios": "Редагування з програмки iOS (веб)",
+	"tag-app_web_edit_other": "редагування з програмки (веб)",
 	"tag-mobile_app_edit": "Редагування з мобільної програмки",
 	"tag-mobile_app_edit-description": "Редагування, зроблені з мобільних програмок",
 	"tag-android_app_edit": "Редагування з додатка Android",
